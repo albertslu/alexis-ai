@@ -80,3 +80,45 @@ pending_responses/*
 !pending_responses/.gitkeep
 .windsurfrules
 *.scpt
+
+# Large distribution files
+*.dmg
+*.zip
+electron/dist/
+electron/node_modules/
+static/downloads/
+
+# OS files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies
+package-lock.json
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/

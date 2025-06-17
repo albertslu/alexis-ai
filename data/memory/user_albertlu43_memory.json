@@ -1,0 +1,650 @@
+{
+  "core_memory": [
+    {
+      "id": "015be675-2fa7-4f49-b871-571c2ed4048b",
+      "content": "My name is Albert Lu.",
+      "created_at": "2025-03-27T13:49:00.149019",
+      "last_accessed": "2025-04-21T18:41:47.270130"
+    },
+    {
+      "id": "318fe84d-d849-4f68-a2d6-b8f50278e1fa",
+      "content": "Education: Studied Bachelor of Science - BS, Computer Engineering at The University of Texas at Austin",
+      "created_at": "2025-03-27T13:49:00.149469",
+      "last_accessed": "2025-03-27T16:21:13.074888"
+    },
+    {
+      "id": "12504f07-4039-46c8-84aa-41aa1619ef8c",
+      "content": "Education: Studied High School Diploma, Computer Science at Coppell High School",
+      "created_at": "2025-03-27T13:49:00.149841",
+      "last_accessed": "2025-03-27T16:21:13.074888"
+    },
+    {
+      "id": "f112f2e4-0f00-45fe-b2fc-d71a291f0447",
+      "content": "Education: Attended The University of Texas at Austin during 2020 - Dec 2024",
+      "created_at": "2025-03-27T13:49:00.150212",
+      "last_accessed": "2025-03-27T16:21:13.074888"
+    },
+    {
+      "id": "38c4d80b-7548-429d-bd45-20f84992064a",
+      "content": "Education: Attended Coppell High School during 2016 - 2020",
+      "created_at": "2025-03-27T13:49:00.150712",
+      "last_accessed": "2025-03-27T16:21:13.074888"
+    },
+    {
+      "id": "d20be44d-2805-4cea-9339-225bb559306d",
+      "content": "Work: Wedding Photographer at The Knot Worldwide \u00b7 Contract for May 2024 - Present \u00b7 11 mos",
+      "created_at": "2025-03-27T13:49:00.152835",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "594fe98e-1670-4e0e-bb5d-cec94273556e",
+      "content": "Work: Freelance Photographer at Thumbtack \u00b7 Freelance for Aug 2023 - Present \u00b7 1 yr 8 mos",
+      "created_at": "2025-03-27T13:49:00.155486",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "ffa90e0a-774a-4982-af2c-7c40eb790588",
+      "content": "Work: Founder at Stealth Startup for Dec 2024 - Present \u00b7 4 mos",
+      "created_at": "2025-03-27T13:49:00.156798",
+      "last_accessed": "2025-03-27T13:49:00.156809"
+    },
+    {
+      "id": "41d8c4e5-214e-4335-8902-33e8a462bd9c",
+      "content": "Professional: Founder @ Stealth Startup | ECE at UT Austin",
+      "created_at": "2025-03-27T13:49:00.158156",
+      "last_accessed": "2025-03-27T13:49:00.158175"
+    },
+    {
+      "id": "2ee8ead2-db0e-4f6d-8ce6-f6319ec27730",
+      "content": "Professional: Full name is Albert Lu",
+      "created_at": "2025-03-27T13:49:00.160709",
+      "last_accessed": "2025-03-27T13:49:00.160724"
+    },
+    {
+      "id": "a6ec105e-9a33-4802-b5c6-837a4abac283",
+      "content": "Location: Based in Dallas-Fort Worth Metroplex",
+      "created_at": "2025-03-27T13:49:00.163177",
+      "last_accessed": "2025-03-27T13:49:00.163188"
+    },
+    {
+      "id": "b318beb7-0924-45c3-ab91-5b733f3f7c7e",
+      "content": "Interest: grappling",
+      "created_at": "2025-03-27T13:49:00.164826",
+      "last_accessed": "2025-04-21T18:41:47.270130"
+    },
+    {
+      "id": "22b6cae9-1515-40fe-ac37-48af971f19d6",
+      "content": "Interests: Albert enjoys halal and Thai food",
+      "created_at": "2025-03-27T15:54:40.655530",
+      "last_accessed": "2025-04-21T16:48:58.631139"
+    },
+    {
+      "id": "66fad1e3-56f8-41a8-9bb0-8a35969dba2b",
+      "content": "Personal details: Albert is a revert to Islam and is participating in Ramadan",
+      "created_at": "2025-03-27T15:54:40.656157",
+      "last_accessed": "2025-03-27T15:54:40.656162"
+    },
+    {
+      "id": "d517d23f-b59d-41d4-bc0b-bfc128eb90aa",
+      "content": "Work: Albert is working on an AI chatbot project that uses GPT-4 Turbo",
+      "created_at": "2025-03-27T15:54:40.656176",
+      "last_accessed": "2025-03-27T15:54:40.656179"
+    },
+    {
+      "id": "e94546b8-a0fe-47c3-b9d2-9f6b2d8d7856",
+      "content": "Work: Albert is working in Madison, WI until May 2025",
+      "created_at": "2025-03-27T15:54:40.656189",
+      "last_accessed": "2025-03-27T15:54:40.656192"
+    },
+    {
+      "id": "711945e0-40ac-49b6-bf19-810a29308228",
+      "content": "Work: Albert is involved in a startup project called TalkToCoco, which is a fullstack project with frontend and backend components",
+      "created_at": "2025-03-27T15:54:40.656210",
+      "last_accessed": "2025-04-21T19:32:46.270536"
+    },
+    {
+      "id": "f78d4f14-2fef-4fe5-a593-d15188970298",
+      "content": "Location: Albert has lived in Austin, TX",
+      "created_at": "2025-03-27T15:54:40.656222",
+      "last_accessed": "2025-04-23T23:32:21.857221"
+    },
+    {
+      "id": "6a73dc85-c023-4cc7-8827-a60e5110ccbf",
+      "content": "Education: Albert is associated with UT Austin and is expected to graduate in May 2025",
+      "created_at": "2025-03-27T15:54:40.656243",
+      "last_accessed": "2025-03-27T15:54:40.656245"
+    },
+    {
+      "id": "10abba1f-d286-4394-aa03-78e09b52ee80",
+      "content": "Work: Albert has experience in software development and machine learning model training",
+      "created_at": "2025-03-27T15:54:40.656255",
+      "last_accessed": "2025-03-27T15:54:40.656258"
+    },
+    {
+      "id": "61fcb575-72cf-40cb-8681-4d5dbfef826d",
+      "content": "Social connections: Albert has a friend named Ernest",
+      "created_at": "2025-03-27T15:54:40.656267",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "d43c5309-29df-4ddf-9863-7a1f55593cb6",
+      "content": "Location: Albert is currently living in Madison, WI",
+      "created_at": "2025-03-27T15:54:40.656279",
+      "last_accessed": "2025-03-27T15:54:40.656282"
+    },
+    {
+      "id": "0c452e4b-c376-4347-81cd-8ec433f1a027",
+      "content": "Projects: Albert is working on a project involving web scraping and AI chatbots",
+      "created_at": "2025-03-27T15:54:40.656292",
+      "last_accessed": "2025-03-27T15:54:40.656295"
+    },
+    {
+      "id": "5a145bff-4159-44aa-b506-67808a01e2c9",
+      "content": "Social connections: Albert has a dad who is mentioned in conversations",
+      "created_at": "2025-03-27T15:54:40.656305",
+      "last_accessed": "2025-03-27T15:54:40.656308"
+    },
+    {
+      "id": "1c8e452f-dd76-4ab2-bb81-6d475407b4fb",
+      "content": "Interests: Albert is interested in AI and startups",
+      "created_at": "2025-03-27T15:54:40.656318",
+      "last_accessed": "2025-03-27T15:54:40.656320"
+    },
+    {
+      "id": "f14cbd78-5a2c-4f6f-b034-f616d3dae82b",
+      "content": "Interests: Albert is involved in photography",
+      "created_at": "2025-03-27T15:54:40.656330",
+      "last_accessed": "2025-04-21T17:05:43.099376"
+    },
+    {
+      "id": "6d9c535f-ba78-4823-9c55-e5bcfb3f92de",
+      "content": "Work: Albert is involved with Elitepickz, potentially in a role related to social media content creation",
+      "created_at": "2025-03-27T16:06:50.547743",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "14fb5b52-260f-4391-8d8a-241fd544a30e",
+      "content": "Interests: Albert is interested in Muay Thai",
+      "created_at": "2025-03-27T16:06:50.547843",
+      "last_accessed": "2025-03-27T16:06:50.547846"
+    },
+    {
+      "id": "945aabfd-7784-4d19-976d-fdc6a97680dc",
+      "content": "Professional relationships: Albert communicates with Bill H from Elitepickz",
+      "created_at": "2025-03-27T16:06:50.547855",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "5dea078d-2294-454f-bf4d-aa8377bf1692",
+      "content": "Communication style: Albert writes in a casual and informal manner",
+      "created_at": "2025-03-27T16:06:50.547865",
+      "last_accessed": "2025-03-27T16:06:50.547867"
+    },
+    {
+      "id": "58786b66-1e28-4d31-8a9e-80f676005de4",
+      "content": "Interests: Albert has a membership at 10th Planet Austin",
+      "created_at": "2025-03-27T16:06:50.547875",
+      "last_accessed": "2025-04-23T23:32:21.857236"
+    },
+    {
+      "id": "47269ffe-7a1f-4c33-a1c1-b79955553068",
+      "content": "Work: Albert is involved with Scale AI",
+      "created_at": "2025-03-27T16:06:50.547884",
+      "last_accessed": "2025-03-27T16:06:50.547886"
+    },
+    {
+      "id": "0549c5b4-ac8c-44a3-8697-80641ac350e7",
+      "content": "Interests: Albert is interested in applying to Y Combinator, possibly for the summer batch",
+      "created_at": "2025-03-27T16:06:50.547894",
+      "last_accessed": "2025-03-27T16:06:50.547896"
+    },
+    {
+      "id": "74308a3e-f356-4647-9635-ad3150c1d4d9",
+      "content": "Interests: Albert has a brother living in San Francisco and many friends in New York",
+      "created_at": "2025-03-27T16:06:50.547904",
+      "last_accessed": "2025-04-21T18:41:47.270130"
+    },
+    {
+      "id": "8fef854e-61dc-4384-ab7d-dbbe80aa7f37",
+      "content": "Skills: Albert is interested in creating reels and TikToks",
+      "created_at": "2025-03-27T16:06:50.547914",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "1d00b48c-7d02-4400-9957-86eefb0e4d1e",
+      "content": "Professional relationships: Albert has a contact named Deirdre Merritt at Virtu Financial",
+      "created_at": "2025-03-27T16:06:50.547923",
+      "last_accessed": "2025-03-27T16:06:50.547925"
+    },
+    {
+      "id": "144ace23-a98b-48d8-a6bc-81115a99f12c",
+      "content": "Communication style: Albert's communication is informal and concise",
+      "created_at": "2025-03-27T16:06:50.547932",
+      "last_accessed": "2025-03-27T16:06:50.547934"
+    },
+    {
+      "id": "29b9322b-af9e-4eac-b769-3166bae8f6f2",
+      "content": "Interests: Albert has an interest in Muay Thai, as indicated by his interaction with Kem Muaythai Gym",
+      "created_at": "2025-03-27T16:06:50.547941",
+      "last_accessed": "2025-04-21T16:48:58.631139"
+    },
+    {
+      "id": "69bac6a5-1e99-4eef-8873-68ef0fb394b9",
+      "content": "Communication style: Albert writes informally and is direct in his communication",
+      "created_at": "2025-03-27T16:06:50.547951",
+      "last_accessed": "2025-03-27T16:06:50.547953"
+    },
+    {
+      "id": "4f205b4f-7504-4788-831e-cc79b1858275",
+      "content": "Work: Albert is involved in a startup",
+      "created_at": "2025-03-27T16:06:50.547961",
+      "last_accessed": "2025-04-21T19:32:46.270536"
+    },
+    {
+      "id": "eed567bf-2569-4004-ba8e-f2b4c6f98bcc",
+      "content": "Professional relationships: Albert is in contact with Deirdre Merritt from Virtu Financial",
+      "created_at": "2025-03-28T10:15:39.345427",
+      "last_accessed": "2025-03-28T10:15:39.345447"
+    },
+    {
+      "id": "ce143e4e-722f-4273-b6a6-3e1f4cc011b8",
+      "content": "Communication style: Albert writes in an informal style",
+      "created_at": "2025-03-28T10:15:39.345486",
+      "last_accessed": "2025-03-28T10:15:39.345491"
+    },
+    {
+      "id": "deefe2dd-ace0-4364-b21e-2419eca2e6d7",
+      "content": "Work: Albert is involved with Elitepickz, potentially in a role related to social media content creation",
+      "created_at": "2025-03-28T10:15:39.345510",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "7786ce8e-52ce-49a9-afb9-36e3e11ec86e",
+      "content": "Communication style: Albert writes informally and is direct in his communication",
+      "created_at": "2025-03-28T10:15:39.345529",
+      "last_accessed": "2025-03-28T10:15:39.345532"
+    },
+    {
+      "id": "bb12e1f4-69b5-4363-9433-7301fcf7f142",
+      "content": "Communication style: Albert writes in a casual and informal manner",
+      "created_at": "2025-03-28T10:15:39.345547",
+      "last_accessed": "2025-03-28T10:15:39.345551"
+    },
+    {
+      "id": "9dd7413c-9fcd-4cc6-a6a4-eba76372bee9",
+      "content": "Skills: Albert is interested in creating reels and TikToks",
+      "created_at": "2025-03-28T10:15:39.345565",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "719db0b1-7a73-457c-b630-09ee89abc88c",
+      "content": "Work: Albert is involved in a startup",
+      "created_at": "2025-03-28T10:15:39.345582",
+      "last_accessed": "2025-04-21T19:32:46.270536"
+    },
+    {
+      "id": "20fe2696-1287-4478-91d8-062f8ab02e83",
+      "content": "Interests: Albert has a personal interest in locations like San Francisco and New York, where he has family and friends",
+      "created_at": "2025-03-28T10:15:39.345600",
+      "last_accessed": "2025-04-21T16:48:58.631139"
+    },
+    {
+      "id": "3cfd168a-9fc3-4d85-b684-956122c11a4a",
+      "content": "Professional relationships: Albert is in contact with David Kimball",
+      "created_at": "2025-03-28T10:15:39.345617",
+      "last_accessed": "2025-03-28T10:15:39.345621"
+    },
+    {
+      "id": "1cbdfe00-8b62-4432-be01-eb4d236956a3",
+      "content": "Interests: Albert is involved with 10th Planet Austin, a gym or fitness organization",
+      "created_at": "2025-03-28T10:15:39.345634",
+      "last_accessed": "2025-04-23T23:32:21.857242"
+    },
+    {
+      "id": "786a4656-8353-4d16-b944-ba084dfbe916",
+      "content": "Communication style: Albert writes in a concise and informal manner",
+      "created_at": "2025-03-28T10:15:39.345651",
+      "last_accessed": "2025-03-28T10:15:39.345655"
+    },
+    {
+      "id": "472a4937-db0a-4659-aa87-98c8ab7e3cfe",
+      "content": "Work: Albert is involved with Scale AI",
+      "created_at": "2025-03-28T10:15:39.345669",
+      "last_accessed": "2025-03-28T10:15:39.345673"
+    },
+    {
+      "id": "f1c38054-6f35-4702-b972-e3509b4aa7ff",
+      "content": "Communication style: Albert uses informal language in his emails",
+      "created_at": "2025-03-28T10:15:39.345686",
+      "last_accessed": "2025-03-28T10:15:39.345690"
+    },
+    {
+      "id": "74cdb5e3-9262-4af2-80e4-623f8233b30f",
+      "content": "Professional relationships: Albert communicates with Bill H from Elitepickz",
+      "created_at": "2025-03-28T10:15:39.345709",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "0015cef8-0197-4b50-81f2-fb122186162b",
+      "content": "Interests: Albert is interested in applying to YC, possibly for the summer batch",
+      "created_at": "2025-03-28T10:15:39.345728",
+      "last_accessed": "2025-03-28T10:15:39.345732"
+    },
+    {
+      "id": "77968e61-1444-415a-b0ab-a243071d38c7",
+      "content": "Interests: Albert is interested in Muay Thai",
+      "created_at": "2025-03-28T10:15:39.345745",
+      "last_accessed": "2025-03-28T10:15:39.345749"
+    }
+  ],
+  "episodic_memory": [
+    {
+      "id": "0bdfa1f5-15e3-4882-91a8-78aef8ced0a9",
+      "content": "Past (March 2025): Albert was working on a trial project with someone",
+      "created_at": "2025-03-27T15:54:40.656346",
+      "last_accessed": "2025-04-21T18:41:47.270130"
+    },
+    {
+      "id": "5f079c1f-6431-4ded-989f-d7156194f916",
+      "content": "Future (May 2025): Albert is planning to attend a graduation ceremony",
+      "created_at": "2025-03-27T15:54:40.656360",
+      "last_accessed": "2025-03-27T15:54:40.656362"
+    },
+    {
+      "id": "74d8de30-cfb8-484b-8404-ff796104feda",
+      "content": "Past (March 2025): Albert was involved in a call with people from Stanford regarding a dating app idea",
+      "created_at": "2025-03-27T15:54:40.656372",
+      "last_accessed": "2025-03-27T15:54:40.656375"
+    },
+    {
+      "id": "622875d2-dcd7-4302-a74f-31b4e61a3cfd",
+      "content": "Past (March 2025): Albert was considering a road trip to California around his graduation",
+      "created_at": "2025-03-27T15:54:40.656384",
+      "last_accessed": "2025-03-27T15:54:40.656387"
+    },
+    {
+      "id": "d2efa930-acc6-4f77-b4c0-4db118e7bec2",
+      "content": "Past (March 2025): Albert had a meeting scheduled at 2 PM",
+      "created_at": "2025-03-27T15:54:40.656397",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "99345ae1-80b0-46d2-bff1-8bb564ff64d7",
+      "content": "Past (March 2025): Albert was planning to go to the mosque for iftar during Ramadan",
+      "created_at": "2025-03-27T15:54:40.656409",
+      "last_accessed": "2025-03-27T15:54:40.656412"
+    },
+    {
+      "id": "88ae8568-e51e-492a-b22a-d5a95e46a98f",
+      "content": "Past (March 2025): Albert was involved in a photography opportunity on August 7, 2024, at Cork and Barrel",
+      "created_at": "2025-03-27T15:54:40.656421",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "eed8fd3c-fd9f-4fb4-991f-a52d3be6a231",
+      "content": "Past (March 2025): Albert was planning to meet someone at the mosque at 6:30 PM",
+      "created_at": "2025-03-27T15:54:40.656437",
+      "last_accessed": "2025-03-27T15:54:40.656440"
+    },
+    {
+      "id": "a636636c-3833-4ea2-8ee9-575aa3b54763",
+      "content": "Future (End of May/June 2025): Albert is planning a trip to the Middle East, including Lebanon",
+      "created_at": "2025-03-27T15:54:40.656450",
+      "last_accessed": "2025-04-21T17:05:43.099376"
+    },
+    {
+      "id": "3f8e26aa-aa8f-4be4-aa3e-7337935b7bfa",
+      "content": "Past (March 2025): Albert had a call scheduled for 2 PM ET",
+      "created_at": "2025-03-27T15:54:40.656466",
+      "last_accessed": "2025-04-21T16:48:43.051265"
+    },
+    {
+      "id": "b8a09b84-c4d6-426d-9a53-b4b71e358442",
+      "content": "Past (January 2025): Albert has a training reservation at Kem Muaythai Gym on January 23, 2025",
+      "created_at": "2025-03-27T16:06:50.547971",
+      "last_accessed": "2025-03-27T16:06:50.547973"
+    },
+    {
+      "id": "b6ee5d1e-c82f-4d25-a93c-69fb2ba20467",
+      "content": "Past (March 2025): Albert requested a taxi service from Kem Muaythai Gym in December 2024",
+      "created_at": "2025-03-27T16:06:50.547982",
+      "last_accessed": "2025-03-27T16:06:50.547984"
+    },
+    {
+      "id": "1437c888-f241-4d95-ac68-7598826a3f47",
+      "content": "Past (December 2024): Albert was in Dallas with family for winter break in December 2024",
+      "created_at": "2025-03-27T16:06:50.547992",
+      "last_accessed": "2025-03-27T16:06:50.547994"
+    },
+    {
+      "id": "4089af0f-cf1d-40e9-b05e-c6784fe79966",
+      "content": "Past (March 2025): Albert confirmed the time zone for a meeting with Scale AI in December 2024",
+      "created_at": "2025-03-27T16:06:50.548001",
+      "last_accessed": "2025-03-27T16:06:50.548003"
+    },
+    {
+      "id": "4becb85e-b551-4125-bdab-9d6886476082",
+      "content": "Past (2025) (2025): Albert is available for meetings with Scale AI the week of January 6, 2025, but will be busier after January 16, 2025",
+      "created_at": "2025-03-27T16:06:50.548010",
+      "last_accessed": "2025-03-27T16:06:50.548012"
+    },
+    {
+      "id": "f4bedead-94fc-4f35-bdf3-ec234ac71cc9",
+      "content": "Past (March 2025): Albert submitted his availability to Scale AI in December 2024",
+      "created_at": "2025-03-27T16:06:50.548019",
+      "last_accessed": "2025-03-27T16:06:50.548022"
+    },
+    {
+      "id": "82d0e1e4-6aa0-4138-849d-8017ab09a3a7",
+      "content": "Past (2025) (2025): Albert's membership at 10th Planet Austin is paused for another month as of January 14, 2025",
+      "created_at": "2025-03-27T16:06:50.548029",
+      "last_accessed": "2025-04-23T23:32:21.857250"
+    },
+    {
+      "id": "f9bb9df6-a4a2-4bdb-a93c-b89d8acc4902",
+      "content": "Past (March 2025): Albert filled out a form related to Scale AI and inquired about not needing to complete a HackerRank in December 2024",
+      "created_at": "2025-03-27T16:06:50.548038",
+      "last_accessed": "2025-03-27T16:06:50.548040"
+    },
+    {
+      "id": "3f8b9a29-db8c-4826-aded-b05ee232f4a2",
+      "content": "Past (March 2025): Albert is considering logistics for a potential visit to San Francisco or New York",
+      "created_at": "2025-03-27T16:06:50.548047",
+      "last_accessed": "2025-04-21T16:48:58.631139"
+    },
+    {
+      "id": "deb6a8b2-504a-45d5-8d4c-fb5677dbf820",
+      "content": "Past (2025) (2025): Albert is traveling to Thailand from January 23 to January 31, 2025",
+      "created_at": "2025-03-27T16:06:50.548057",
+      "last_accessed": "2025-03-27T16:06:50.548059"
+    },
+    {
+      "id": "1c854db5-589d-4f24-aa2a-5fc20ef192d0",
+      "content": "Past (March 2025): Albert was working on a startup with someone as of March 11, 2025",
+      "created_at": "2025-03-27T16:06:50.548066",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "63be95f1-ca7a-4d12-9054-f724d4eabad7",
+      "content": "Past (2025) (2025): Albert requested a taxi booking from Bangkok airport on January 23, 2025",
+      "created_at": "2025-03-27T16:06:50.548075",
+      "last_accessed": "2025-03-27T16:06:50.548077"
+    },
+    {
+      "id": "80001bf5-20a7-4510-930d-f7299a3d8935",
+      "content": "Past (February 2025): Albert had a scheduled meeting with Andrew on February 9, 2025, from 3:00 to 3:30 PM in the America/Toronto time zone",
+      "created_at": "2025-03-27T16:06:50.548085",
+      "last_accessed": "2025-03-27T16:06:50.548087"
+    },
+    {
+      "id": "78fdf8ff-5af4-4024-a450-cdf0519cdca1",
+      "content": "Past (September 2024): Albert had an interview scheduled with Virtu Financial and requested to reschedule the call due to running late",
+      "created_at": "2025-03-27T16:06:50.548094",
+      "last_accessed": "2025-03-27T16:06:50.548096"
+    },
+    {
+      "id": "544262ee-e177-40a5-8f7f-702f46ed4522",
+      "content": "Past (November 2024): Albert expressed interest in creating reels and TikToks for Elitepickz",
+      "created_at": "2025-03-27T16:06:50.548103",
+      "last_accessed": "2025-04-21T16:48:58.631139"
+    },
+    {
+      "id": "76b81476-63c2-4db2-9a3a-eadebba267f7",
+      "content": "Past (March 2025): Albert was curious about how Boardy found his email on March 11, 2025",
+      "created_at": "2025-03-27T16:06:50.548116",
+      "last_accessed": "2025-04-21T18:41:47.270130"
+    },
+    {
+      "id": "8e435351-78b7-4c67-8afd-14edd0cfa17f",
+      "content": "Past (January 2025): Albert requested pickup at Suvarnabhumi Airport on January 23, 2025",
+      "created_at": "2025-03-27T16:06:50.548125",
+      "last_accessed": "2025-03-27T16:06:50.548127"
+    },
+    {
+      "id": "c7a3ccba-d165-439d-868c-0377ba770350",
+      "content": "Past (March 2025): Albert attempted to reschedule a meeting with David Kimball on March 10, 2025",
+      "created_at": "2025-03-27T16:06:50.548134",
+      "last_accessed": "2025-03-27T16:06:50.548136"
+    },
+    {
+      "id": "4d7d55e3-cd62-4424-9336-f591605b6867",
+      "content": "Past (2025) (2025): Albert plans to have transportation arranged for his stay at Kem Muaythai Gym from January 23 to January 31, 2025, possibly longer.",
+      "created_at": "2025-03-27T16:06:50.548144",
+      "last_accessed": "2025-03-27T16:06:50.548146"
+    },
+    {
+      "id": "ed1f4c8c-0c7c-4096-9c45-c42eb75aa98f",
+      "content": "Past (March 2025): Albert was in a meeting waiting for David Kimball on March 10, 2025",
+      "created_at": "2025-03-27T16:06:50.548153",
+      "last_accessed": "2025-03-27T16:06:50.548155"
+    },
+    {
+      "id": "9565a0a3-01d6-4bb9-a792-0e4d94c63d3a",
+      "content": "Past (January 2025): Albert requested pickup at Suvamabhumi Airport on January 23, 2025",
+      "created_at": "2025-03-28T10:15:39.345765",
+      "last_accessed": "2025-03-28T10:15:39.345769"
+    },
+    {
+      "id": "e2f55b83-5d1d-454e-bbdb-5718b2b522cb",
+      "content": "Past (March 2025): Albert was waiting for a meeting with David Kimball on March 10, 2025",
+      "created_at": "2025-03-28T10:15:39.345784",
+      "last_accessed": "2025-03-28T10:15:39.345788"
+    },
+    {
+      "id": "1ac565e5-24fb-4512-8183-655213c512d7",
+      "content": "Past (2025) (2025): Albert is considering logistics for a potential visit to San Francisco or New York as of March 2025",
+      "created_at": "2025-03-28T10:15:39.345803",
+      "last_accessed": "2025-03-28T10:15:39.345807"
+    },
+    {
+      "id": "f811cc1a-8cb5-4861-842e-348571fa33fe",
+      "content": "Past (March 2025): Albert confirmed the time zone for a meeting with Scale AI in December 2024",
+      "created_at": "2025-03-28T10:15:39.345820",
+      "last_accessed": "2025-03-28T10:15:39.345824"
+    },
+    {
+      "id": "7737a61f-0fa0-46ee-867f-c87747aec3de",
+      "content": "Past (March 2025): Albert was curious about how Boardy found his email on March 11, 2025",
+      "created_at": "2025-03-28T10:15:39.345838",
+      "last_accessed": "2025-04-21T17:05:43.099376"
+    },
+    {
+      "id": "df4d02a7-47ea-4a76-8ecd-626ef8edca98",
+      "content": "Past (January 2025): Albert has a training reservation at Kem Muaythai Gym on January 23, 2025",
+      "created_at": "2025-03-28T10:15:39.345855",
+      "last_accessed": "2025-03-28T10:15:39.345859"
+    },
+    {
+      "id": "331e61b4-691e-4138-bd1d-b2a268497a2e",
+      "content": "Past (February 2025): Albert had a scheduled meeting with Andrew on February 9, 2025, from 3:00 to 3:30 PM in the America/Toronto time zone",
+      "created_at": "2025-03-28T10:15:39.345872",
+      "last_accessed": "2025-03-28T10:15:39.345876"
+    },
+    {
+      "id": "e013a20e-d0f7-412e-92c3-1238f5ffc60e",
+      "content": "Past (March 2025): Albert requested a taxi service from Kem Muaythai Gym in December 2024",
+      "created_at": "2025-03-28T10:15:39.345889",
+      "last_accessed": "2025-03-28T10:15:39.345893"
+    },
+    {
+      "id": "0eeabccd-ec3d-4329-b19a-c04df6f85a59",
+      "content": "Past (2025) (2025): Albert requested a taxi from Bangkok airport on January 23, 2025 at 10:00 AM",
+      "created_at": "2025-03-28T10:15:39.345907",
+      "last_accessed": "2025-03-28T10:15:39.345911"
+    },
+    {
+      "id": "3424ffb2-f745-4792-a0d5-e62d2b84f4fb",
+      "content": "Past (March 2025): Albert filled out a form for Scale AI and inquired about not needing to do a HackerRank in December 2024",
+      "created_at": "2025-03-28T10:15:39.345924",
+      "last_accessed": "2025-03-28T10:15:39.345928"
+    },
+    {
+      "id": "e3ca6812-d213-45df-a510-93fce8c583f1",
+      "content": "Past (December 2024): Albert was in Dallas with family for winter break",
+      "created_at": "2025-03-28T10:15:39.345942",
+      "last_accessed": "2025-03-28T10:15:39.345946"
+    },
+    {
+      "id": "775ea601-6655-4343-9047-c7e13ae09e93",
+      "content": "Past (November 2024): Albert expressed interest in creating reels and TikToks for Elitepickz",
+      "created_at": "2025-03-28T10:15:39.345964",
+      "last_accessed": "2025-04-21T16:48:58.631139"
+    },
+    {
+      "id": "7e06c246-1808-4b6e-8a3c-f74847c46c59",
+      "content": "Past (2025) (2025): Albert has paused his membership with 10th Planet Austin for another month as of January 14, 2025",
+      "created_at": "2025-03-28T10:15:39.345982",
+      "last_accessed": "2025-04-23T23:32:21.857247"
+    },
+    {
+      "id": "9af1cd9f-3e89-4ea0-a96d-889a2dfa3110",
+      "content": "Past (2025) (2025): Albert is traveling to Thailand from January 23 to January 31, 2025",
+      "created_at": "2025-03-28T10:15:39.345998",
+      "last_accessed": "2025-03-28T10:15:39.346002"
+    },
+    {
+      "id": "7fecd949-1c7d-4712-a076-f797d8fef8b6",
+      "content": "Past (September 2024): Albert had an interview call scheduled with Virtu Financial and requested to reschedule it due to running late",
+      "created_at": "2025-03-28T10:15:39.346016",
+      "last_accessed": "2025-03-28T10:15:39.346024"
+    },
+    {
+      "id": "08089ded-4ad1-4c17-b645-14433d3b9329",
+      "content": "Past (2025) (2025): Albert plans to have transportation arranged for a training session from January 23, 2025, to January 31, 2025, possibly longer.",
+      "created_at": "2025-03-28T10:15:39.346038",
+      "last_accessed": "2025-03-28T10:15:39.346042"
+    },
+    {
+      "id": "5d8b96e6-58ba-4f25-b4fe-3a9ba9b438e8",
+      "content": "Past (March 2025): Albert submitted his availability for a meeting with Scale AI in December 2024",
+      "created_at": "2025-03-28T10:15:39.346055",
+      "last_accessed": "2025-03-28T10:15:39.346059"
+    },
+    {
+      "id": "989154b3-247c-48a1-84bf-7036af353b6e",
+      "content": "Past (2025) (2025): Albert is available for meetings the week of January 6, 2025, but will be busier after January 16, 2025",
+      "created_at": "2025-03-28T10:15:39.346072",
+      "last_accessed": "2025-04-21T17:05:43.099376"
+    },
+    {
+      "id": "15579583-264f-46bf-9b74-e477813c0573",
+      "content": "Past (March 2025): Albert attempted to reschedule a meeting with David Kimball on March 10, 2025",
+      "created_at": "2025-03-28T10:15:39.346089",
+      "last_accessed": "2025-03-28T10:15:39.346092"
+    },
+    {
+      "id": "900a2833-20f2-4d79-8796-2537902c74a6",
+      "content": "Past (March 2025): Albert was working on a startup with someone as of March 11, 2025",
+      "created_at": "2025-03-28T10:15:39.346105",
+      "last_accessed": "2025-04-21T16:48:21.387546"
+    },
+    {
+      "id": "54694f5b-eaa5-4544-8eca-f849646b2496",
+      "content": "Past (December 2024): Albert paused his membership at 10PATX for a month",
+      "created_at": "2025-03-28T10:15:39.346122",
+      "last_accessed": "2025-03-28T10:15:39.346126"
+    }
+  ],
+  "archival_memory": [],
+  "last_updated": "2025-04-23T23:32:21.857256"
+}

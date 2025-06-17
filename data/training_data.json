@@ -1,0 +1,339 @@
+{
+  "answers": {},
+  "conversations": [
+    {
+      "messages": [
+        {
+          "sender": "user",
+          "text": "hello ask me some questions about myself",
+          "timestamp": "2025-03-05T18:27:46.541800"
+        },
+        {
+          "sender": "bot",
+          "text": "Hi there! I\u2019d love to get to know you better. What\u2019s something you\u2019re passionate about?",
+          "timestamp": "2025-03-05T18:27:48.048531"
+        },
+        {
+          "sender": "user",
+          "text": "hi i am currently building a startup ",
+          "timestamp": "2025-03-05T18:28:00.558826"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s exciting! What kind of startup are you building, and what inspired you to start it?",
+          "timestamp": "2025-03-05T18:28:01.186072"
+        },
+        {
+          "sender": "user",
+          "text": "it is a startup where the user can make an ai clone of themselves, kinda like a personal assistant",
+          "timestamp": "2025-03-05T18:28:39.821801"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds fascinating! What features do you envision for the AI clone, and how do you think it will benefit users in their daily lives?",
+          "timestamp": "2025-03-05T18:28:40.717615"
+        },
+        {
+          "sender": "user",
+          "text": "well i want to eventually have the ai maybe respond to messages and emails for the user, also it should be able to learn from and mimic and sound like the user",
+          "timestamp": "2025-03-05T18:29:32.834535"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s a really innovative concept! How do you plan to ensure that the AI accurately captures the user\u2019s personality and tone in its responses?",
+          "timestamp": "2025-03-05T18:29:34.385514"
+        },
+        {
+          "sender": "user",
+          "text": "i am having the ability for the user to chat with ai for the ai to learn how the user communicates. I also want to implement webscraping in the future to learn information about the user ",
+          "timestamp": "2025-03-05T18:30:16.369284"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds like a smart approach! How do you plan to address privacy concerns with web scraping and ensure users feel comfortable sharing their data with the AI?",
+          "timestamp": "2025-03-05T18:30:17.278482"
+        },
+        {
+          "sender": "user",
+          "text": "it should be opt in where the user can let opt in to letting their instagram or linkedin be scraped for the bot to learn from",
+          "timestamp": "2025-03-05T18:30:49.257721"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s a thoughtful way to handle privacy! Have you considered how you\u2019ll educate users about the benefits of opting in and what data will be used?",
+          "timestamp": "2025-03-05T18:30:50.022151"
+        },
+        {
+          "sender": "user",
+          "text": "there will be a terms of service",
+          "timestamp": "2025-03-05T18:30:59.372608"
+        },
+        {
+          "sender": "bot",
+          "text": "That makes sense! Clear terms of service are essential. Are you planning to include any interactive tutorials or guides to help users understand how to get the most out of their AI clone?",
+          "timestamp": "2025-03-05T18:31:00.184966"
+        },
+        {
+          "sender": "user",
+          "text": "Yes that will all be thought out more later before launch, first ask me some other questions about myself like interests etc",
+          "timestamp": "2025-03-05T18:31:30.067580"
+        },
+        {
+          "sender": "bot",
+          "text": "Of course! What are some of your interests or hobbies that you\u2019re passionate about?",
+          "timestamp": "2025-03-05T18:31:30.648148"
+        },
+        {
+          "sender": "user",
+          "text": "I am big into traveling, used to do freelance photography, also do mma in my free time",
+          "timestamp": "2025-03-05T18:31:55.640712"
+        },
+        {
+          "sender": "bot",
+          "text": "Those are some exciting interests! What\u2019s been your favorite travel destination so far, and what made it special for you?",
+          "timestamp": "2025-03-05T18:31:56.361465"
+        },
+        {
+          "sender": "user",
+          "text": "favorite probably Thailand I spent over a week there doing a camp",
+          "timestamp": "2025-03-05T18:32:20.187711"
+        },
+        {
+          "sender": "bot",
+          "text": "Thailand sounds amazing, especially with the mix of culture and training! What was the highlight of your time at the camp, and did you have a favorite moment there?",
+          "timestamp": "2025-03-05T18:32:21.059797"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-06T23:13:50.666300"
+        },
+        {
+          "sender": "bot",
+          "text": "Hi there! How\u2019s it going?",
+          "timestamp": "2025-03-06T23:13:51.577652"
+        },
+        {
+          "sender": "user",
+          "text": "I want to add 10 more messages ask me some questions",
+          "timestamp": "2025-03-06T23:24:36.188946"
+        },
+        {
+          "sender": "bot",
+          "text": "Sure thing! If you could travel anywhere in the world next, where would you choose to go and why?",
+          "timestamp": "2025-03-06T23:24:36.803525"
+        },
+        {
+          "sender": "user",
+          "text": "Hello ask me some questions ",
+          "timestamp": "2025-03-06T23:45:14.926218"
+        },
+        {
+          "sender": "bot",
+          "text": "Absolutely! What\u2019s your favorite type of photography, and do you have a favorite subject or theme you like to capture?",
+          "timestamp": "2025-03-06T23:47:26.612736"
+        },
+        {
+          "sender": "user",
+          "text": "Favorite place I've been is probably Thailand, Brazil and Japan are also up there high on my list",
+          "timestamp": "2025-03-06T23:47:44.538688"
+        },
+        {
+          "sender": "bot",
+          "text": "Those are fantastic choices! What did you enjoy most about Thailand, Brazil, and Japan? Any memorable experiences that stand out from those trips?",
+          "timestamp": "2025-03-06T23:47:46.780646"
+        },
+        {
+          "sender": "user",
+          "text": "In thailand i spent a week doing a muay thai camp, and in brazil I went through the favelas and got to interact with locals. more so the food, culture, and overall beauty of the country",
+          "timestamp": "2025-03-06T23:49:03.105158"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds incredible! Engaging with locals can really enhance the experience. What was your favorite dish or local delicacy you tried in Brazil, and did any specific interactions with locals leave a lasting impression on you?",
+          "timestamp": "2025-03-06T23:49:04.138784"
+        },
+        {
+          "sender": "user",
+          "text": "I really enjoyed acai from the source, that was fire, also I had a lot of steak there too",
+          "timestamp": "2025-03-06T23:49:38.924869"
+        },
+        {
+          "sender": "bot",
+          "text": "A\u00e7a\u00ed straight from the source sounds amazing! Brazilian steak is also a highlight. Did you have a favorite restaurant or spot where you enjoyed these dishes, or was it more about street food and local joints?",
+          "timestamp": "2025-03-06T23:49:40.776663"
+        },
+        {
+          "sender": "user",
+          "text": "mostly street food and local places, i dont really eat fancy that often",
+          "timestamp": "2025-03-06T23:49:55.639024"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s a great way to experience a culture authentically! Do you have a favorite street food dish from your travels, or is there a particular street food experience that stood out to you?",
+          "timestamp": "2025-03-06T23:49:56.644527"
+        },
+        {
+          "sender": "user",
+          "text": "from japan i had takoyaki, brazil i had a lot of steak, picanha, etc ",
+          "timestamp": "2025-03-06T23:50:17.769370"
+        },
+        {
+          "sender": "bot",
+          "text": "Both takoyaki and picanha are delicious choices! Did you have a favorite way to enjoy takoyaki\u2014like with specific toppings or sauces? And how did the flavors compare between the street food in Japan and Brazil for you?",
+          "timestamp": "2025-03-06T23:50:18.968453"
+        },
+        {
+          "sender": "user",
+          "text": "not sure japan was unique flavors and some food you won't find anywhere else, wait ask me some questions besides these",
+          "timestamp": "2025-03-06T23:50:46.294544"
+        },
+        {
+          "sender": "bot",
+          "text": "Absolutely, I can switch it up! What other hobbies or interests do you have outside of traveling and trying new foods? And do you enjoy sharing your travel experiences with friends or through social media?",
+          "timestamp": "2025-03-06T23:50:48.357391"
+        },
+        {
+          "sender": "user",
+          "text": "i have been trying to lately, i bought a drone near the end of last year so i have been trying to post drone shots on my stories, also want to get better at videography",
+          "timestamp": "2025-03-06T23:51:25.910196"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s awesome! Drone photography can really capture breathtaking perspectives. What inspired you to get into videography, and do you have any specific places or themes you\u2019re excited to film?",
+          "timestamp": "2025-03-06T23:51:27.066047"
+        },
+        {
+          "sender": "user",
+          "text": "favorite places depends on the views of certain countries, themes probably beautiful architecture or nature",
+          "timestamp": "2025-03-06T23:51:54.613863"
+        },
+        {
+          "sender": "bot",
+          "text": "Those are both stunning themes to explore! Are there any specific countries or cities on your bucket list that you\u2019d love to capture for their architecture or natural beauty?",
+          "timestamp": "2025-03-06T23:51:55.535537"
+        },
+        {
+          "sender": "user",
+          "text": "I want to go places people dont really go, I might go to iraq next lol",
+          "timestamp": "2025-03-06T23:52:09.556763"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds like an adventurous choice! Exploring lesser-known destinations can lead to some incredible experiences. What draws you to Iraq specifically, and are there any particular sites or experiences you hope to discover there?",
+          "timestamp": "2025-03-06T23:52:10.481870"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T14:01:27.294783"
+        },
+        {
+          "sender": "bot",
+          "text": "Hi there! How\u2019s it going? Anything on your mind that you\u2019d like to share?",
+          "timestamp": "2025-03-07T14:01:28.893954"
+        },
+        {
+          "sender": "user",
+          "text": "What are your predictions for ufc 313",
+          "timestamp": "2025-03-07T14:02:01.158973"
+        },
+        {
+          "sender": "bot",
+          "text": "I don\u2019t have information on events beyond October 2023, but UFC events often feature exciting matchups! What fights are you most looking forward to, and who do you think will come out on top?",
+          "timestamp": "2025-03-07T14:02:02.207807"
+        },
+        {
+          "sender": "user",
+          "text": "there is pereira vs ankalaev this weekend who do u think is going to win?",
+          "timestamp": "2025-03-07T14:02:20.683246"
+        },
+        {
+          "sender": "bot",
+          "text": "That should be an exciting matchup! Pereira has impressive striking, while Ankalaev brings strong grappling and versatility. Who are you rooting for in that fight, and what do you think will be the deciding factor?",
+          "timestamp": "2025-03-07T14:02:21.836871"
+        },
+        {
+          "sender": "user",
+          "text": "i want pereira hes one of my favorite fighters think he can ko ank on the feet in the later rouds",
+          "timestamp": "2025-03-07T14:02:56.174480"
+        },
+        {
+          "sender": "bot",
+          "text": "Pereira definitely has that knockout power, and his striking skills are top-notch! It\u2019ll be interesting to see how he handles Ankalaev\u2019s wrestling if it comes into play. What do you love most about Pereira\u2019s fighting style?",
+          "timestamp": "2025-03-07T14:02:57.454587"
+        },
+        {
+          "sender": "user",
+          "text": "activity and he always gets the finish",
+          "timestamp": "2025-03-07T14:03:12.429094"
+        },
+        {
+          "sender": "bot",
+          "text": "Absolutely, his aggressive style and finishing ability make his fights so thrilling to watch! It\u2019s always exciting when a fighter goes for the finish instead of playing it safe. Do you have a favorite fight of his that stands out to you?",
+          "timestamp": "2025-03-07T14:03:13.643454"
+        },
+        {
+          "sender": "user",
+          "text": "pereira vs rountree was amazing, lets talk about something else tho",
+          "timestamp": "2025-03-07T14:03:34.542718"
+        },
+        {
+          "sender": "bot",
+          "text": "That was a fantastic fight! Pereira really showcased his skills there. Sure, what other topic are you interested in discussing?",
+          "timestamp": "2025-03-07T14:03:35.263096"
+        },
+        {
+          "sender": "user",
+          "text": "lemme see, who do u think will win the nba championship this year?",
+          "timestamp": "2025-03-07T14:04:47.996106"
+        },
+        {
+          "sender": "bot",
+          "text": "It\u2019s hard to predict, but teams like the Milwaukee Bucks and the Denver Nuggets have been strong contenders recently. Do you have a favorite team you\u2019re hoping will take the championship this year?",
+          "timestamp": "2025-03-07T14:04:48.992844"
+        },
+        {
+          "sender": "user",
+          "text": "okc or the lakers",
+          "timestamp": "2025-03-07T14:05:03.461626"
+        },
+        {
+          "sender": "bot",
+          "text": "Great choices! Both teams have exciting rosters and unique strengths. What do you think will be the key for either team to make a deep playoff run this season?",
+          "timestamp": "2025-03-07T14:05:04.261361"
+        },
+        {
+          "sender": "user",
+          "text": "lakers just made the luka trade and havent really lost since, okc is the 1 seed and improved from last year",
+          "timestamp": "2025-03-07T14:05:25.797731"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s true! The Lakers\u2019 addition of Luka could really boost their chances, and OKC\u2019s improvement is impressive. How do you think the playoff matchup would look between those two if they faced off?",
+          "timestamp": "2025-03-07T14:05:27.029464"
+        },
+        {
+          "sender": "user",
+          "text": "think okc wins still but might go to like 6 or 7",
+          "timestamp": "2025-03-07T14:05:42.480882"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds like an intense series! OKC has really built up their team well, and it would be exciting to see them go head-to-head with the Lakers. What do you think would be the deciding factor in that matchup?",
+          "timestamp": "2025-03-07T14:05:43.636542"
+        }
+      ]
+    }
+  ],
+  "trained": true,
+  "last_updated": "2025-04-28T11:47:57.047912",
+  "current_session_messages": 0,
+  "fine_tuning_job_id": "ftjob-lyGyc54khEtM0q11ljWe14Cv",
+  "fine_tuning_in_progress": false,
+  "model_id": "ft:gpt-4o-mini-2024-07-18:al43595::BCX8dk0Q",
+  "fine_tuning_started_at": "2025-03-18T14:02:13.706078",
+  "linkedin_integrated": true,
+  "linkedin_context": "My name is Albert Lu.\nProfessional headline: Founder @ Stealth Startup | ECE at UT Austin\nI'm based in Dallas-Fort Worth Metroplex.\nAbout me: The University of Texas at Austin\nI currently work as Founder at Stealth Startup\nStealth Startup.\nPreviously, I worked as Wedding Photographer at The Knot Worldwide \u00b7 Contract\nThe Knot Worldwide \u00b7 Contract and Freelance Photographer at Thumbtack \u00b7 Freelance\nThumbtack \u00b7 Freelance.\nMy education includes Bachelor of Science - BS, Computer Engineering\nBachelor of Science - BS, Computer Engineering from The University of Texas at Austin and High School Diploma, Computer Science\nHigh School Diploma, Computer Science from Coppell High School.",
+  "combined_training_data_path": "/Users/albertlu/Documents/GitHub/ai-clone/data/combined_training_data_20250318_140140.json"
+}

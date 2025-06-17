@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "name": "Test User",
+    "headline": "AI Engineer",
+    "summary": "Experienced AI engineer with a focus on natural language processing and machine learning."
+  },
+  "experience": [
+    {
+      "title": "Senior AI Engineer",
+      "company": "Tech Company",
+      "description": "Developing cutting-edge AI solutions for enterprise clients.",
+      "start_date": "2020-01",
+      "end_date": null
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Technology",
+      "degree": "Master's in Computer Science",
+      "field": "Artificial Intelligence",
+      "start_date": "2017-09",
+      "end_date": "2019-06"
+    }
+  ],
+  "added_at": "2025-03-09T17:09:43.172168"
+}

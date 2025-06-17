@@ -1,0 +1,21 @@
+{
+  "active": false,
+  "channels": {
+    "text": true,
+    "email": false
+  },
+  "schedule": {
+    "enabled": false,
+    "start_time": "09:00",
+    "end_time": "17:00",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ]
+  },
+  "confidence_threshold": 0.7,
+  "auto_response_enabled_until": null
+}

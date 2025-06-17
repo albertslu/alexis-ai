@@ -1,0 +1,212 @@
+[
+  {
+    "message_id": 1,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "hey what's up",
+    "timestamp": "2025-03-01T12:00:00.000Z",
+    "context": [
+      {
+        "author_id": "111111111",
+        "author_name": "Friend1",
+        "content": "hey albert, how's it going?",
+        "timestamp": "2025-03-01T11:59:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 2,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "not much, just working on this ai project",
+    "timestamp": "2025-03-01T12:05:00.000Z",
+    "context": [
+      {
+        "author_id": "111111111",
+        "author_name": "Friend1",
+        "content": "what have you been up to lately?",
+        "timestamp": "2025-03-01T12:04:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 3,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "yeah that sounds good",
+    "timestamp": "2025-03-01T12:10:00.000Z",
+    "context": [
+      {
+        "author_id": "222222222",
+        "author_name": "Friend2",
+        "content": "should we meet up this weekend?",
+        "timestamp": "2025-03-01T12:09:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 4,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "i think we should try the new restaurant downtown",
+    "timestamp": "2025-03-01T12:15:00.000Z",
+    "context": [
+      {
+        "author_id": "222222222",
+        "author_name": "Friend2",
+        "content": "where do you want to go?",
+        "timestamp": "2025-03-01T12:14:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 5,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "no i don't think so",
+    "timestamp": "2025-03-01T12:20:00.000Z",
+    "context": [
+      {
+        "author_id": "333333333",
+        "author_name": "Friend3",
+        "content": "did you watch the game last night?",
+        "timestamp": "2025-03-01T12:19:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 6,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "i was busy with work",
+    "timestamp": "2025-03-01T12:25:00.000Z",
+    "context": [
+      {
+        "author_id": "333333333",
+        "author_name": "Friend3",
+        "content": "why not?",
+        "timestamp": "2025-03-01T12:24:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 7,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "let me check my schedule",
+    "timestamp": "2025-03-01T12:30:00.000Z",
+    "context": [
+      {
+        "author_id": "444444444",
+        "author_name": "Friend4",
+        "content": "can you help me with my project tomorrow?",
+        "timestamp": "2025-03-01T12:29:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 8,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "yeah i should be free after 3",
+    "timestamp": "2025-03-01T12:35:00.000Z",
+    "context": [
+      {
+        "author_id": "444444444",
+        "author_name": "Friend4",
+        "content": "would afternoon work?",
+        "timestamp": "2025-03-01T12:34:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 9,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "i prefer python for most projects",
+    "timestamp": "2025-03-01T12:40:00.000Z",
+    "context": [
+      {
+        "author_id": "555555555",
+        "author_name": "Friend5",
+        "content": "what programming language do you like best?",
+        "timestamp": "2025-03-01T12:39:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  },
+  {
+    "message_id": 10,
+    "channel_id": "123456789",
+    "channel_name": "general",
+    "guild_id": "987654321",
+    "guild_name": "Sample Server",
+    "content": "it's simple and versatile",
+    "timestamp": "2025-03-01T12:45:00.000Z",
+    "context": [
+      {
+        "author_id": "555555555",
+        "author_name": "Friend5",
+        "content": "why python?",
+        "timestamp": "2025-03-01T12:44:00.000Z"
+      }
+    ],
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null
+  }
+]

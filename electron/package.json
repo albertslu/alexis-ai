@@ -1,0 +1,222 @@
+{
+  "name": "alexis-ai-desktop",
+  "version": "1.0.0",
+  "description": "Alexis AI Desktop App for macOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "build": "electron-builder --publish never",
+    "build-signed": "CSC_IDENTITY_AUTO_DISCOVERY=false CSC_NAME=\"Albert Lu (K3P5JT6XR9)\" electron-builder --publish never",
+    "fast-build": "electron-builder --dir --publish never",
+    "dmg-only": "electron-builder --mac dmg --publish never",
+    "dmg-signed": "CSC_IDENTITY_AUTO_DISCOVERY=false CSC_NAME=\"Albert Lu (K3P5JT6XR9)\" electron-builder --mac dmg --publish never",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --publish never"
+  },
+  "author": "Albert Lu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "electron-log": "^5.3.4",
+    "electron-store": "^8.1.0",
+    "electron-updater": "^6.1.4",
+    "finalhandler": "^2.1.0",
+    "fs-extra": "^11.2.0",
+    "serve-static": "^2.2.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@electron/notarize": "^3.0.1",
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1",
+    "electron-notarize": "^1.2.2"
+  },
+  "build": {
+    "appId": "com.alexisai.desktop",
+    "productName": "Alexis AI",
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://aiclone-downloads.s3.amazonaws.com/"
+      }
+    ],
+    "files": [
+      "**/*",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/node_modules/*.d.ts",
+      "!**/node_modules/.bin",
+      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+      "!.editorconfig",
+      "!**/._*",
+      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+      "!**/{appveyor.yml,.travis.yml,circle.yml}",
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+    ],
+    "extraResources": [
+      {
+        "from": "../frontend/build",
+        "to": "frontend/build"
+      },
+      {
+        "from": "../backend",
+        "to": "backend",
+        "filter": [
+          "**/*.py",
+          "**/*.json",
+          "!**/__pycache__/**",
+          "!**/*.pyc"
+        ]
+      },
+      {
+        "from": "../rag",
+        "to": "rag",
+        "filter": [
+          "**/*.py",
+          "**/*.json",
+          "!**/__pycache__/**",
+          "!**/*.pyc"
+        ]
+      },
+      {
+        "from": "../data",
+        "to": "data",
+        "filter": [
+          "**/config/**",
+          "**/memory/**",
+          "mac_listener_config.json",
+          "users.json",
+          "!**/rag/**",
+          "!**/repository/**",
+          "!**/user_*/**",
+          "!**/imessage_raw_*.json",
+          "!**/chat_history*.json",
+          "!**/email_data*.json",
+          "!**/*.bak.*",
+          "!**/archive/**",
+          "!**/combined_training_data_*.json",
+          "!**/training_data_backup_*.json",
+          "!**/agent_state.db"
+        ]
+      },
+      {
+        "from": "../models",
+        "to": "models",
+        "filter": [
+          "**/*.json",
+          "**/*.yaml",
+          "**/*.yml"
+        ]
+      },
+      {
+        "from": "../pending_responses",
+        "to": "pending_responses"
+      },
+      {
+        "from": "../scripts",
+        "to": "scripts",
+        "filter": [
+          "**/*.py",
+          "**/*.sh",
+          "!**/__pycache__/**",
+          "!**/*.pyc"
+        ]
+      },
+      {
+        "from": "../utils",
+        "to": "utils",
+        "filter": [
+          "**/*",
+          "!**/__pycache__/**",
+          "!**/*.pyc"
+        ]
+      },
+      {
+        "from": "../routes",
+        "to": "routes",
+        "filter": [
+          "**/*",
+          "!**/__pycache__/**",
+          "!**/*.pyc"
+        ]
+      },
+      {
+        "from": "../scrapers",
+        "to": "scrapers",
+        "filter": [
+          "**/*",
+          "!**/__pycache__/**",
+          "!**/*.pyc"
+        ]
+      },
+      {
+        "from": "../requirements.txt",
+        "to": "requirements.txt"
+      },
+      {
+        "from": "../.env",
+        "to": ".env"
+      },
+      {
+        "from": "../.env.production",
+        "to": ".env.production"
+      },
+      {
+        "from": "../model_config.py",
+        "to": "model_config.py"
+      },
+      {
+        "from": "../credentials.json",
+        "to": "credentials.json"
+      },
+      {
+        "from": "./overlay",
+        "to": "overlay"
+      },
+      {
+        "from": "./resources/overlay-agent.app",
+        "to": "resources/overlay-agent.app"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "entitlements.mac.plist",
+      "entitlementsInherit": "entitlements.mac.plist",
+      "icon": "assets/icon.icns",
+      "type": "distribution",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "compression": "maximum",
+      "notarize": {
+        "teamId": "K3P5JT6XR9"
+      }
+    },
+    "compression": "maximum",
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ],
+      "window": {
+        "width": 540,
+        "height": 380
+      },
+      "icon": "assets/icon.icns"
+    },
+    "afterPack": "./after-pack.js"
+  }
+}

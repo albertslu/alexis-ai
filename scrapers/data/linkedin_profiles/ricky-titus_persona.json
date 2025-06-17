@@ -1,0 +1,45 @@
+{
+  "basic_info": {
+    "name": "Ricky Titus",
+    "headline": "Software Engineer | Texas Ex ",
+    "location": "San Diego, California, United States"
+  },
+  "about": "",
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Acrisure",
+      "duration": "Jun 2024 - Present · 11 mos"
+    },
+    {
+      "title": "Software Engineer - Intern",
+      "company": "IMC Trading",
+      "duration": "Jun 2023 - Aug 2023 · 3 mos"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Convergent",
+      "duration": "Sep 2022 - Aug 2023 · 1 yr"
+    },
+    {
+      "title": "Software Engineer - Intern",
+      "company": "Fidelity Investments",
+      "duration": "Jun 2022 - Aug 2022 · 3 mos"
+    }
+  ],
+  "education": [
+    {
+      "school": "Georgia Institute of Technology",
+      "degree": "Master of Science - MS, Computer Science",
+      "dates": "Jan 2024 - May 2025"
+    },
+    {
+      "school": "The University of Texas at Austin",
+      "degree": "Bachelor of Science - BS, Mechanical Engineering/Engineering Honors",
+      "dates": "Aug 2020 - Dec 2023"
+    }
+  ],
+  "skills": ["Spring Framework", "SQL"],
+  "interests": ["Microsoft", "Fidelity Investments"],
+  "access_level": "limited"
+}

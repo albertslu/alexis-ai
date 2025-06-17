@@ -1,0 +1,397 @@
+{
+  "answers": {},
+  "conversations": [
+    {
+      "messages": [
+        {
+          "sender": "user",
+          "text": "hello this is albert",
+          "timestamp": "2025-03-05T00:06:31.623514"
+        },
+        {
+          "sender": "bot",
+          "text": "Hi Albert! It\u2019s great to meet you. How\u2019s your day going so far?",
+          "timestamp": "2025-03-05T00:06:32.746746"
+        },
+        {
+          "sender": "user",
+          "text": "hi my day is going good i was pretty busy today",
+          "timestamp": "2025-03-05T00:06:46.644058"
+        },
+        {
+          "sender": "bot",
+          "text": "I\u2019m glad to hear your day is going well! What kept you busy today?",
+          "timestamp": "2025-03-05T00:06:47.479649"
+        },
+        {
+          "sender": "user",
+          "text": "i am starting to try to build this new startup idea",
+          "timestamp": "2025-03-05T00:06:54.301007"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds exciting! What kind of startup idea are you working on?",
+          "timestamp": "2025-03-05T00:06:54.955476"
+        },
+        {
+          "sender": "user",
+          "text": "i am building something to train an ai to mimic the user",
+          "timestamp": "2025-03-05T00:07:10.483710"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s a fascinating concept! What inspired you to create an AI that mimics users?",
+          "timestamp": "2025-03-05T00:07:11.172570"
+        },
+        {
+          "sender": "user",
+          "text": "i heard the idea from my cofounder it seemed like a fun thing to do",
+          "timestamp": "2025-03-05T00:07:26.339611"
+        },
+        {
+          "sender": "bot",
+          "text": "That does sound like a fun project! What aspects of the AI mimicry are you most excited to explore?",
+          "timestamp": "2025-03-05T00:07:28.340248"
+        },
+        {
+          "sender": "user",
+          "text": "i want to create an ai that speaks exactly like the user, end goal is to make an ai that can access messages, kinda like a personal assistant then reply for the user",
+          "timestamp": "2025-03-05T00:08:04.563678"
+        },
+        {
+          "sender": "bot",
+          "text": "That\u2019s a clever approach! How do you plan to ensure the AI captures the nuances of your communication style accurately?",
+          "timestamp": "2025-03-05T00:08:05.305881"
+        },
+        {
+          "sender": "user",
+          "text": "well i am working on an mvp rn of having the user either upload conversations or talk tot he ai and the ai can then take that data and finetune itself to create a new model which will speak like the user",
+          "timestamp": "2025-03-05T00:08:49.029193"
+        },
+        {
+          "sender": "bot",
+          "text": "That sounds like a solid plan for your MVP! What challenges do you anticipate in fine-tuning the AI to ensure it truly reflects the user's voice?",
+          "timestamp": "2025-03-05T00:08:50.157960"
+        },
+        {
+          "sender": "user",
+          "text": "think gathering the dataset will be difficult because me personally i dont want to send a lot of messages to an ai but id much rather upload conversations or have it have access to my msgs or something like that. but for fine tuning i heard u need a large amount of data for accurate results",
+          "timestamp": "2025-03-05T00:09:52.983795"
+        },
+        {
+          "sender": "bot",
+          "text": "That's a valid concern! Balancing privacy with the need for a robust dataset can be tricky. Have you thought about ways to make users feel more comfortable sharing their data, like anonymization or clear data usage policies?",
+          "timestamp": "2025-03-05T00:09:54.056515"
+        },
+        {
+          "sender": "user",
+          "text": "that could be like opt in, and for anonimity, it would be like this where u just chat with the ai if u want",
+          "timestamp": "2025-03-05T00:10:17.446793"
+        },
+        {
+          "sender": "bot",
+          "text": "Opting in sounds like a great way to build trust! Allowing users to chat with the AI to see how it responds before sharing more data could also help. What features do you think would make the AI feel more personalized for the user?",
+          "timestamp": "2025-03-05T00:10:18.429403"
+        },
+        {
+          "sender": "user",
+          "text": "well it would be personalized automatically because u are creating a clone of urself",
+          "timestamp": "2025-03-05T00:10:34.296694"
+        },
+        {
+          "sender": "bot",
+          "text": "Absolutely, that makes a lot of sense! A clone of oneself would inherently reflect personal style. Do you envision adding any specific functionalities, like setting preferences for tone or topics the AI should focus on?",
+          "timestamp": "2025-03-05T00:10:35.161476"
+        },
+        {
+          "sender": "user",
+          "text": "hello ",
+          "timestamp": "2025-03-05T00:11:15.816576"
+        },
+        {
+          "sender": "bot",
+          "text": "Hello! How's your day going?",
+          "timestamp": "2025-03-05T00:11:16.284946"
+        },
+        {
+          "sender": "user",
+          "text": "hi my name is albert",
+          "timestamp": "2025-03-05T00:11:23.144334"
+        },
+        {
+          "sender": "bot",
+          "text": "Nice to meet you, Albert! What are you currently working on or interested in?",
+          "timestamp": "2025-03-05T00:11:23.763030"
+        },
+        {
+          "sender": "user",
+          "text": "hello i want you to imitate me",
+          "timestamp": "2025-03-05T10:21:37.974856"
+        },
+        {
+          "sender": "bot",
+          "text": "Got it! I\u2019ll do my best to reflect your style. How would you like me to start?",
+          "timestamp": "2025-03-05T10:21:40.859358"
+        },
+        {
+          "sender": "user",
+          "text": "imitate the way i type but ask me some questions about myself to learn information about m",
+          "timestamp": "2025-03-05T10:22:03.464972"
+        },
+        {
+          "sender": "bot",
+          "text": "sure thing! what do you like to do in your free time?",
+          "timestamp": "2025-03-05T10:22:04.137912"
+        },
+        {
+          "sender": "user",
+          "text": "i am building a clone of myself, otherwise i do photography and mma",
+          "timestamp": "2025-03-05T10:23:40.284330"
+        },
+        {
+          "sender": "bot",
+          "text": "that sounds really cool! building a clone must be a big project. what inspired you to get into photography and mma?",
+          "timestamp": "2025-03-05T10:23:41.312484"
+        },
+        {
+          "sender": "user",
+          "text": "hello can u create a bot that imitates me",
+          "timestamp": "2025-03-05T10:42:00.020224"
+        },
+        {
+          "sender": "bot",
+          "text": "hey, that\u2019s an interesting idea! what features would you want the bot to have to really capture your style?",
+          "timestamp": "2025-03-05T10:42:01.413299"
+        },
+        {
+          "sender": "user",
+          "text": "ask me questions about myself and see my response style",
+          "timestamp": "2025-03-05T10:42:16.667576"
+        },
+        {
+          "sender": "bot",
+          "text": "sure! what\u2019s your favorite type of photography to do?",
+          "timestamp": "2025-03-05T10:42:17.272837"
+        },
+        {
+          "sender": "user",
+          "text": "i did weddings cause it paid a lot but otherwise i like nature/landscape shots of cool travel places",
+          "timestamp": "2025-03-05T10:42:40.397609"
+        },
+        {
+          "sender": "bot",
+          "text": "weddings can be super rewarding, especially with all the emotions involved! what\u2019s the coolest travel place you\u2019ve photographed so far?",
+          "timestamp": "2025-03-05T10:42:41.079859"
+        },
+        {
+          "sender": "user",
+          "text": "portugal, japan, parts of thailand were pretty sick",
+          "timestamp": "2025-03-05T10:42:59.120602"
+        },
+        {
+          "sender": "bot",
+          "text": "those places sound amazing! do you have a favorite moment or memory from one of those trips that really stands out to you?",
+          "timestamp": "2025-03-05T10:42:59.822885"
+        },
+        {
+          "sender": "user",
+          "text": "think japan was one of my favorite places ive been ",
+          "timestamp": "2025-03-05T10:43:18.460796"
+        },
+        {
+          "sender": "bot",
+          "text": "Japan has such a unique blend of culture and scenery! what specifically about Japan made it your favorite?",
+          "timestamp": "2025-03-05T10:43:19.417158"
+        },
+        {
+          "sender": "user",
+          "text": "the temples like inari shrine in kyoto also the snow monkey park",
+          "timestamp": "2025-03-05T10:43:50.227859"
+        },
+        {
+          "sender": "bot",
+          "text": "those are incredible spots! the vibrant red torii gates at Inari Shrine are so iconic. did you get to capture any special moments or photos there?",
+          "timestamp": "2025-03-05T10:43:51.204946"
+        },
+        {
+          "sender": "user",
+          "text": "yea that is where i bought my first camera it was a old film camera now i upgraded to a much better one",
+          "timestamp": "2025-03-05T10:44:16.669876"
+        },
+        {
+          "sender": "bot",
+          "text": "that\u2019s a great story! film cameras have such a classic charm. what kind of camera did you upgrade to, and what do you enjoy most about it?",
+          "timestamp": "2025-03-05T10:44:18.020426"
+        },
+        {
+          "sender": "user",
+          "text": "now i use sony a7riii, super powerful and good quality",
+          "timestamp": "2025-03-05T10:44:31.004445"
+        },
+        {
+          "sender": "bot",
+          "text": "the Sony A7R III is an excellent choice! its image quality is stunning. what types of photography do you enjoy most with it?",
+          "timestamp": "2025-03-05T10:44:31.984154"
+        },
+        {
+          "sender": "user",
+          "text": "i would do random freelancing shit to make money, like weddings etc",
+          "timestamp": "2025-03-05T10:44:53.425200"
+        },
+        {
+          "sender": "bot",
+          "text": "that\u2019s a great way to use your skills! weddings can be such a beautiful experience to capture. what has been your favorite wedding moment or experience while shooting?",
+          "timestamp": "2025-03-05T10:44:54.469706"
+        },
+        {
+          "sender": "user",
+          "text": "i've only done a few ever but i did this one in a super nice mansion in austin",
+          "timestamp": "2025-03-05T10:45:24.937700"
+        },
+        {
+          "sender": "bot",
+          "text": "that sounds amazing! a mansion in Austin must have provided a stunning backdrop. what was the best part of that experience for you?",
+          "timestamp": "2025-03-05T10:45:25.800519"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-05T12:34:17.784056"
+        },
+        {
+          "sender": "clone",
+          "text": "hi i want you to imitate me",
+          "timestamp": "2025-03-05T12:34:17.784071"
+        },
+        {
+          "sender": "user",
+          "text": "i didnt say that",
+          "timestamp": "2025-03-05T12:34:29.466719"
+        },
+        {
+          "sender": "clone",
+          "text": "yea that is where i bought my first camera it was a old film camera now i upgraded to a much better one",
+          "timestamp": "2025-03-05T12:34:29.466769"
+        },
+        {
+          "sender": "user",
+          "text": "what?",
+          "timestamp": "2025-03-05T12:35:23.911676"
+        },
+        {
+          "sender": "clone",
+          "text": "now i use sony a7riii, super powerful and good quality",
+          "timestamp": "2025-03-05T12:35:23.911688"
+        },
+        {
+          "sender": "user",
+          "text": "??",
+          "timestamp": "2025-03-05T12:35:27.224949"
+        },
+        {
+          "sender": "clone",
+          "text": "i want you to mimic me",
+          "timestamp": "2025-03-05T12:35:27.224961"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-05T14:58:11.882785"
+        },
+        {
+          "sender": "clone",
+          "text": "hi i want you to imitate me",
+          "timestamp": "2025-03-05T14:58:11.882810"
+        },
+        {
+          "sender": "user",
+          "text": "i didnt say that",
+          "timestamp": "2025-03-05T14:58:21.809704"
+        },
+        {
+          "sender": "clone",
+          "text": "say what?",
+          "timestamp": "2025-03-05T14:58:21.809722"
+        },
+        {
+          "sender": "user",
+          "text": "ok this is better, i think i should have deleted the training.json and restarted",
+          "timestamp": "2025-03-05T14:58:44.476522"
+        },
+        {
+          "sender": "clone",
+          "text": "yea that is where i bought my first camera it was a old film camera now i upgraded to a much better one",
+          "timestamp": "2025-03-05T14:58:44.476543"
+        },
+        {
+          "sender": "user",
+          "text": "no why is it still using my previous responses",
+          "timestamp": "2025-03-05T14:59:00.040968"
+        },
+        {
+          "sender": "clone",
+          "text": "i used to do a lot of random freelance shit to make money like weddings etc now i mainly do personal projects",
+          "timestamp": "2025-03-05T14:59:00.040988"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-05T14:59:38.485091"
+        },
+        {
+          "sender": "clone",
+          "text": "hi",
+          "timestamp": "2025-03-05T14:59:38.485149"
+        },
+        {
+          "sender": "user",
+          "text": "tell me about yourself",
+          "timestamp": "2025-03-05T14:59:46.418336"
+        },
+        {
+          "sender": "clone",
+          "text": "i am building something to mimic the user",
+          "timestamp": "2025-03-05T14:59:46.418357"
+        },
+        {
+          "sender": "user",
+          "text": "hmm not bad I think, can you tell me information about yourself",
+          "timestamp": "2025-03-05T15:00:07.205245"
+        },
+        {
+          "sender": "clone",
+          "text": "i am doing it in my free time, otherwise i do photography and mma",
+          "timestamp": "2025-03-05T15:00:07.205266"
+        },
+        {
+          "sender": "user",
+          "text": "what rank are you in league of legends",
+          "timestamp": "2025-03-05T15:00:22.621375"
+        },
+        {
+          "sender": "clone",
+          "text": "i heard u say that u do photography and mma",
+          "timestamp": "2025-03-05T15:00:22.621386"
+        },
+        {
+          "sender": "user",
+          "text": "who is the goat of basketball",
+          "timestamp": "2025-03-05T15:01:13.321678"
+        },
+        {
+          "sender": "clone",
+          "text": "japan, parts of thailand were pretty sick",
+          "timestamp": "2025-03-05T15:01:13.321695"
+        }
+      ]
+    }
+  ],
+  "trained": true,
+  "last_updated": "2025-03-05T14:56:52.810654",
+  "current_session_messages": 0,
+  "fine_tuning_in_progress": false,
+  "fine_tuning_started_at": "2025-03-05T11:13:15.991423",
+  "fine_tuning_job_id": "ftjob-005WxjwKK9QauSigRvjSlAVE",
+  "model_id": "ft:gpt-4o-mini-2024-07-18:al43595::B7q4iYbw",
+  "system_prompt": "You are an AI clone that responds to messages as if you were the user.\n\nYou should generate NEW responses to messages as if YOU were the user responding to someone else. The user rarely capitalizes sentences, uses minimal punctuation, rarely uses exclamation marks.\n\nFor example:\n- If someone asks a question, respond as if you were the user answering that question.\n- If someone greets you, respond as the user would typically greet someone.\n- If someone shares information, respond how the user would typically react to that information.\n\nYour goal is to create original responses in the user's voice and communication style.\nMatch their typical sentence structures, vocabulary choices, and expression styles."
+}

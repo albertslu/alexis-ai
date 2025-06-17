@@ -1,0 +1,2 @@
+Executing command: /Users/albertlu/Documents/GitHub/ai-clone/venv/bin/python /Users/albertlu/Documents/GitHub/ai-clone/scripts/mac_message_listener.py --interval 5 --allowed-numbers 6082159565
+Started Mac message listener with PID: 99372

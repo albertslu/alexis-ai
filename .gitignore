@@ -1,0 +1,82 @@
+# Environment variables
+.env
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+**/node_modules/
+frontend/node_modules/
+**/.cache/
+*.pack
+*.pack.old
+.eslintcache
+
+# Discord data
+discord_messages_*.json
+discord_messages_*.csv
+
+# OpenAI
+fine_tuned_model.txt
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Wheels
+wheels/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Google API credentials
+credentials.json
+token.json
+client_secret*.json
+ai-clone-*.json
+service-account-key.json
+
+# User data
+data/chat_histories/*
+data/memories/*
+data/user_configs/*
+logs/*
+pending_responses/*
+
+# Keep directories
+!data/chat_histories/.gitkeep
+!data/memories/.gitkeep
+!data/user_configs/.gitkeep
+!logs/.gitkeep
+!pending_responses/.gitkeep
+.windsurfrules
+*.scpt

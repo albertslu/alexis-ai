@@ -1,0 +1,672 @@
+#!/usr/bin/env python3
+
+"""
+Feedback System for AI Clone
+
+This module provides functionality for collecting, storing, and analyzing feedback
+on AI clone responses to improve response quality over time.
+"""
+
+import os
+import json
+import uuid
+import copy
+from datetime import datetime, timedelta
+import difflib
+from pathlib import Path
+
+# Configuration
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+FEEDBACK_DIR = os.path.join(DATA_DIR, 'feedback')
+CHAT_HISTORY_DIR = os.path.join(DATA_DIR, 'chat_histories')
+DEFAULT_CHAT_HISTORY_PATH = os.path.join(DATA_DIR, 'chat_history.json')
+
+# Ensure directories exist
+os.makedirs(FEEDBACK_DIR, exist_ok=True)
+os.makedirs(CHAT_HISTORY_DIR, exist_ok=True)
+
+class FeedbackSystem:
+    """
+    System for collecting and managing feedback on AI clone responses.
+    
+    This class provides methods to record, analyze, and learn from feedback
+    on AI clone responses to improve response quality over time.
+    """
+    
+    def __init__(self, user_id="default"):
+        """
+        Initialize the feedback system.
+        
+        Args:
+            user_id: Identifier for the user/agent
+        """
+        self.user_id = user_id
+        self.feedback_path = os.path.join(FEEDBACK_DIR, f'{user_id}_feedback.json')
+        self.chat_history_path = os.path.join(CHAT_HISTORY_DIR, f'{user_id}_chat_history.json')
+        self.feedback_data = self._load_feedback_data()
+        
+        # Migrate default chat history to user-specific chat history if needed
+        self._migrate_chat_history()
+        
+        print(f"Initialized feedback system for user: {user_id}")
+        print(f"Using feedback path: {self.feedback_path}")
+        print(f"Using chat history path: {self.chat_history_path}")
+        
+    def _load_feedback_data(self):
+        """
+        Load feedback data from file.
+        
+        Returns:
+            dict: Feedback data
+        """
+        if os.path.exists(self.feedback_path):
+            try:
+                with open(self.feedback_path, 'r') as f:
+                    return json.load(f)
+            except Exception as e:
+                print(f"Error loading feedback data: {str(e)}")
+        
+        # Default structure if file doesn't exist
+        return {
+            "feedback_records": [],
+            "stats": {
+                "total": 0,
+                "approved": 0,
+                "corrected": 0,
+                "rejected": 0
+            }
+        }
+    
+    def _save_feedback_data(self):
+        """
+        Save feedback data to file.
+        """
+        try:
+            with open(self.feedback_path, 'w') as f:
+                json.dump(self.feedback_data, f, indent=2)
+        except Exception as e:
+            print(f"Error saving feedback data: {str(e)}")
+    
+    def record_feedback(self, message_id, original_message, corrected_message=None, 
+                       feedback_type="approved", channel=None, metadata=None):
+        """
+        Record feedback on a clone response.
+        
+        Args:
+            message_id: Unique identifier for the message
+            original_message: The original message text
+            corrected_message: Optional corrected version of the message
+            feedback_type: Type of feedback (approved, corrected, rejected)
+            channel: Optional communication channel (text, email, etc.)
+            metadata: Optional metadata about the message
+            
+        Returns:
+            str: Feedback record ID
+        """
+        # Generate a unique ID for this feedback record
+        feedback_id = str(uuid.uuid4())
+        
+        # Calculate diff if correction provided
+        diff = None
+        if feedback_type == "corrected" and corrected_message:
+            diff = self._calculate_diff(original_message, corrected_message)
+        
+        # Create feedback record
+        timestamp = datetime.now().isoformat()
+        feedback_record = {
+            "id": feedback_id,
+            "message_id": message_id,
+            "original_message": original_message,
+            "corrected_message": corrected_message,
+            "feedback_type": feedback_type,
+            "channel": channel,
+            "timestamp": timestamp,
+            "diff": diff,
+            "metadata": metadata or {}
+        }
+        
+        # Add to feedback records
+        self.feedback_data["feedback_records"].append(feedback_record)
+        
+        # Update stats
+        self.feedback_data["stats"]["total"] += 1
+        if feedback_type in self.feedback_data["stats"]:
+            self.feedback_data["stats"][feedback_type] += 1
+        else:
+            self.feedback_data["stats"][feedback_type] = 1
+        
+        # Save feedback data
+        self._save_feedback_data()
+        
+        # If this is a correction, add it to the learning dataset
+        if feedback_type == "corrected" and corrected_message:
+            self._add_to_learning_dataset(original_message, corrected_message, channel)
+        
+        return feedback_id
+    
+    def _calculate_diff(self, original, corrected):
+        """
+        Calculate the difference between original and corrected messages.
+        
+        Args:
+            original: Original message text
+            corrected: Corrected message text
+            
+        Returns:
+            dict: Diff information
+        """
+        # Split into words for better diff
+        original_words = original.split()
+        corrected_words = corrected.split()
+        
+        # Get diff
+        diff = list(difflib.ndiff(original_words, corrected_words))
+        
+        # Extract additions and removals
+        additions = [word[2:] for word in diff if word.startswith('+ ')]
+        removals = [word[2:] for word in diff if word.startswith('- ')]
+        
+        return {
+            "additions": additions,
+            "removals": removals,
+            "diff_text": '\n'.join(diff)
+        }
+    
+    def _add_to_learning_dataset(self, original_message, corrected_message, channel=None):
+        """
+        Add a correction to the learning dataset for future model improvements.
+        
+        Args:
+            original_message: The original message text
+            corrected_message: The corrected version of the message
+            channel: Optional communication channel (text, email, etc.)
+        """
+        learning_dir = os.path.join(DATA_DIR, 'learning')
+        os.makedirs(learning_dir, exist_ok=True)
+        
+        learning_path = os.path.join(learning_dir, 'corrections.json')
+        
+        # Load existing learning data
+        learning_data = []
+        if os.path.exists(learning_path):
+            try:
+                with open(learning_path, 'r') as f:
+                    learning_data = json.load(f)
+            except Exception as e:
+                print(f"Error loading learning data: {str(e)}")
+        
+        # Add new correction example
+        learning_data.append({
+            "original": original_message,
+            "corrected": corrected_message,
+            "channel": channel,
+            "timestamp": datetime.now().isoformat()
+        })
+        
+        # Save learning data
+        try:
+            with open(learning_path, 'w') as f:
+                json.dump(learning_data, f, indent=2)
+            print(f"Added correction to learning dataset: {learning_path}")
+        except Exception as e:
+            print(f"Error saving learning data: {str(e)}")
+    
+    def get_learning_examples(self, days_ago=None, limit=100):
+        """
+        Get learning examples from the corrections dataset.
+        
+        Args:
+            days_ago: Optional filter for examples from the last X days
+            limit: Maximum number of examples to return
+            
+        Returns:
+            list: Learning examples
+        """
+        learning_path = os.path.join(DATA_DIR, 'learning', 'corrections.json')
+        
+        if os.path.exists(learning_path):
+            try:
+                with open(learning_path, 'r') as f:
+                    learning_data = json.load(f)
+                    
+                    # Apply date filter if specified
+                    if days_ago is not None:
+                        cutoff_date = (datetime.now() - timedelta(days=days_ago)).isoformat()
+                        learning_data = [example for example in learning_data 
+                                        if example.get('timestamp', '') >= cutoff_date]
+                    
+                    # Apply limit and return newest first
+                    learning_data = sorted(learning_data, key=lambda x: x.get('timestamp', ''), reverse=True)
+                    return learning_data[:limit]
+            except Exception as e:
+                print(f"Error loading learning data: {str(e)}")
+        
+        return []
+    
+    def get_feedback_stats(self, days_ago=None, user_id=None):
+        """
+        Get feedback statistics.
+        
+        Args:
+            days_ago: Optional filter for stats from the last X days
+            user_id: Optional user ID to get stats for a specific user
+            
+        Returns:
+            dict: Feedback statistics
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        # If using a different user_id than the instance's, load that user's feedback data
+        if target_user_id != self.user_id:
+            target_feedback_path = os.path.join(FEEDBACK_DIR, f'{target_user_id}_feedback.json')
+            if os.path.exists(target_feedback_path):
+                try:
+                    with open(target_feedback_path, 'r') as f:
+                        target_feedback_data = json.load(f)
+                except Exception as e:
+                    print(f"Error loading feedback data for user {target_user_id}: {str(e)}")
+                    return {"total": 0, "error": f"Failed to load feedback data: {str(e)}"}
+            else:
+                print(f"No feedback data found for user: {target_user_id}")
+                return {"total": 0}
+        else:
+            target_feedback_data = self.feedback_data
+        
+        if days_ago is None:
+            return target_feedback_data["stats"]
+        
+        # Calculate stats for the specified time period
+        cutoff_date = (datetime.now() - timedelta(days=days_ago)).isoformat()
+        filtered_records = [r for r in target_feedback_data["feedback_records"] 
+                           if r.get('timestamp', '') >= cutoff_date]
+        
+        # Calculate stats
+        stats = {"total": len(filtered_records)}
+        for record in filtered_records:
+            feedback_type = record.get("feedback_type")
+            if feedback_type in stats:
+                stats[feedback_type] += 1
+        if days_ago is not None:
+            cutoff_date = (datetime.now() - timedelta(days=days_ago)).isoformat()
+            records = [r for r in records if r.get('timestamp', '') >= cutoff_date]
+        
+        # Apply feedback type filter
+        if feedback_type:
+            records = [r for r in records if r["feedback_type"] == feedback_type]
+        
+        # Apply channel filter
+        if channel:
+            records = [r for r in records if r["channel"] == channel]
+        
+        # Sort by timestamp (newest first)
+        records = sorted(records, key=lambda r: r["timestamp"], reverse=True)
+        
+        # Apply limit
+        return records[:limit]
+
+    def generate_training_examples(self, min_confidence=0.8, user_id=None):
+        """
+        Generate training examples from corrected messages.
+        
+        Args:
+            min_confidence: Minimum confidence score for examples
+            user_id: Optional user ID to generate examples for a specific user
+            
+        Returns:
+            list: Training examples
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        training_examples = []
+        
+        # Get all corrected messages for the specific user
+        corrected_records = self.get_feedback_records(feedback_type="corrected", user_id=target_user_id)
+        
+        print(f"Generating training examples for user: {target_user_id}")
+        print(f"Found {len(corrected_records)} corrected records")
+        
+        for record in corrected_records:
+            # Skip if learning status is already processed
+            if record.get("learning_status") == "processed":
+                continue
+                
+            # Create training example
+            example = {
+                "original": record["original_message"],
+                "corrected": record["corrected_message"],
+                "channel": record["channel"],
+                "confidence": 0.9,  # High confidence for manual corrections
+                "source": "feedback"
+            }
+            
+            training_examples.append(example)
+            
+            # Update learning status
+            record["learning_status"] = "processed"
+        
+        # Save updated feedback data
+        if target_user_id == self.user_id:
+            self._save_feedback_data()
+        else:
+            # Save to the specific user's feedback data
+            target_feedback_path = os.path.join(FEEDBACK_DIR, f'{target_user_id}_feedback.json')
+            try:
+                with open(target_feedback_path, 'r') as f:
+                    target_feedback_data = json.load(f)
+                
+                # Update learning status in the target user's feedback data
+                for record in target_feedback_data["feedback_records"]:
+                    if record.get("feedback_type") == "corrected" and record.get("learning_status") != "processed":
+                        record["learning_status"] = "processed"
+                
+                with open(target_feedback_path, 'w') as f:
+                    json.dump(target_feedback_data, f, indent=2)
+            except Exception as e:
+                print(f"Error updating feedback data for user {target_user_id}: {str(e)}")
+        
+        return training_examples
+
+    def enhance_system_prompt(self, base_prompt, channel=None, user_id=None):
+        """
+        Enhance the system prompt based on feedback patterns.
+        
+        This method analyzes both rejected and corrected responses to identify
+        patterns and enhance the system prompt for better responses.
+        
+        Args:
+            base_prompt: The base system prompt to enhance
+            channel: Optional channel filter (email, text, etc.)
+            user_id: Optional user ID to enhance prompt for a specific user
+            
+        Returns:
+            str: Enhanced system prompt
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        print(f"Enhancing system prompt for user: {target_user_id}")
+        
+        # First enhance with rejection patterns
+        enhanced_prompt = self._enhance_with_rejection_patterns(base_prompt, channel, target_user_id)
+        
+        # Then enhance with correction examples
+        enhanced_prompt = self._enhance_with_correction_examples(enhanced_prompt, channel, target_user_id)
+        
+        return enhanced_prompt
+
+    def _enhance_with_rejection_patterns(self, base_prompt, channel=None, user_id=None):
+        """
+        Enhance system prompt based on patterns in rejected responses.
+        
+        Args:
+            base_prompt: Base system prompt
+            channel: Optional channel filter
+            user_id: Optional user ID to enhance prompt for a specific user
+            
+        Returns:
+            str: Enhanced prompt with rejection patterns
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        # Get recent rejections (last 7 days, limit 10)
+        recent_rejections = self.get_feedback_records(
+            feedback_type="rejected", 
+            days_ago=7,
+            limit=10,
+            user_id=target_user_id
+        )
+        
+        if channel:
+            # Filter by channel if specified
+            recent_rejections = [r for r in recent_rejections if r.get("channel") == channel]
+        
+        if not recent_rejections:
+            return base_prompt
+            
+        # Analyze rejection patterns
+        rejection_patterns = []
+        
+        # Load chat history to analyze context
+        chat_history = self._load_chat_history(user_id=target_user_id)
+        
+        for record in recent_rejections:
+            original_msg = record["original_message"].lower() if record["original_message"] else ""
+            message_id = record.get("message_id")
+            
+            # Skip if no message content
+            if not original_msg:
+                continue
+                
+            # Get preceding user message if available
+            preceding_msg = self._get_preceding_user_message(message_id, chat_history)
+            
+            # Pattern detection based on message content and context
+            
+            # Pattern 1: Message similarity (clone repeating user)
+            if preceding_msg and self._calculate_text_similarity(preceding_msg, original_msg) > 0.7:
+                if record.get("channel") == "email":
+                    rejection_patterns.append("In email responses, don't repeat the question. Provide a substantive answer that addresses the query.")
+                else:
+                    rejection_patterns.append("Avoid repeating the user's message. Provide a substantive response that adds new information.")
+            
+            # Pattern 2: Style issues in email
+            if record.get("channel") == "email" and any(word in original_msg for word in ["u ", "ur ", "gonna", "wanna", "idk"]):
+                rejection_patterns.append("In email communications, use proper spelling and grammar. Avoid casual abbreviations like 'u' instead of 'you'.")
+            
+            # Pattern 3: One-word responses to questions
+            if len(original_msg.split()) <= 2 and preceding_msg and preceding_msg.strip().endswith("?"):
+                rejection_patterns.append("When answering questions, provide complete responses with context, not just one or two words.")
+            
+            # Pattern 4: Generic non-informative responses
+            if original_msg in ["idk", "i don't know", "not sure", "maybe"] and len(original_msg.split()) <= 3:
+                rejection_patterns.append("Avoid generic uninformative responses like 'idk' or 'not sure' without additional context or explanation.")
+        
+        # Add unique patterns to prompt
+        unique_patterns = list(set(rejection_patterns))
+        if unique_patterns:
+            enhanced_prompt = base_prompt + "\n\nAvoid these patterns that have been rejected:\n• " + "\n• ".join(unique_patterns)
+            return enhanced_prompt
+        
+        return base_prompt
+
+    def _enhance_with_correction_examples(self, base_prompt, channel=None, user_id=None):
+        """
+        Enhance system prompt with examples from corrected responses.
+        
+        Args:
+            base_prompt: Base system prompt
+            channel: Optional channel filter
+            user_id: Optional user ID to enhance prompt for a specific user
+            
+        Returns:
+            str: Enhanced prompt with correction examples
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        # Get recent corrections (last 7 days, limit 5)
+        recent_corrections = self.get_feedback_records(
+            feedback_type="corrected", 
+            days_ago=7,
+            limit=5,
+            user_id=target_user_id
+        )
+        
+        if channel:
+            # Filter by channel if specified
+            recent_corrections = [r for r in recent_corrections if r.get("channel") == channel]
+        
+        if not recent_corrections:
+            return base_prompt
+            
+        # Extract examples from corrections
+        correction_examples = []
+        for record in recent_corrections:
+            original = record.get("original_message")
+            corrected = record.get("corrected_message")
+            
+            # Skip if missing data
+            if not original or not corrected:
+                continue
+                
+            # Add specific example
+            correction_examples.append(f"Instead of: '{original}'\nPrefer: '{corrected}'")
+        
+        # Add to base prompt
+        if correction_examples:
+            enhanced_prompt = base_prompt + "\n\nLearn from these correction examples:\n" + "\n\n".join(correction_examples)
+            return enhanced_prompt
+        
+        return base_prompt
+
+    def _get_preceding_user_message(self, message_id, chat_history=None, user_id=None):
+        """
+        Get the user message that preceded the given message.
+        
+        Args:
+            message_id: ID of the message to find predecessor for
+            chat_history: Optional pre-loaded chat history
+            user_id: Optional user ID to get message for a specific user
+            
+        Returns:
+            str or None: Text of preceding user message if found
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        if not chat_history:
+            chat_history = self._load_chat_history(user_id=target_user_id)
+            
+        if not chat_history:
+            return None
+            
+        # Search through conversations
+        for conversation in chat_history.get("conversations", []):
+            messages = conversation.get("messages", [])
+            
+            # Find the target message index
+            target_idx = None
+            for i, msg in enumerate(messages):
+                if msg.get("id") == message_id:
+                    target_idx = i
+                    break
+            
+            # If found and not the first message, get preceding user message
+            if target_idx is not None and target_idx > 0:
+                # Look for the most recent user message before this one
+                for i in range(target_idx - 1, -1, -1):
+                    if messages[i].get("sender") == "user":
+                        return messages[i].get("text")
+        
+        return None
+
+    def _calculate_text_similarity(self, text1, text2):
+        """
+        Calculate similarity between two text strings.
+        
+        Args:
+            text1: First text string
+            text2: Second text string
+            
+        Returns:
+            float: Similarity score between 0 and 1
+        """
+        if not text1 or not text2:
+            return 0
+            
+        # Normalize texts
+        text1 = text1.lower().strip()
+        text2 = text2.lower().strip()
+        
+        # Use difflib to calculate similarity
+        import difflib
+        return difflib.SequenceMatcher(None, text1, text2).ratio()
+
+    def _migrate_chat_history(self):
+        """
+        Migrate default chat history to user-specific chat history if needed.
+        """
+        # Skip for default user
+        if self.user_id == "default":
+            return
+            
+        # Check if user-specific chat history exists
+        if os.path.exists(self.chat_history_path):
+            print(f"User-specific chat history already exists for user: {self.user_id}")
+            return
+            
+        # Check if default chat history exists
+        if not os.path.exists(DEFAULT_CHAT_HISTORY_PATH):
+            print(f"Default chat history does not exist, creating empty user-specific chat history")
+            # Create empty chat history
+            empty_chat_history = {
+                "conversations": []
+            }
+            with open(self.chat_history_path, 'w') as f:
+                json.dump(empty_chat_history, f, indent=2)
+            return
+            
+        # Copy default chat history to user-specific chat history
+        try:
+            with open(DEFAULT_CHAT_HISTORY_PATH, 'r') as f:
+                chat_history = json.load(f)
+                
+            with open(self.chat_history_path, 'w') as f:
+                json.dump(chat_history, f, indent=2)
+                
+            print(f"Created user-specific chat history for user: {self.user_id}")
+        except Exception as e:
+            print(f"Error migrating chat history: {str(e)}")
+
+    def _load_chat_history(self, user_id=None):
+        """
+        Load chat history from file.
+        
+        Args:
+            user_id: Optional user ID to load chat history for a specific user
+            
+        Returns:
+            dict: Chat history data or None if file not found
+        """
+        # Use provided user_id or fall back to instance's user_id
+        target_user_id = user_id if user_id is not None else self.user_id
+        
+        # Determine the chat history path for the target user
+        target_chat_history_path = os.path.join(CHAT_HISTORY_DIR, f'{target_user_id}_chat_history.json')
+        
+        try:
+            # Try to load user-specific chat history
+            if os.path.exists(target_chat_history_path):
+                print(f"Loading chat history for user: {target_user_id}")
+                with open(target_chat_history_path, 'r') as f:
+                    return json.load(f)
+            
+        
+        # Calculate Jaccard similarity
+        intersection = len(words1.intersection(words2))
+        union = len(words1.union(words2))
+        
+        return intersection / union if union > 0 else 0
+
+# Example usage
+if __name__ == "__main__":
+    # Initialize feedback system
+    feedback_system = FeedbackSystem()
+    
+    # Record feedback
+    feedback_id = feedback_system.record_feedback(
+        message_id="test_message_id",
+        original_message="Hello, how are you?",
+        corrected_message="Hey there! How's it going?",
+        feedback_type="corrected",
+        channel="text"
+    )
+    
+    print(f"Recorded feedback with ID: {feedback_id}")
+    
+    # Get feedback stats
+    stats = feedback_system.get_feedback_stats()
+    print(f"Feedback stats: {stats}")

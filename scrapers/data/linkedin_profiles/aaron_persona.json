@@ -1,0 +1,39 @@
+{
+  "basic_info": {
+    "name": "Aaron Chang",
+    "headline": "ECE @ UT",
+    "location": "Coppell, Texas, United States"
+  },
+  "about": "The University of Texas at Austin",
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "Amazon Web Services (AWS) \u00b7 Internship\nAmazon Web Services (AWS) \u00b7 Internship",
+      "duration": "Jun 2024 - Sep 2024 \u00b7 4 mos\nJun 2024 to Sep 2024 \u00b7 4 mos"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Amazon \u00b7 Internship\nAmazon \u00b7 Internship",
+      "duration": "Jun 2023 - Aug 2023 \u00b7 3 mos\nJun 2023 to Aug 2023 \u00b7 3 mos"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "HubSpot \u00b7 Internship\nHubSpot \u00b7 Internship",
+      "duration": "Jan 2023 - Jun 2023 \u00b7 6 mos\nJan 2023 to Jun 2023 \u00b7 6 mos"
+    }
+  ],
+  "education": [
+    {
+      "school": "The University of Texas at Austin",
+      "degree": "Bachelor of Engineering - BE, Electrical and Electronics Engineering\nBachelor of Engineering - BE, Electrical and Electronics Engineering",
+      "dates": "2020 - Dec 2024\n2020 - Dec 2024"
+    },
+    {
+      "school": "National Taiwan University",
+      "degree": "Bachelor of Engineering - BE, Computer Science\nBachelor of Engineering - BE, Computer Science",
+      "dates": "Aug 2023 - Dec 2023\nAug 2023 - Dec 2023"
+    }
+  ],
+  "skills": [],
+  "interests": []
+}

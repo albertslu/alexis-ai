@@ -1,0 +1,37 @@
+{
+  "basic_info": {
+    "name": "Brandon Kim",
+    "headline": "Technical Sales Engineer at Ciena",
+    "location": "United States"
+  },
+  "about": "I am currently working full-time as a Technical Sales Engineer for Ciena. I am proud to be apart of class 11 of the Technical Sales and Development Program (TSDP11). I am located in Alpharetta, Georgia, but originally from Houston, Texas. I recently graduated from the University of Texas at Austin in May 2024 with a major in economics and a minor in Finance.",
+  "experience": [
+    {
+      "title": "Technical Sales Engineer",
+      "company": "Ciena",
+      "duration": "Jul 2024 - Present \u00b7 10 mos"
+    },
+    {
+      "title": "Resident Assistant",
+      "company": "The University of Texas at Austin",
+      "duration": "Jan 2023 - May 2024 \u00b7 1 yr 5 mos"
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "KK Consulting",
+      "duration": "May 2023 - Aug 2023 \u00b7 4 mos"
+    }
+  ],
+  "education": [
+    {
+      "school": "The University of Texas at Austin",
+      "degree": "",
+      "field": "Economics, Minor in Finance",
+      "dates": "2020 - 2024"
+    }
+  ],
+  "skills": [
+    ""
+  ],
+  "access_level": "full"
+}

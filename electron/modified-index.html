@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="./">
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Alexis AI - iMessage response suggestions in your style" />
+  <link rel="apple-touch-icon" href="./logo192.png" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <title>Alexis AI</title>
+  <!-- Modified to use relative paths instead of absolute paths -->
+  <script>
+    // Debug script to help diagnose issues
+    console.log('Index.html loaded');
+    window.onerror = function(message, source, lineno, colno, error) {
+      console.error('JavaScript error:', message, 'at', source, ':', lineno, ':', colno);
+      console.error('Error object:', error);
+      
+      // Create an error display
+      const errorDiv = document.createElement('div');
+      errorDiv.style.backgroundColor = '#ffebee';
+      errorDiv.style.padding = '15px';
+      errorDiv.style.margin = '20px';
+      errorDiv.style.borderRadius = '5px';
+      errorDiv.style.border = '1px solid #ef5350';
+      errorDiv.style.fontFamily = 'Arial, sans-serif';
+      
+      const errorTitle = document.createElement('h2');
+      errorTitle.textContent = 'JavaScript Error';
+      errorDiv.appendChild(errorTitle);
+      
+      const errorMessage = document.createElement('pre');
+      errorMessage.textContent = message + '\nAt: ' + source + ':' + lineno + ':' + colno;
+      errorMessage.style.backgroundColor = '#f5f5f5';
+      errorMessage.style.padding = '10px';
+      errorMessage.style.borderRadius = '5px';
+      errorMessage.style.overflow = 'auto';
+      errorDiv.appendChild(errorMessage);
+      
+      // Add to body if it exists
+      if (document.body) {
+        document.body.appendChild(errorDiv);
+      } else {
+        // If body doesn't exist yet, wait for it
+        window.addEventListener('DOMContentLoaded', function() {
+          document.body.appendChild(errorDiv);
+        });
+      }
+      
+      return false; // Let default error handler run
+    };
+  </script>
+  <script defer="defer" src="./static/js/main.43891bc1.js"></script>
+  <link href="./static/css/main.b88f3d69.css" rel="stylesheet">
+  <script>
+    // For Electron: Redirect to login page and add debugging
+    window.addEventListener('DOMContentLoaded', function() {
+      console.log('DOMContentLoaded event fired');
+      
+      // Check if we're running in Electron
+      const isElectron = window.navigator.userAgent.toLowerCase().indexOf('electron') > -1;
+      console.log('Running in Electron:', isElectron);
+      
+      // Debug React mounting
+      const rootElement = document.getElementById('root');
+      console.log('Root element found:', rootElement !== null);
+      
+      // Set a timer to check if React has mounted content
+      const checkReactInterval = setInterval(function() {
+        if (rootElement && rootElement.children.length > 0) {
+          console.log('React has mounted content to root element');
+          clearInterval(checkReactInterval);
+          
+          // If we're in Electron, redirect to login page after React has mounted
+          if (isElectron) {
+            console.log('Redirecting to /login');
+            // Use window.location.href for the redirect
+            // This will work with react-router because we're using BrowserRouter
+            window.location.href = './login';
+          }
+        } else {
+          console.log('Waiting for React to mount content...');
+        }
+      }, 500);
+      
+      // Timeout after 10 seconds
+      setTimeout(function() {
+        clearInterval(checkReactInterval);
+        console.log('React mount check timed out after 10 seconds');
+      }, 10000);
+    });
+  </script>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+</html>

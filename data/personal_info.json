@@ -1,0 +1,48 @@
+{
+  "name": "Albert Lu",
+  "personal_facts": [
+    {
+      "category": "education",
+      "facts": [
+        "Studied Bachelor of Science - BS, Computer Engineering at The University of Texas at Austin",
+        "Studied High School Diploma, Computer Science at Coppell High School",
+        "Attended The University of Texas at Austin during 2020 - Dec 2024",
+        "Attended Coppell High School during 2016 - 2020"
+      ]
+    },
+    {
+      "category": "work",
+      "facts": [
+        "Wedding Photographer at The Knot Worldwide \u00b7 Contract for May 2024 - Present \u00b7 11 mos",
+        "Freelance Photographer at Thumbtack \u00b7 Freelance for Aug 2023 - Present \u00b7 1 yr 8 mos",
+        "Founder at Stealth Startup for Dec 2024 - Present \u00b7 4 mos"
+      ]
+    },
+    {
+      "category": "professional",
+      "facts": [
+        "Founder @ Stealth Startup | ECE at UT Austin",
+        "Full name is Albert Lu"
+      ]
+    },
+    {
+      "category": "location",
+      "facts": [
+        "Based in Dallas-Fort Worth Metroplex"
+      ]
+    },
+    {
+      "category": "interests",
+      "facts": [
+        "grappling"
+      ]
+    },
+    {
+      "category": "preferences",
+      "facts": [
+        "anything but fighting"
+      ]
+    }
+  ],
+  "last_updated": "2025-03-21T23:40:35.856213"
+}

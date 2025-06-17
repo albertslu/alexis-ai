@@ -1,0 +1,456 @@
+#!/usr/bin/env python
+"""
+LinkedIn Profile Scraper
+
+This module extracts public information from LinkedIn profiles using Selenium
+with a pre-authenticated session via cookies.
+"""
+
+import json
+import time
+import os
+from pathlib import Path
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+
+
+class LinkedInScraper:
+    """LinkedIn profile scraper using Selenium with cookie-based authentication"""
+    
+    def __init__(self, cookies_path=None, headless=True):
+        """
+        Initialize the LinkedIn scraper
+        
+        Args:
+            cookies_path (str): Path to the cookies.json file for authentication
+            headless (bool): Whether to run the browser in headless mode
+        """
+        self.cookies_path = cookies_path
+        self.headless = headless
+        self.driver = None
+        
+    def start_browser(self):
+        """Start a new browser session"""
+        options = Options()
+        if self.headless:
+            options.add_argument('--headless')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-notifications')
+        options.add_argument('--disable-popup-blocking')
+        options.add_argument('--start-maximized')
+        
+        # Set user agent to avoid detection
+        options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36')
+        
+        self.driver = webdriver.Chrome(options=options)
+        self.driver.implicitly_wait(10)  # seconds
+        
+    def load_cookies(self):
+        """Load cookies from file to maintain LinkedIn session"""
+        if not self.cookies_path or not os.path.exists(self.cookies_path):
+            print("No cookies file found. You'll need to create one with save_cookies.py")
+            return False
+            
+        # First, visit LinkedIn domain to set cookies
+        self.driver.get("https://www.linkedin.com")
+        time.sleep(2)
+        
+        # Load cookies from file
+        with open(self.cookies_path, 'r') as f:
+            cookies = json.load(f)
+            
+        # Add cookies to browser
+        for cookie in cookies:
+            # Some cookies can cause issues, so try each one separately
+            try:
+                self.driver.add_cookie(cookie)
+            except Exception as e:
+                print(f"Error adding cookie: {e}")
+                
+        # Refresh page to apply cookies
+        self.driver.refresh()
+        time.sleep(1)  # Reduced from 3 seconds
+        
+        # Check if we're logged in
+        if "Sign in" in self.driver.page_source or "Join now" in self.driver.page_source:
+            print("Cookie authentication failed. Please update your cookies.")
+            return False
+            
+        return True
+        
+    def scrape_profile(self, profile_url, timeout=60):
+        """Scrape a LinkedIn profile and extract relevant information
+        
+        Args:
+            profile_url (str): URL of the LinkedIn profile to scrape
+            timeout (int): Maximum time in seconds to spend scraping a profile
+            
+        Returns:
+            dict: Extracted profile information
+        """
+        if not self.driver:
+            self.start_browser()
+            if not self.load_cookies():
+                return {"error": "Authentication failed"}
+                
+        # Set a timeout to prevent scraping from taking too long
+        start_time = time.time()
+        
+        try:
+            # Navigate to profile with improved page loading strategy
+            print(f"Navigating to {profile_url}")
+            self.driver.set_page_load_timeout(20)  # Set page load timeout
+            self.driver.get(profile_url)
+            
+            # Wait for initial page load with a short timeout
+            try:
+                WebDriverWait(self.driver, 5).until(
+                    EC.presence_of_element_located((By.TAG_NAME, 'body'))
+                )
+            except TimeoutException:
+                print("Initial page load timeout, continuing anyway...")
+            
+            # Check if we hit a login wall
+            if "Sign in" in self.driver.page_source and "Join now" in self.driver.page_source:
+                return {"error": "Login required to view this profile"}
+            
+            # Initialize profile data dictionary
+            profile_data = {
+                "basic_info": {},
+                "about": "",
+                "experience": [],
+                "education": [],
+                "skills": [],
+                "interests": []
+            }
+            
+            # Scroll down slightly to trigger lazy loading
+            self.driver.execute_script("window.scrollBy(0, 300);")
+            
+            print("Starting profile extraction...")
+            
+            # Extract basic info with improved selectors and error handling
+            print("Extracting basic profile info...")
+            
+            # Scroll to top of profile to ensure elements are visible
+            self.driver.execute_script("window.scrollTo(0, 0);")
+            time.sleep(0.5)  # Brief pause to let the UI settle
+            
+            try:
+                
+                # Name extraction with multiple selectors
+                name_selectors = [
+                    '//h1[contains(@class, "text-heading-xlarge")]',
+                    '//h1',
+                    '//div[contains(@class, "pv-text-details__left-panel")]/div[1]',
+                    '//div[contains(@class, "display-flex")]/h1'
+                ]
+                
+                for selector in name_selectors:
+                    try:
+                        name = self.driver.find_element(By.XPATH, selector).text
+                        if name and len(name.strip()) > 1:
+                            profile_data["basic_info"]["name"] = name.strip()
+                            break
+                    except (NoSuchElementException, StaleElementReferenceException):
+                        continue
+                        
+                if "name" not in profile_data["basic_info"] or not profile_data["basic_info"]["name"]:
+                    profile_data["basic_info"]["name"] = "Not found"
+                
+                # Headline extraction with multiple selectors
+                headline_selectors = [
+                    '//div[contains(@class, "text-body-medium")]',
+                    '//div[contains(@class, "pv-text-details__left-panel")]/div[2]',
+                    '//div[contains(@class, "ph5")]/div[2]',
+                    '//div[contains(@class, "display-flex")]/div[contains(@class, "text-body")]'
+                ]
+                
+                for selector in headline_selectors:
+                    try:
+                        headline = self.driver.find_element(By.XPATH, selector).text
+                        if headline and len(headline.strip()) > 1:
+                            profile_data["basic_info"]["headline"] = headline.strip()
+                            break
+                    except (NoSuchElementException, StaleElementReferenceException):
+                        continue
+                        
+                if "headline" not in profile_data["basic_info"] or not profile_data["basic_info"]["headline"]:
+                    profile_data["basic_info"]["headline"] = "Not found"
+                
+                # Location extraction with multiple selectors
+                location_selectors = [
+                    '//span[contains(@class, "text-body-small")][contains(@class, "inline")]',
+                    '//div[contains(@class, "pv-text-details__left-panel")]/span[1]',
+                    '//div[contains(@class, "pb2")]/span[1]',
+                    '//span[contains(@class, "text-body-small") and contains(text(), "Austin")]'
+                ]
+                
+                for selector in location_selectors:
+                    try:
+                        location = self.driver.find_element(By.XPATH, selector).text
+                        if location and len(location.strip()) > 1:
+                            profile_data["basic_info"]["location"] = location.strip()
+                            break
+                    except (NoSuchElementException, StaleElementReferenceException):
+                        continue
+                        
+                if "location" not in profile_data["basic_info"] or not profile_data["basic_info"]["location"]:
+                    profile_data["basic_info"]["location"] = "Not found"
+            
+            # Extract About section with improved selectors
+            try:
+                # Try multiple selectors for the About section
+                about_selectors = [
+                    '//div[contains(@class, "display-flex")][./span[text()="About"]]/following-sibling::div',
+                    '//section[.//span[text()="About"]]//div[contains(@class, "display-flex")]/span[1]',
+                    '//section[contains(@class, "summary")]//p',
+                    '//div[contains(@class, "inline-show-more-text")]'
+                ]
+                
+                for selector in about_selectors:
+                    try:
+                        about_section = self.driver.find_element(By.XPATH, selector)
+                        about_text = about_section.text.strip()
+                        if about_text and len(about_text) > 5:
+                            profile_data["about"] = about_text
+                            break
+                    except (NoSuchElementException, StaleElementReferenceException):
+                        continue
+            except Exception:
+                profile_data["about"] = ""
+            
+            # Check if we've exceeded the timeout
+            if time.time() - start_time > timeout:
+                print("Timeout exceeded, returning partial data...")
+                return {"error": "Scraping timeout exceeded", "partial_data": profile_data}
+                
+            # Extract Experience
+            try:
+                print("Extracting work experience...")
+                start_exp_time = time.time()
+                # Try different possible XPaths for experience section
+                try:
+                    experience_section = self.driver.find_element(By.XPATH, '//section[.//span[text()="Experience"]]')
+                except NoSuchElementException:
+                    experience_section = self.driver.find_element(By.XPATH, '//section[contains(@class, "experience")]')
+                
+                experience_items = experience_section.find_elements(By.XPATH, './/ul/li')
+                
+                # Limit to maximum 3 experience items to avoid excessive processing
+                print(f"Found {len(experience_items)} experience items, processing up to 3")
+                for item in experience_items[:3]:
+                    # Check if we've exceeded the timeout during experience extraction
+                    if time.time() - start_time > timeout * 0.7:  # Use 70% of total timeout as cutoff
+                        print("Experience extraction taking too long, moving on...")
+                        break
+                        
+                    experience = {}
+                    
+                    # Enhanced extraction with better selectors for modern LinkedIn profiles
+                    # Job title - targeting the role title specifically
+                    try:
+                        title_elements = item.find_elements(By.XPATH, './/div[contains(@class, "display-flex")]/span[1] | .//span[contains(@class, "t-bold")] | .//h3')
+                        if title_elements:
+                            for element in title_elements:
+                                if element.text and len(element.text) > 1:
+                                    experience["title"] = element.text
+                                    break
+                        if "title" not in experience:
+                            experience["title"] = "Not found"
+                    except NoSuchElementException:
+                        experience["title"] = "Not found"
+                    
+                    # Company name - targeting the company name specifically
+                    try:
+                        company_elements = item.find_elements(By.XPATH, './/p[contains(@class, "t-normal")]/span | .//span[contains(@class, "t-normal")][contains(@class, "t-black")] | .//h4')
+                        if company_elements:
+                            for element in company_elements:
+                                if element.text and len(element.text) > 1 and "Present" not in element.text and "mos" not in element.text:
+                                    experience["company"] = element.text
+                                    break
+                        if "company" not in experience:
+                            experience["company"] = "Not found"
+                    except NoSuchElementException:
+                        experience["company"] = "Not found"
+                    
+                    # Duration
+                    try:
+                        experience["duration"] = item.find_element(By.XPATH, './/span[contains(@class, "t-black--light")] | .//span[contains(text(), "-")]').text
+                    except NoSuchElementException:
+                        experience["duration"] = "Not found"
+                    
+                    profile_data["experience"].append(experience)
+            except NoSuchElementException:
+                pass
+            
+            # Check if we've exceeded the timeout
+            if time.time() - start_time > timeout:
+                print("Timeout exceeded, returning partial data...")
+                return {"error": "Scraping timeout exceeded", "partial_data": profile_data}
+                
+            # Extract Education
+            try:
+                print("Extracting education history...")
+                start_edu_time = time.time()
+                # Try different possible XPaths for education section
+                try:
+                    education_section = self.driver.find_element(By.XPATH, '//section[.//span[text()="Education"]]')
+                except NoSuchElementException:
+                    education_section = self.driver.find_element(By.XPATH, '//section[contains(@class, "education")]')
+                    
+                education_items = education_section.find_elements(By.XPATH, './/ul/li')
+                
+                # Process all education items since they're important
+                print(f"Found {len(education_items)} education items, processing all")
+                for item in education_items:
+                    # Check if we've exceeded the timeout during education extraction
+                    if time.time() - start_time > timeout * 0.9:  # Use 90% of total timeout as cutoff
+                        print("Education extraction taking too long, moving on...")
+                        break
+                        
+                    education = {}
+                    
+                    # Enhanced extraction with better selectors for modern LinkedIn profiles
+                    # School name - targeting the school name specifically
+                    try:
+                        # First try to get the image alt text which often contains the school name
+                        try:
+                            school_img = item.find_element(By.XPATH, './/img')
+                            school_name = school_img.get_attribute('alt')
+                            if school_name and len(school_name) > 1:
+                                education["school"] = school_name
+                        except NoSuchElementException:
+                            pass
+                            
+                        # If we didn't get the school name from the image, try text elements
+                        if "school" not in education or not education["school"]:
+                            school_elements = item.find_elements(By.XPATH, './/div[contains(@class, "display-flex")]/span[1] | .//span[contains(@class, "t-bold")] | .//h3')
+                            for element in school_elements:
+                                if element.text and len(element.text) > 1:
+                                    education["school"] = element.text
+                                    break
+                                    
+                        if "school" not in education or not education["school"]:
+                            education["school"] = "Not found"
+                    except Exception:
+                        education["school"] = "Not found"
+                    
+                    # Degree and field of study
+                    try:
+                        degree_elements = item.find_elements(By.XPATH, './/span[contains(@class, "t-black")] | .//p[contains(@class, "t-normal")] | .//span[contains(text(), "Bachelor")]')
+                        for element in degree_elements:
+                            if element.text and len(element.text) > 1 and "20" not in element.text:
+                                education["degree"] = element.text
+                                break
+                                
+                        if "degree" not in education or not education["degree"]:
+                            education["degree"] = "Not found"
+                    except Exception:
+                        education["degree"] = "Not found"
+                    
+                    profile_data["education"].append(education)
+            except NoSuchElementException:
+                pass
+            
+            # Extract Skills - improved to better find skills on modern LinkedIn profiles
+            try:
+                print("Extracting skills...")
+                skills_start_time = time.time()
+                
+                # Try multiple approaches to find skills
+                # First look for the Skills section
+                try:
+                    # Try to find the skills section
+                    skills_section = self.driver.find_element(By.XPATH, '//section[.//span[text()="Skills"]] | //section[contains(@class, "skills")]')
+                    
+                    # Try multiple selectors for skill items
+                    skill_selectors = [
+                        './/span[contains(@class, "t-bold")]',
+                        './/span[contains(@class, "display-block")]',
+                        './/div[contains(@class, "display-flex")]/span[1]',
+                        './/li//span[not(contains(text(), "Show"))]'
+                    ]
+                    
+                    for selector in skill_selectors:
+                        skill_items = skills_section.find_elements(By.XPATH, selector)
+                        if skill_items:
+                            print(f"Found {len(skill_items)} skills with selector: {selector}")
+                            for skill in skill_items:
+                                if skill.text and len(skill.text) > 1 and skill.text not in profile_data["skills"]:
+                                    profile_data["skills"].append(skill.text)
+                            
+                            # If we found skills, no need to try other selectors
+                            if profile_data["skills"]:
+                                break
+                except NoSuchElementException:
+                    pass
+                    
+                # If we still don't have skills, try looking for skill endorsements
+                if not profile_data["skills"]:
+                    try:
+                        # Look for skill tags throughout the profile
+                        skill_tags = self.driver.find_elements(By.XPATH, '//li[contains(@class, "skill")]//span | //div[contains(text(), "Git")] | //div[contains(text(), "Python")]')
+                        for tag in skill_tags:
+                            if tag.text and len(tag.text) > 1 and tag.text not in profile_data["skills"]:
+                                profile_data["skills"].append(tag.text)
+                    except NoSuchElementException:
+                        pass
+                        
+                # As a last resort, look for skill keywords in the page source
+                if not profile_data["skills"]:
+                    common_skills = ["Python", "JavaScript", "Git", "Node.js", "React", "SQL", "Java", "C++", "Machine Learning"]
+                    page_source = self.driver.page_source.lower()
+                    for skill in common_skills:
+                        if skill.lower() in page_source and skill not in profile_data["skills"]:
+                            profile_data["skills"].append(skill)
+            except NoSuchElementException:
+                pass
+            
+            return profile_data
+            
+        except Exception as e:
+            print(f"Error scraping profile: {e}")
+            return {"error": str(e)}
+        
+    def close(self):
+        """Close the browser and clean up"""
+        if self.driver:
+            self.driver.quit()
+            self.driver = None
+
+
+def scrape_linkedin_profile(profile_url, cookies_path, headless=False):
+    """Convenience function to scrape a LinkedIn profile"""
+    scraper = LinkedInScraper(cookies_path=cookies_path, headless=headless)
+    try:
+        profile_data = scraper.scrape_profile(profile_url)
+        return profile_data
+    finally:
+        scraper.close()
+
+
+if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Scrape LinkedIn profile data")
+    parser.add_argument("profile_url", help="LinkedIn profile URL to scrape")
+    parser.add_argument("--cookies", default="cookies.json", help="Path to cookies.json file")
+    parser.add_argument("--output", help="Output file path (JSON)")
+    
+    args = parser.parse_args()
+    
+    profile_data = scrape_linkedin_profile(args.profile_url, args.cookies)
+    
+    if args.output:
+        with open(args.output, 'w') as f:
+            json.dump(profile_data, f, indent=2)
+        print(f"Profile data saved to {args.output}")
+    else:
+        print(json.dumps(profile_data, indent=2))

@@ -1,0 +1,10 @@
+{
+  "feedback_records": [],
+  "stats": {
+    "total_feedback": 0,
+    "approved": 0,
+    "corrected": 0,
+    "rejected": 0,
+    "processed_for_training": 0
+  }
+}

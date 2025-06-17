@@ -1,0 +1,40 @@
+[
+  {
+    "message_id": "manual_3",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "is it good",
+    "timestamp": "2025-03-04T10:25:35.039248",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2_bert",
+        "author_name": "bert",
+        "content": "https://x.com/blessedmma/status/1896634727823753306?s=46",
+        "timestamp": "2025-03-04T10:25:35.039226"
+      },
+      {
+        "author_id": "2_bert",
+        "author_name": "bert",
+        "content": "Max Holloway (@BlessedMMA) on X",
+        "timestamp": "2025-03-04T10:25:35.039237"
+      },
+      {
+        "author_id": "2_bert",
+        "author_name": "bert",
+        "content": "Anybody else reading Solo leveling manhwa?",
+        "timestamp": "2025-03-04T10:25:35.039245"
+      }
+    ]
+  }
+]

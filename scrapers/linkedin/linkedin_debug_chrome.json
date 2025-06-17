@@ -1,0 +1,30 @@
+{
+  "partial_data": {
+    "basic_info": {
+      "name": "Kenneth Chen",
+      "headline": "Incoming PM @ Amazon | MIS + CS @ UT Austin",
+      "location": "Coppell, Texas, United States"
+    },
+    "about": "Texas McCombs School of Business",
+    "experience": [
+      {
+        "title": "Incoming PM",
+        "company": "Amazon \u00b7 Internship\nAmazon \u00b7 Internship",
+        "duration": "Jan 2025 - Present \u00b7 3 mos\nJan 2025 to Present \u00b7 3 mos"
+      },
+      {
+        "title": "Summer 2025",
+        "company": "Summer 2025",
+        "duration": "Not found"
+      },
+      {
+        "title": "Summer 2025",
+        "company": "Summer 2025",
+        "duration": "Not found"
+      }
+    ],
+    "education": [],
+    "skills": [],
+    "interests": []
+  }
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "message_id": "manual_0",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "not much, just working on this ai project",
+    "timestamp": "2025-03-04T10:06:33.025702",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "Hey, how's it going?",
+        "timestamp": "2025-03-04T10:06:33.025694"
+      }
+    ]
+  },
+  {
+    "message_id": "manual_1",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "it's a discord bot that learns to talk like me",
+    "timestamp": "2025-03-04T10:06:33.025716",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "That sounds cool! What does it do?",
+        "timestamp": "2025-03-04T10:06:33.025712"
+      }
+    ]
+  },
+  {
+    "message_id": "manual_2",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "it uses my discord messages to learn my style",
+    "timestamp": "2025-03-04T10:06:33.025727",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "How does it work?",
+        "timestamp": "2025-03-04T10:06:33.025723"
+      }
+    ]
+  },
+  {
+    "message_id": "manual_3",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "yeah that's the whole point",
+    "timestamp": "2025-03-04T10:06:33.025737",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "That's pretty impressive! Can it respond to questions too?",
+        "timestamp": "2025-03-04T10:06:33.025733"
+      }
+    ]
+  },
+  {
+    "message_id": "manual_4",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "probably not, it's just for me",
+    "timestamp": "2025-03-04T10:06:33.025753",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "Will you make it public?",
+        "timestamp": "2025-03-04T10:06:33.025750"
+      }
+    ]
+  },
+  {
+    "message_id": "manual_5",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "nothing much, just this one for now",
+    "timestamp": "2025-03-04T10:06:33.025763",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "Fair enough. What other projects are you working on?",
+        "timestamp": "2025-03-04T10:06:33.025760"
+      }
+    ]
+  },
+  {
+    "message_id": "manual_6",
+    "channel_id": "manual",
+    "channel_name": "Manual Collection",
+    "guild_id": null,
+    "guild_name": "Manual",
+    "content": "will do",
+    "timestamp": "2025-03-04T10:06:33.025772",
+    "author": {
+      "id": "1",
+      "username": "You",
+      "discriminator": "0000"
+    },
+    "has_attachments": false,
+    "mentions_users": [],
+    "mentions_roles": [],
+    "reference": null,
+    "context": [
+      {
+        "author_id": "2",
+        "author_name": "Friend",
+        "content": "Cool, let me know how it turns out",
+        "timestamp": "2025-03-04T10:06:33.025769"
+      }
+    ]
+  }
+]

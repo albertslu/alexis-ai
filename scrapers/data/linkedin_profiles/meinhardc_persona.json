@@ -1,0 +1,31 @@
+{
+  "basic_info": {
+    "name": "Meinhard Benedict Capucao",
+    "headline": "CS @ University of Texas at Dallas | Summer 2023 Intern @ Transamerica",
+    "location": "Coppell, Texas, United States"
+  },
+  "about": "Passionate student from the University of Texas at Dallas, equipped with a solid background in software development, front-end design, and machine learning. Demonstrated leadership in impactful projects, including the development of a real-time weather data visualization application and an openAI chatbot demo. Proficient in Java, Python, and web technologies. Committed to efficiency and automation, as showcased through successful internships and personal projects. Eager to contribute and grow in the tech industry.",
+  "experience": [
+    {
+      "title": "Technology Intern",
+      "company": "Transamerica",
+      "duration": "May 2023 - Aug 2023 · 4 mos"
+    }
+  ],
+  "education": [
+    {
+      "school": "The University of Texas at Dallas",
+      "degree": "",
+      "dates": ""
+    },
+    {
+      "school": "Coppell High School",
+      "degree": "",
+      "dates": "2016 to 2020"
+    }
+  ],
+  "skills": ["Amazon S3", "Java", "Python (Programming Language)", "R"],
+  "interests": [],
+  "access_level": "full",
+  "note": ""
+}

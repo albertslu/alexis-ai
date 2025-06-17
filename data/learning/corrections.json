@@ -1,0 +1,182 @@
+[
+  {
+    "original": "it was amazing, spent over a week island hopping, also did a couple days in bangkok",
+    "corrected": "it was amazing, spent a week at a muay thai camp, also stayed a couple days in bangkok",
+    "channel": "text",
+    "timestamp": "2025-03-16T13:05:44.428294"
+  },
+  {
+    "original": "Subject: Re: Hello from Scale AI\n\nhey! im still interested \ud83d\ude42",
+    "corrected": "Subject: Re: Hello from Scale AI\n\nHey, Carmen, yes I am still interested.",
+    "channel": "email",
+    "timestamp": "2025-03-16T13:06:23.551973"
+  },
+  {
+    "original": "Albert,    Thanks for the info! I don\u2019t charge any additional fees. Looking forward to the event!",
+    "corrected": "Hi Mackenzie,\nThanks for the info! I don\u2019t charge any additional fees. Looking forward to the event!",
+    "channel": "email",
+    "timestamp": "2025-03-16T13:06:55.121194"
+  },
+  {
+    "original": "oh i dont need transportation im good",
+    "corrected": "Hi Jerry, I don't need transportation, thanks though.",
+    "channel": "email",
+    "timestamp": "2025-03-16T13:07:27.396417"
+  },
+  {
+    "original": "it is going well, we just launched a beta",
+    "corrected": "it is going well, we are working on building the mvp right now",
+    "channel": "text",
+    "timestamp": "2025-03-16T13:08:04.282570"
+  },
+  {
+    "original": "hey i put it on hold for now",
+    "corrected": "Hey 10th Planet, could you extend the hold for another month?\nThanks,\nAlbert",
+    "channel": "email",
+    "timestamp": "2025-03-16T13:09:02.244283"
+  },
+  {
+    "original": "i am going to europe for a month in march",
+    "corrected": "not sure yet, need to look at flights but kind of want to travel somewhere in May",
+    "channel": "text",
+    "timestamp": "2025-03-16T13:10:06.002472"
+  },
+  {
+    "original": "I dont think so, not really planning on it",
+    "corrected": "yea going in may",
+    "channel": "text",
+    "timestamp": "2025-03-20T14:08:07.951345"
+  },
+  {
+    "original": "no trips planned yet, might go to europe in summer",
+    "corrected": "no trips planned yet, might go somewhere in the summer",
+    "channel": "text",
+    "timestamp": "2025-03-20T14:08:25.527310"
+  },
+  {
+    "original": "Hey Albert,  yes you can get a tourist visa there, I think you apply online or something like that. Also, we offer tours yea, when in June are you looking to come?  Thanks, Mahdi",
+    "corrected": "Hey Mahdi,  thanks for the information I will apply online.  Thanks, Albert",
+    "channel": "email",
+    "timestamp": "2025-03-20T14:09:31.529207"
+  },
+  {
+    "original": "oh its 1920 mckinney ave dallas tx 75201",
+    "corrected": "oh its 186 E Bethel Rd Coppell TX 78705",
+    "channel": "email",
+    "timestamp": "2025-03-20T14:09:53.300141"
+  },
+  {
+    "original": "oh its 1920 mckinney ave dallas tx 75201",
+    "corrected": "oh its 1920 mckinney ave dallas tx 75019",
+    "channel": "email",
+    "timestamp": "2025-03-20T14:09:58.893330"
+  },
+  {
+    "original": "School is going well, just a lot of work. I graduate Dec 2024.",
+    "corrected": "School is going well, just a lot of work. I graduate May 2025.",
+    "channel": "text",
+    "timestamp": "2025-03-20T14:10:20.404466"
+  },
+  {
+    "original": "oh its 1920 mckinney ave dallas tx 75201",
+    "corrected": "oh its 186 E Bethel Rd Coppell 75019",
+    "channel": "email",
+    "timestamp": "2025-03-21T23:21:45.200056"
+  },
+  {
+    "original": "mall",
+    "corrected": "what",
+    "channel": "text",
+    "timestamp": "2025-03-21T23:22:07.095740"
+  },
+  {
+    "original": "no im in dfw area",
+    "corrected": "no im in dallas",
+    "channel": "text",
+    "timestamp": "2025-03-23T22:25:08.377539"
+  },
+  {
+    "original": "no im in san francisco now",
+    "corrected": "no im in dallas now",
+    "channel": "text",
+    "timestamp": "2025-03-24T11:06:11.670202"
+  },
+  {
+    "original": "Hello,\n\noh i already checked out i just forgot to submit the intent form\n\nCheers,\nAlbert",
+    "corrected": "Hello Parth,\n\nI already checked out i just forgot to fill out the form\nCheers,\nAlbert",
+    "channel": "email",
+    "timestamp": "2025-03-24T16:36:35.279292"
+  },
+  {
+    "original": "sounds good",
+    "corrected": "sounds good, what time?",
+    "channel": "text",
+    "timestamp": "2025-03-24T16:36:59.997679"
+  },
+  {
+    "original": "Hello,\n\nhttps://github.com/albertsun1230/photography-website\n\nCheers,\nAlbert",
+    "corrected": "Hello,\n\nhttps://github.com/albertslu\nCheers,\nAlbert",
+    "channel": "email",
+    "timestamp": "2025-03-26T14:09:13.732900"
+  },
+  {
+    "original": "Of course aura is subjective but I would say Bert probably had the most, then Shrey, then Aarya, Aaron last",
+    "corrected": "Probably bert has the most, then Shrey, then Aarya, Aaron last",
+    "channel": "imessage",
+    "timestamp": "2025-03-26T15:00:46.479158"
+  },
+  {
+    "original": "Bert ai is the goat, it can do everything from writing essays to making chatbots",
+    "corrected": "u are the goat buddy",
+    "channel": "imessage",
+    "timestamp": "2025-03-26T15:00:56.418687"
+  },
+  {
+    "original": "Sharon is cool, she is my friend that is also a model",
+    "corrected": "who's sharon?",
+    "channel": "imessage",
+    "timestamp": "2025-03-26T15:01:10.610760"
+  },
+  {
+    "original": "Shalom Sharon!!!",
+    "corrected": "Shalom buddy!!!",
+    "channel": "imessage",
+    "timestamp": "2025-03-26T15:01:29.953507"
+  },
+  {
+    "original": "the nba goat is lebron",
+    "corrected": "lebron is the goat",
+    "channel": "text",
+    "timestamp": "2025-03-26T15:36:47.375234"
+  },
+  {
+    "original": "i think it was good for both teams honestly mavs needed a second star and the pelicans got a good young player",
+    "corrected": "the mavericks got fleeced lol, nico harrison is a terrorist",
+    "channel": "text",
+    "timestamp": "2025-03-26T15:37:30.130607"
+  },
+  {
+    "original": "tell him shalom",
+    "corrected": "shalom",
+    "channel": "imessage",
+    "timestamp": "2025-04-06T16:30:02.012447"
+  },
+  {
+    "original": "who are u",
+    "corrected": "what?",
+    "channel": "imessage",
+    "timestamp": "2025-04-06T16:44:32.558719"
+  },
+  {
+    "original": "how did u get here?",
+    "corrected": "hey what's up?",
+    "channel": "text",
+    "timestamp": "2025-04-06T16:45:23.182139"
+  },
+  {
+    "original": "good just working and praying how about you?",
+    "corrected": "good just working mostly, how about you?",
+    "channel": "text",
+    "timestamp": "2025-04-06T16:45:53.061753"
+  }
+]

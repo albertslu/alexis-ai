@@ -1,0 +1,33 @@
+{
+  "basic_info": {
+    "name": "Vanessa Li",
+    "headline": "Student @ Yale | Prev @ SpaceX",
+    "location": "United States"
+  },
+  "about": "only dead fish go with the flow",
+  "experience": [
+    {
+      "title": "Growth Lead",
+      "company": "Nucleate",
+      "duration": "Aug 2024 - Present \u00b7 9 mos"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Starlink Business Operations",
+      "duration": "Sep 2023 - Dec 2023 \u00b7 4 mos"
+    }
+  ],
+  "education": [
+    {
+      "school": "Yale University",
+      "degree": "Bachelor's degree",
+      "field": "B.S. Mechanical Engineering and B.A. Economics",
+      "dates": "2020 - 2025"
+    }
+  ],
+  "skills": [
+    "Python (Programming Language)",
+    "Linux"
+  ],
+  "access_level": "limited"
+}

@@ -1,0 +1,39 @@
+{
+  "basic_info": {
+    "name": "Albert Lu",
+    "headline": "Founder @ Stealth Startup | ECE at UT Austin",
+    "location": "Dallas-Fort Worth Metroplex"
+  },
+  "about": "The University of Texas at Austin",
+  "experience": [
+    {
+      "title": "Founder",
+      "company": "Stealth Startup\nStealth Startup",
+      "duration": "Dec 2024 - Present \u00b7 4 mos\nDec 2024 to Present \u00b7 4 mos"
+    },
+    {
+      "title": "Wedding Photographer",
+      "company": "The Knot Worldwide \u00b7 Contract\nThe Knot Worldwide \u00b7 Contract",
+      "duration": "May 2024 - Present \u00b7 11 mos\nMay 2024 to Present \u00b7 11 mos"
+    },
+    {
+      "title": "Freelance Photographer",
+      "company": "Thumbtack \u00b7 Freelance\nThumbtack \u00b7 Freelance",
+      "duration": "Aug 2023 - Present \u00b7 1 yr 8 mos\nAug 2023 to Present \u00b7 1 yr 8 mos"
+    }
+  ],
+  "education": [
+    {
+      "school": "The University of Texas at Austin",
+      "degree": "Bachelor of Science - BS, Computer Engineering\nBachelor of Science - BS, Computer Engineering",
+      "dates": "2020 - Dec 2024\n2020 - Dec 2024"
+    },
+    {
+      "school": "Coppell High School",
+      "degree": "High School Diploma, Computer Science\nHigh School Diploma, Computer Science",
+      "dates": "2016 - 2020\n2016 - 2020"
+    }
+  ],
+  "skills": [],
+  "interests": []
+}

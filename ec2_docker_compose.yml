@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  ai-clone:
+    build: .
+    ports:
+      - "5002:5002"  # Backend API
+      - "3000:3000"  # Frontend (if served separately)
+    volumes:
+      - ./data:/app/data  # Persist data outside container
+      - ./models:/app/models  # Persist fine-tuned model information
+      - ./logs:/app/logs  # Persist application logs
+    env_file:
+      - .env.production
+    environment:
+      - FLASK_ENV=production
+      - FLASK_DEBUG=false
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5002/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

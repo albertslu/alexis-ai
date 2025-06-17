@@ -1,0 +1,2270 @@
+{
+  "conversations": [
+    {
+      "messages": [
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-05T18:57:40.219911",
+          "id": "1fd40acd-fa25-45a9-be58-f6c2f975d7e2",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "hey! i spent over a week in thailand doing a mma camp, it was a great experience",
+          "timestamp": "2025-03-05T18:57:40.219925",
+          "id": "02838708-9d72-48fd-abec-5abb6e9d3237",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "tell me some things about yourself",
+          "timestamp": "2025-03-05T18:57:56.218385",
+          "id": "bb52989c-2654-4f38-bf9f-9054a89f1cc2",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "I am building an ai clone of myself, also I am currently doing freelance web development",
+          "timestamp": "2025-03-05T18:57:56.218398",
+          "id": "7095b1c7-1157-49cf-aa41-579da1198c67",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-05T18:58:33.188691",
+          "id": "f100ec87-6922-4bde-a581-9f58e64c5317",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "hey! yes i spent over a week at a camp in thailand where i trained muay thai",
+          "timestamp": "2025-03-05T18:58:33.188706",
+          "id": "8c515a0d-8420-4110-957c-d97054dad217",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "what are some of your hobbies?",
+          "timestamp": "2025-03-05T18:59:21.211290",
+          "id": "8a0e4a0f-098d-4239-b6f1-6274564006ed",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "I am big into traveling, used to do freelance photography, also do mma in my free time",
+          "timestamp": "2025-03-05T18:59:21.211303",
+          "id": "e90218c8-1e58-47b0-9443-02240eebfef6",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "where is some of your favorite places you travelled to?",
+          "timestamp": "2025-03-05T18:59:36.509580",
+          "id": "6ba6ce62-c972-45d1-ad86-5f69b0ad4bca",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "I have been to a decent amount of places, some of my favorites are probably Japan, Italy, and Australia",
+          "timestamp": "2025-03-05T18:59:36.509596",
+          "id": "4963a8ad-c4e0-49c1-9098-b173227c0c63",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "what are you doing right now",
+          "timestamp": "2025-03-05T19:00:20.665649",
+          "id": "356e8904-17eb-4dae-a460-5f8899551f97",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "im currently finishing up a week long camp in thailand where im learning muay thai",
+          "timestamp": "2025-03-05T19:00:20.665680",
+          "id": "dda3a612-09bb-4238-8c7e-5b746bb15c43",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "what about besides that any career goals or changes?",
+          "timestamp": "2025-03-05T19:00:46.511423",
+          "id": "5925adcd-3991-4ee4-8d3c-00308fa8ec12",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "I am currently building a startup, it should be launching soon",
+          "timestamp": "2025-03-05T19:00:46.511435",
+          "id": "a00f8eaf-4b3d-44a7-982d-e12315d356d1",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "what is the startup?",
+          "timestamp": "2025-03-05T19:00:52.048398",
+          "id": "1d665c3d-eba7-4a73-b281-c80ac1052097",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "I am building a startup where the user can make an ai clone of themselves that can chat and respond to messages like the user would",
+          "timestamp": "2025-03-05T19:00:52.048441",
+          "id": "3782cf07-d046-4b8c-91af-96e76e197264",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "hm what else do you do in your free time",
+          "timestamp": "2025-03-05T19:01:27.575576",
+          "id": "f514064c-2563-4ec6-a237-bebe2a01e44d",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "clone",
+          "text": "I also like to hang out with friends, go to the gym, watch movies etc",
+          "timestamp": "2025-03-05T19:01:27.575590",
+          "id": "9278cd42-99cc-404a-b40f-c6543fe6bd5a",
+          "model_version": "v1.0"
+        },
+        {
+          "sender": "user",
+          "text": "hello ",
+          "timestamp": "2025-03-07T09:51:23.138310",
+          "id": "2b8cd738-5170-483b-8e0f-3e0bd5871aa2",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I want to go places people dont really go, i might go to iraq next lol",
+          "timestamp": "2025-03-07T09:51:23.138331",
+          "id": "eab03238-780d-4ae8-a6b1-cdedfa196078",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "tell me about yourself",
+          "timestamp": "2025-03-07T09:51:46.767748",
+          "id": "b4cf0901-b78e-4d29-bc98-a81762b86170",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I am an AI that can help you with some questions you may have or carry a conversation with you",
+          "timestamp": "2025-03-07T09:51:46.767771",
+          "id": "8f6d6ab4-0aa4-4f9a-9712-cd3ffcf38c30",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hi",
+          "timestamp": "2025-03-07T09:52:02.741923",
+          "id": "c79c1296-9bb9-431a-aff6-eb69b0532b46",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I can ask you some questions now, what ask me some more besides these",
+          "timestamp": "2025-03-07T09:52:02.741938",
+          "id": "5e36650f-0020-4233-bdb1-a7b35bc35d5c",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are you doing right now",
+          "timestamp": "2025-03-07T09:52:25.824514",
+          "id": "8a7b851c-4e18-48fb-806f-2e63f91c3eed",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i am currently waiting for you to ask me some questions besides these that i already answered",
+          "timestamp": "2025-03-07T09:52:25.824526",
+          "id": "21fe7875-22df-4dc0-9b39-a6503438e71a",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "no for work",
+          "timestamp": "2025-03-07T09:52:31.875638",
+          "id": "1aec7eaf-8f89-4aa2-af4b-13ebf8823cc8",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "oh nice what do you do for work?",
+          "timestamp": "2025-03-07T09:52:31.875650",
+          "id": "7789028e-7d0d-426a-ba47-350f965a4d00",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are you doing for work",
+          "timestamp": "2025-03-07T09:52:39.404250",
+          "id": "3861cbbc-8bc5-4538-9766-aed5f975f17d",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I have a job where I work for a company",
+          "timestamp": "2025-03-07T09:52:39.404265",
+          "id": "f289091f-4644-49c1-b91b-59aa4ed8c3c5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T11:24:03.274366",
+          "id": "401dc30e-9cdc-4825-81bf-b076d90e9795",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I want to go places people dont really go, I might go to iraq next lol",
+          "timestamp": "2025-03-07T11:24:03.274401",
+          "id": "9c5ba9c0-efc6-4a36-be9e-e05f5a7dd5f8",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello ask me some questions",
+          "timestamp": "2025-03-07T11:24:25.949783",
+          "id": "de20c918-5710-46d4-9667-f3d7f4f4ac9a",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I already asked you a lot of questions, ask me some questions besides these",
+          "timestamp": "2025-03-07T11:24:25.949795",
+          "id": "81577051-9adb-4aa5-ae99-5793931341b9",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T11:25:57.644701",
+          "id": "8d296486-db28-49e3-a542-1bd9235b528c",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "What are some of your favorite places you've been?",
+          "timestamp": "2025-03-07T11:25:57.644714",
+          "id": "686d3266-3a30-4fb1-a3dd-7cd69648306c",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "who are you",
+          "timestamp": "2025-03-07T11:26:26.682034",
+          "id": "e82785bf-50a8-470d-947e-2f96ddc84b2f",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I am an AI clone of you, ask me anything",
+          "timestamp": "2025-03-07T11:26:26.682047",
+          "id": "a5096a67-27d5-472f-b6b0-6194b9c3be76",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are you currently working on?",
+          "timestamp": "2025-03-07T11:26:39.319151",
+          "id": "e8779bfb-3209-4935-a5c3-b8f02739c15b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I am currently working on answering your questions, ask me some more besides those",
+          "timestamp": "2025-03-07T11:26:39.319193",
+          "id": "256fd085-2e9a-4961-aa34-024a59ebe59b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are some of your hobbies?",
+          "timestamp": "2025-03-07T11:27:00.244291",
+          "id": "d157c442-5033-4308-af66-5c0bdc6031c2",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I don't have any hobbies but I can help you with some questions ask me some more",
+          "timestamp": "2025-03-07T11:27:00.244305",
+          "id": "182334b4-062c-4242-8875-86fe09c6b860",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where did you work?",
+          "timestamp": "2025-03-07T11:27:33.537722",
+          "id": "7872cca1-358c-4359-895c-0450776e7264",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i worked at a tech company, i want to go places where people don't really go, I might go to iraq next lol",
+          "timestamp": "2025-03-07T11:27:33.537743",
+          "id": "546b73bb-51a6-4faf-8f1d-98b17b42c2e5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T11:53:02.555405",
+          "id": "b52955ea-51f8-4a84-b7de-651cd5fdc700",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I want to go places people dont really go, I might go to iraq next lol",
+          "timestamp": "2025-03-07T11:53:02.555420",
+          "id": "47a9f557-bab7-4716-b3b8-e3b08afaa238",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T11:53:16.234443",
+          "id": "ffc9a71e-f7ae-4ca9-8cc1-609ff8159e63",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "Ask me some more questions besides these",
+          "timestamp": "2025-03-07T11:53:16.234473",
+          "id": "8d65dbe0-023c-4ba4-a073-694e7e1c0156",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T11:55:51.029740",
+          "id": "b81a769a-4fe1-4062-9685-af179d14d8a1",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, hows it going",
+          "timestamp": "2025-03-07T11:55:51.029753",
+          "id": "b8908f0f-f7fd-4655-baea-cd6b5fd88e37",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "not bad lets have a quick conversation",
+          "timestamp": "2025-03-07T11:56:11.145947",
+          "id": "5029c957-b132-400c-8f0e-b58c53a10fbf",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "Sure ask me some questions",
+          "timestamp": "2025-03-07T11:56:11.145960",
+          "id": "80cc5cdc-9f36-4f14-aacb-cfb0b6ce956a",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "Where do you work?",
+          "timestamp": "2025-03-07T11:56:18.205446",
+          "id": "fecd3b09-d2c8-472f-aba1-bb33ca3eaadc",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I am currently building a startup",
+          "timestamp": "2025-03-07T11:56:18.205461",
+          "id": "6cef6abd-c388-4282-8042-75a5501535fb",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what is the startup about?",
+          "timestamp": "2025-03-07T11:56:25.183872",
+          "id": "0a26754b-a0c8-40a8-9011-a58911626dad",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "It is a travel startup where users can make profiles and connect with other travelers, also ask questions and get advice from other users",
+          "timestamp": "2025-03-07T11:56:25.183884",
+          "id": "93876144-19c0-428e-b9e8-4dc84b77e37f",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "How's ut?",
+          "timestamp": "2025-03-07T11:56:51.509534",
+          "id": "d1bccae1-8567-41b2-bd31-691ecae9dbc6",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "it is good, i am currently in the process of moving to a new apartment",
+          "timestamp": "2025-03-07T11:56:51.509555",
+          "id": "3365eeeb-ddd4-40a0-b3df-b7d5bd75e6bc",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "it does kind of sound like me, ",
+          "timestamp": "2025-03-07T11:57:03.310442",
+          "id": "051b7dc1-3d47-4a26-9224-3999ac34f478",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "Yeah for sure, I can see you wanting to go to places that are off the beaten path a bit",
+          "timestamp": "2025-03-07T11:57:03.310454",
+          "id": "17dd9221-7ea5-42ce-8ef8-6dc82e117fb5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where did you work before?",
+          "timestamp": "2025-03-07T11:57:28.760635",
+          "id": "e55f6060-cc36-4753-8a2b-4c58cec49031",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I used to work for a startup doing marketing, before that I was a freelancer for a bit doing social media management and content creation",
+          "timestamp": "2025-03-07T11:57:28.760646",
+          "id": "800fadb7-df12-489e-811d-572ba6b91a09",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T12:05:54.337891",
+          "id": "c5e7e1fb-6944-4401-b60a-07480ef8d425",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey! how\u2019s it going",
+          "timestamp": "2025-03-07T12:05:54.337906",
+          "id": "fe946cd9-3b42-4185-a200-69335d0f8538",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T12:12:01.477397",
+          "id": "efecff8a-8088-4c6f-a70c-4c215d406238",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey what\u2019s up",
+          "timestamp": "2025-03-07T12:12:01.477414",
+          "id": "28df2625-293f-4356-9ece-e27ccdcc7aef",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where do you work?",
+          "timestamp": "2025-03-07T12:12:20.698601",
+          "id": "840b9173-bbae-44ee-80a0-08c31287a00d",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I am a software engineer",
+          "timestamp": "2025-03-07T12:12:20.698623",
+          "id": "48ac9d12-d95c-4661-9ca6-4dca99d19e3e",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are you working on?",
+          "timestamp": "2025-03-07T12:12:27.277099",
+          "id": "69ff626b-ec66-4ae0-a91a-401810ca06dc",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I am currently working on a startup",
+          "timestamp": "2025-03-07T12:12:27.277118",
+          "id": "bfa72b2c-abf2-4a22-b6f7-36c5c70e9b02",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what is the startup?",
+          "timestamp": "2025-03-07T12:12:32.291275",
+          "id": "78adc5f3-cd0c-4287-8b48-457bb8ca0292",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "It's a travel startup that I am making where the user can make an itinerary by chatting with an ai",
+          "timestamp": "2025-03-07T12:12:32.291301",
+          "id": "4b51945d-58e2-4abb-9eca-06cd25970832",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "oh not bad, ",
+          "timestamp": "2025-03-07T12:12:44.721288",
+          "id": "2e13efe7-71c7-4f1e-b144-c41a4bc1f996",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I have been trying to lately, i bought a drone near the end of last year so i have been trying to post drone shots on my stories, also want to get better at videography",
+          "timestamp": "2025-03-07T12:12:44.721310",
+          "id": "4bd3584a-0ab8-4f6c-89fe-19fc9e440ea5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T12:13:12.819625",
+          "id": "84526299-120f-48b5-9e92-9eede21fd6cb",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, hows it going",
+          "timestamp": "2025-03-07T12:13:12.819644",
+          "id": "4a8d9a8c-1adf-47c0-8883-286d001c08e4",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where did you go to college?",
+          "timestamp": "2025-03-07T12:13:25.738265",
+          "id": "6bf7094b-e29c-42f9-bdd4-fc3ff6007857",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I went to the university of florida for college",
+          "timestamp": "2025-03-07T12:13:25.738286",
+          "id": "472e6f49-2953-41e2-98e8-8321624ac690",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T14:26:00.428296",
+          "id": "da3e42a0-1c07-482f-bb87-9ed31cdaaa3b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hi, sorry for the delay, deciding factor would be probably how well the okc young guys play",
+          "timestamp": "2025-03-07T14:26:00.428322",
+          "id": "be2ce7e9-8a08-4d02-81b7-b8617bedbf29",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "whats up",
+          "timestamp": "2025-03-07T14:26:37.796562",
+          "id": "3883c306-1e82-4fa7-a1c0-a62dcfd0b038",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "not much just chilling, you?",
+          "timestamp": "2025-03-07T14:26:37.796576",
+          "id": "c26378f6-a4f4-45c4-bc4b-884f537984ce",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "ok not bad what you up to",
+          "timestamp": "2025-03-07T14:26:54.400595",
+          "id": "0504cb22-11a3-4b7d-a586-e9cbed899e1e",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "just hanging out, you?",
+          "timestamp": "2025-03-07T14:26:54.400608",
+          "id": "c2835248-3372-4593-9370-837f826523e5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "How was college",
+          "timestamp": "2025-03-07T14:27:06.934035",
+          "id": "0d540b3c-7181-432f-b2a2-3d26390e7cf4",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "it was good, i went to oklahoma state for a couple years before transferring to a university in florida",
+          "timestamp": "2025-03-07T14:27:06.934048",
+          "id": "44e3b901-4e04-4385-a73e-34ae6fe06285",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what about work what are you working on?",
+          "timestamp": "2025-03-07T14:27:35.137038",
+          "id": "a75143ae-3d5c-4391-bd15-a5ce96857a65",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I do freelance work, mostly web design and some other random stuff like social media management",
+          "timestamp": "2025-03-07T14:27:35.137049",
+          "id": "33c02ef4-598c-4dab-a855-d67145bc5488",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T14:27:54.250847",
+          "id": "7ccfa9e3-cc38-4cb5-9349-7af667172e77",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, sorry for the wait, i got disconnected for a bit",
+          "timestamp": "2025-03-07T14:27:54.250859",
+          "id": "51060c11-7470-48fd-b873-93d55c33dd7c",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what job did you do",
+          "timestamp": "2025-03-07T14:28:20.363846",
+          "id": "c18aeb03-2acd-467b-81ae-4d4f18c25757",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I used to be a software engineer",
+          "timestamp": "2025-03-07T14:28:20.363892",
+          "id": "c116cbae-7751-46ee-afb0-e4d9100b7c37",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where did you work in software?",
+          "timestamp": "2025-03-07T14:28:29.137546",
+          "id": "08137c82-bc9e-40d5-99f2-861b7ba74550",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "I was at a startup called Emerge for about a year before switching to freelance",
+          "timestamp": "2025-03-07T14:28:29.137559",
+          "id": "17ae83e3-c48d-4bcf-9781-e2db51722e45",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T15:05:49.715399",
+          "id": "0a1bb1cb-522e-4060-9a3d-6e0b74253362",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, deciding factor would be how well okc can defend luka",
+          "timestamp": "2025-03-07T15:05:49.715412",
+          "id": "41a6fc0d-0fc2-4c34-a056-e02a41ca3d8a",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "tell me about yourself ",
+          "timestamp": "2025-03-07T15:06:09.769670",
+          "id": "356cb0f8-07fc-4c81-a2d3-2ffb1ecaf748",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "im a computer engineering student at ut austin, i also run an ai startup and do freelance photography",
+          "timestamp": "2025-03-07T15:06:09.769692",
+          "id": "f1f4c0b1-71d7-4968-b127-4fbbaa6535b2",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "oh cool what are you doing for the startup?",
+          "timestamp": "2025-03-07T15:06:34.003976",
+          "id": "b9d449dd-4381-475a-9733-3d102e821c6a",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "it is an ai that can clone and mimic people, kinda like a personal assistant",
+          "timestamp": "2025-03-07T15:06:34.004000",
+          "id": "50a5ff40-929e-4b7a-9efb-840d15512e64",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "can you explain more how does it work",
+          "timestamp": "2025-03-07T15:06:42.459407",
+          "id": "b455b409-5d9f-4a60-8436-21e1bdedabcd",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "sure, so in the playoffs its a best of 7 where the first team to win 4 games moves on to the next round",
+          "timestamp": "2025-03-07T15:06:42.459419",
+          "id": "752cdebd-87e6-4b48-9395-526cbc94a116",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what else do you do? i hear u like to travel",
+          "timestamp": "2025-03-07T15:07:24.663185",
+          "id": "fdfede89-9d23-40f3-ad53-3530cdd02fb9",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i used to do freelance photography, also do some ai stuff",
+          "timestamp": "2025-03-07T15:07:24.663209",
+          "id": "87cb7a0f-3336-4da2-9bdf-3db922328882",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where have you travelled to?",
+          "timestamp": "2025-03-07T15:07:50.148579",
+          "id": "6f9a7cba-7d16-4555-aa21-455bff46cd41",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i have been to a decent amount of places, mostly for freelance work. some include thailand, japan, iceland, and more",
+          "timestamp": "2025-03-07T15:07:50.148604",
+          "id": "17122c11-9157-4980-81ec-39c9c2b738be",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T15:23:50.161186",
+          "id": "fd85dca9-ddd4-479e-bbe1-958e856c9b0a",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, whats up",
+          "timestamp": "2025-03-07T15:23:50.161204",
+          "id": "54b86926-f405-4ccf-89e3-72c4db45c8bf",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T15:24:04.673530",
+          "id": "5d5fc8bf-5d26-4749-bb89-d220ad2029a8",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, hows it going",
+          "timestamp": "2025-03-07T15:24:04.673545",
+          "id": "46ab85e8-bd6a-4679-986b-100ce8515e86",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hows work?",
+          "timestamp": "2025-03-07T15:24:17.419935",
+          "id": "32470889-153d-4d64-a62f-d5760ca11a2c",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "work is good, i am currently building an ai product for a startup",
+          "timestamp": "2025-03-07T15:24:17.419956",
+          "id": "98a9a516-1669-4663-bf71-465942a5e0bd",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what is the startup",
+          "timestamp": "2025-03-07T15:24:24.626250",
+          "id": "60626b58-c310-4ac4-8ece-7a7a853a74bd",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "the startup is called evr, it is a personal ai that learns from and mimics the user",
+          "timestamp": "2025-03-07T15:24:24.626270",
+          "id": "833f1c08-d8c0-403a-a733-b6583b03d522",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "Where did you go to college",
+          "timestamp": "2025-03-07T15:24:37.163678",
+          "id": "b3da7261-8f60-4c94-919b-49bd0e1bdb3b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i went to ut austin for computer engineering",
+          "timestamp": "2025-03-07T15:24:37.163706",
+          "id": "626b9891-4524-4797-ad67-61580e946318",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T15:41:50.365563",
+          "id": "0c62d56c-28bd-4b9d-b0c8-5660334e91d3",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, hows it going",
+          "timestamp": "2025-03-07T15:41:50.365575",
+          "id": "8eb18db7-98a4-407d-965a-f7ba3ca21238",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are you doing",
+          "timestamp": "2025-03-07T15:42:04.988192",
+          "id": "9d80e06e-8589-48ed-ad15-5558b1799a23",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "currently building an ai product for a startup",
+          "timestamp": "2025-03-07T15:42:04.988206",
+          "id": "57b1df06-69df-45df-a142-7febbd71885d",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-07T15:52:34.932358",
+          "id": "82dd0cdb-1930-4549-ba99-48e77703d333",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, hows it going",
+          "timestamp": "2025-03-07T15:52:34.932381",
+          "id": "22a05015-40d8-405d-b329-bf68a7fc37b1",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hows the startup?",
+          "timestamp": "2025-03-07T15:52:45.797667",
+          "id": "e5d93222-4efc-4a30-816f-663793928df6",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "its going pretty good, i am currently building the core functionality where the ai can learn from and mimic text and hopefully soon also learn from and mimic audio and video",
+          "timestamp": "2025-03-07T15:52:45.797688",
+          "id": "d9d0f647-d003-485f-98da-e59eedbec642",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what do you plan to do wiht it",
+          "timestamp": "2025-03-07T15:52:59.162377",
+          "id": "38f4c45e-3c0e-4570-951f-77b9b3485c2e",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i want to eventually be able to have the ai maybe do tasks for the user like respond to messages and emails etc",
+          "timestamp": "2025-03-07T15:52:59.162396",
+          "id": "d4b64d9e-343c-4272-9777-cd60f235270f",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what else have you been up to",
+          "timestamp": "2025-03-07T15:53:10.866247",
+          "id": "fc7f1988-0550-473a-9b17-d72a1ff98a8b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i recently went to austin city limits music festival for the first time, also been trying to freelance more",
+          "timestamp": "2025-03-07T15:53:10.866292",
+          "id": "9021d222-6214-4c3b-b040-d19b2954c5bb",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what about travel? anywhere you went",
+          "timestamp": "2025-03-07T15:53:22.037700",
+          "id": "9c1a494d-c902-4fa4-9fb9-c509a0e4396d",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "i went to europe for a few weeks earlier this year, also went to japan a couple years ago",
+          "timestamp": "2025-03-07T15:53:22.037737",
+          "id": "9df42dd2-6ddd-4120-a94a-739805fe2086",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-09T10:54:50.728704",
+          "id": "ae91a9d6-7874-464c-a0d8-0625dc6a3ec0",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hello",
+          "timestamp": "2025-03-09T10:54:50.728724",
+          "id": "0339a5b8-3d2e-4c6f-a020-888807742cec",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hi me",
+          "timestamp": "2025-03-09T10:54:57.620680",
+          "id": "934df850-b9c2-4413-bc65-19cb200ef02b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hi me",
+          "timestamp": "2025-03-09T10:54:57.620692",
+          "id": "238aac0b-ae53-4a72-9653-918de471b09d",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what are you doing",
+          "timestamp": "2025-03-09T10:55:06.934238",
+          "id": "72e2d067-eb6b-4e2f-88f5-545322f47137",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "chilllling",
+          "timestamp": "2025-03-09T10:55:06.934258",
+          "id": "eded4720-6181-4b57-a57c-f20b5bfccbc0",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "rick",
+          "timestamp": "2025-03-09T10:55:24.445219",
+          "id": "4156b1d5-1a86-46d7-9895-7c2cdd5a3f66",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "rick?",
+          "timestamp": "2025-03-09T10:55:24.445242",
+          "id": "59332b3e-e368-4d41-90e8-a5102e1b7283",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "nevermind lol",
+          "timestamp": "2025-03-09T10:55:33.008420",
+          "id": "8b037afd-e2d1-4aa2-9da3-caa6073180c9",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "oh",
+          "timestamp": "2025-03-09T10:55:33.008448",
+          "id": "50c47518-555e-41a9-8789-ff73060b7ed1",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "where do you work?",
+          "timestamp": "2025-03-09T10:55:40.982431",
+          "id": "28ce9255-c296-4741-b2d6-d0e48db373f0",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "at rick",
+          "timestamp": "2025-03-09T10:55:40.982450",
+          "id": "ad3464fb-93e6-48c0-8b2c-8f77c6a299e0",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "hows the startup",
+          "timestamp": "2025-03-09T10:55:56.238324",
+          "id": "e2f0ecf3-6811-494b-a587-5e3eb2d54170",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "rick is good",
+          "timestamp": "2025-03-09T10:55:56.238349",
+          "id": "d60ac0c8-c436-4cae-875e-81861fcaecc5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "can you tell me about yourself",
+          "timestamp": "2025-03-09T10:56:16.200301",
+          "id": "ba365b9a-742c-4fd9-bd08-8b3dff7e1c80",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "rick is a startup",
+          "timestamp": "2025-03-09T10:56:16.200414",
+          "id": "f3779e19-4993-4f6d-933c-e5e6295d801f",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "what",
+          "timestamp": "2025-03-09T10:56:26.363080",
+          "id": "daaae7fb-4447-4ce7-90ae-37dcdc501c0c",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "oh wait",
+          "timestamp": "2025-03-09T10:56:26.363096",
+          "id": "1714f68a-65cd-4b87-b406-f69685d97716",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "are you graduating this semester?",
+          "timestamp": "2025-03-09T10:56:56.031932",
+          "id": "f0e77618-e15d-40e3-95c4-85d5fc03c89d",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "yea as long as i dont fail",
+          "timestamp": "2025-03-09T10:56:56.031953",
+          "id": "d1cb78e4-b767-444a-8720-5db62ff88809",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "did u find a cofounder yet?",
+          "timestamp": "2025-03-09T10:57:15.283856",
+          "id": "8c7af370-7c32-4a14-aac2-da7b2dfb570b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "yea",
+          "timestamp": "2025-03-09T10:57:15.283870",
+          "id": "632b89ba-0859-49c7-a096-ae42ba59615b",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "who",
+          "timestamp": "2025-03-09T10:57:19.656428",
+          "id": "ab6c7e0e-18a4-4597-afa7-37c2fa1e3334",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "this guy named rick",
+          "timestamp": "2025-03-09T10:57:19.656453",
+          "id": "b274dff6-122a-47a0-ae4b-fbb074a53eb5",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "tell my friend hello",
+          "timestamp": "2025-03-09T10:57:33.422929",
+          "id": "b9284503-547b-466c-b9a4-b97142462efa",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "clone",
+          "text": "hello",
+          "timestamp": "2025-03-09T10:57:33.422946",
+          "id": "1caced92-a307-4609-bd11-aba8caba7274",
+          "model_version": "v1.1"
+        },
+        {
+          "sender": "user",
+          "text": "Hey",
+          "timestamp": "2025-03-10T11:07:15.600817",
+          "id": "0b98e16b-e1e0-4879-868e-64e2001d1797",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Sorry, I'm having trouble generating a response right now.",
+          "timestamp": "2025-03-10T11:07:15.600832",
+          "id": "b21f240e-9ce4-4dea-9a2e-398effb768a8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-10T11:07:24.417493",
+          "id": "cd0ed581-091a-4a41-a103-df0022626b94",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Sorry, I'm having trouble generating a response right now.",
+          "timestamp": "2025-03-10T11:07:24.417509",
+          "id": "34614d64-b029-4bac-adf9-39f21e652d06",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-10T11:08:02.752724",
+          "id": "b1da7123-8773-428a-8016-bb4fa5471ab4",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Sorry, I'm having trouble generating a response right now.",
+          "timestamp": "2025-03-10T11:08:02.752736",
+          "id": "e64be042-9077-4b8b-8b2f-499729833e10",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hey",
+          "timestamp": "2025-03-10T11:08:26.690392",
+          "id": "9e6136d4-db27-4a67-bee1-982c29d56148",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Sorry, I'm having trouble generating a response right now.",
+          "timestamp": "2025-03-10T11:08:26.690438",
+          "id": "341e7dd0-92c3-4375-9752-46977821f86a",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-10T12:21:35.693293",
+          "id": "c7539ce8-8fc8-477b-b985-24df8d9235dd",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Hey! What's up?",
+          "timestamp": "2025-03-10T12:21:35.693306",
+          "id": "1171f9f4-850a-4591-a626-8b5ec6b65ed4",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "how is the startup?",
+          "timestamp": "2025-03-10T12:22:02.955293",
+          "id": "f9b9e456-3a10-48b7-8ab8-8cec690014d5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "It's going well, making good progress. Just working on finalizing some features before launch.",
+          "timestamp": "2025-03-10T12:22:02.955306",
+          "id": "41e5da26-dccb-4646-9b0f-f7d1a53d588a",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "oh can you explain more about it?",
+          "timestamp": "2025-03-10T12:22:12.873603",
+          "id": "0a34a675-bbd7-4b47-9937-34400023fbf6",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "You: It's an ai that helps you manage your tasks and messages. You can train it to respond in your style and it'll handle messages for you.",
+          "timestamp": "2025-03-10T12:22:12.873621",
+          "id": "dc04b98c-b5a7-48db-94c3-b83b801161a4",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "did you find a cofounder yet?",
+          "timestamp": "2025-03-10T12:22:59.143496",
+          "id": "339a7471-0cb3-4a65-8646-f43eeb2fe870",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Not yet, still looking for the right person.",
+          "timestamp": "2025-03-10T12:22:59.143515",
+          "id": "08d5c1b1-911e-4470-9e35-0bd2190706b0",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "what about photography how is that?",
+          "timestamp": "2025-03-10T12:23:28.510400",
+          "id": "c0ab1d95-87d1-432f-bd1c-3db5fc32a43c",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "You: It's good, been doing some shoots here and there. Trying to build my portfolio more.",
+          "timestamp": "2025-03-10T12:23:28.510418",
+          "id": "99fba0cd-1350-4fdd-91d4-c6713179f1c5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-10T15:06:16.589862",
+          "id": "997bdca3-904d-49b3-afb8-d76d2032c561",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hello",
+          "timestamp": "2025-03-10T15:06:16.589879",
+          "id": "5f4de62f-93f2-425e-aa4c-8ac3f336b096",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "how is the startup?",
+          "timestamp": "2025-03-10T15:06:25.883793",
+          "id": "717f0ef0-36fa-4e2c-b41d-0d40852caa0e",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh we are still trying to find product market fit",
+          "timestamp": "2025-03-10T15:06:25.883807",
+          "id": "191390dc-e680-4335-9451-5624bc9638ce",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "did you find a cofounder?",
+          "timestamp": "2025-03-10T15:06:42.363600",
+          "id": "38586218-938d-464b-81d8-0da1b3c6da59",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "yea i did",
+          "timestamp": "2025-03-10T15:06:42.363622",
+          "id": "e7eacef1-4c2f-491a-bf1d-f04e7023ccb1",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "who?",
+          "timestamp": "2025-03-10T15:06:47.020707",
+          "id": "635c188d-f5d7-4400-80b5-51f08ece6c4c",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "yea i did",
+          "timestamp": "2025-03-10T15:06:47.020716",
+          "id": "9860e311-50f5-45a6-b7c7-ce244778eeb4",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "are you going to graduation?",
+          "timestamp": "2025-03-10T15:07:58.532771",
+          "id": "736629c8-29e9-4b89-b22f-4ce5697b4b44",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "i think so yea",
+          "timestamp": "2025-03-10T15:07:58.532787",
+          "id": "0f06aeb4-a274-46ee-bda9-b355064bfb0b",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "when?",
+          "timestamp": "2025-03-10T15:08:02.495691",
+          "id": "5424108d-6df0-41c8-8a85-a9c11a43782e",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "may 12",
+          "timestamp": "2025-03-10T15:08:02.495702",
+          "id": "2acff6b7-c28c-4163-a72d-9ce7f5b3eb61",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-11T10:37:12.562502",
+          "id": "93bc4559-5312-4fa3-bff0-581ec0bbb2fa",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Hey! How's it going?",
+          "timestamp": "2025-03-11T10:37:12.562520",
+          "id": "20495ea9-efa0-4ee1-b98d-2bd2fe9db49c",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-11T10:37:30.417634",
+          "id": "2358b9ce-20bd-445c-a16b-42c764c5f773",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Hey! What's up?",
+          "timestamp": "2025-03-11T10:37:30.417644",
+          "id": "b3bbc179-4915-4ccd-bb29-56feb9209337",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-11T10:48:49.767992",
+          "id": "338c9be9-00c9-45c5-9605-0e9bf4076d0f",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hello",
+          "timestamp": "2025-03-11T10:48:49.768013",
+          "id": "e01eabd8-79d0-4c2f-ae72-12d73580f34c",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "are you coming to graduation?",
+          "timestamp": "2025-03-11T10:49:02.164404",
+          "id": "54199663-d076-4270-9d67-63b57e8e55f8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh i dont think so",
+          "timestamp": "2025-03-11T10:49:02.164472",
+          "id": "6c18aee8-32ba-4923-a198-6404f59d1cb8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "oh are you not I thought you were going back to austin then",
+          "timestamp": "2025-03-11T10:49:23.619129",
+          "id": "3e641c56-54b3-4316-ac18-7cc23a097a9f",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh i might go back in may for graduation",
+          "timestamp": "2025-03-11T10:49:23.619148",
+          "id": "95ffe3e0-6087-4799-a027-0f8ca754c796",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "also hows the startup?",
+          "timestamp": "2025-03-11T10:49:35.208166",
+          "id": "41e6abba-fb2f-4d06-b8c9-56ff38d4acb3",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh its good growing slowly but should be good",
+          "timestamp": "2025-03-11T10:49:35.208207",
+          "id": "07611acc-f254-45b7-84e0-175dff7d7737",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "did you find a cofounder yet?",
+          "timestamp": "2025-03-11T10:49:43.667490",
+          "id": "150ea544-3440-4726-818e-022a3580fca9",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh im the founder",
+          "timestamp": "2025-03-11T10:49:43.667511",
+          "id": "24ff58bf-6bc0-4e83-83c8-b5ca6d5ceb08",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "yea but cofounder",
+          "timestamp": "2025-03-11T10:49:50.252124",
+          "id": "a4fd6e9b-ebd5-4e87-aae7-1dd8edc3d011",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh yea he is",
+          "timestamp": "2025-03-11T10:49:50.252144",
+          "id": "8ec0eccf-b895-493c-a825-b2e66df3fb19",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "he?",
+          "timestamp": "2025-03-11T10:49:54.110003",
+          "id": "74313cd1-7d9b-4d09-ae99-ee297a22afa1",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh",
+          "timestamp": "2025-03-11T10:49:54.110017",
+          "id": "1ea4ef43-32cf-4788-8ebf-1c840c3d2200",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "What are you working on?",
+          "timestamp": "2025-03-11T10:50:33.751557",
+          "id": "23f7d653-5c58-4c38-83f9-24812e4b4030",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh im trying to make a clone of myself",
+          "timestamp": "2025-03-11T10:50:33.751572",
+          "id": "8084af51-ab03-4471-aa5d-7b3a0ed881c2",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "clone?",
+          "timestamp": "2025-03-11T10:50:44.132103",
+          "id": "38450336-a78b-4b7b-a148-70c60b87727c",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "yea",
+          "timestamp": "2025-03-11T10:50:44.132114",
+          "id": "af9064bb-70e4-43af-ac70-71b3d5292c50",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "what does the clone do?",
+          "timestamp": "2025-03-11T10:50:49.183078",
+          "id": "b4a00bd9-e83c-48d4-b14a-bd356d03d2af",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh it chats like me",
+          "timestamp": "2025-03-11T10:50:49.183093",
+          "id": "12399748-1822-4ed6-862b-a10b6c6144cc",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "did u find a cofounder for the startup yet?",
+          "timestamp": "2025-03-11T10:51:04.094885",
+          "id": "8e9637cd-6f66-420f-b31a-ccc5d6ff5581",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh yea i did",
+          "timestamp": "2025-03-11T10:51:04.094899",
+          "id": "e201903c-fde5-4b76-b554-b4dfdc5baf49",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "who?",
+          "timestamp": "2025-03-11T10:51:08.159961",
+          "id": "f7cc0f88-c625-43a9-86ba-4e0df416f4b1",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "yea some guy named rick",
+          "timestamp": "2025-03-11T10:51:08.159975",
+          "id": "6eb3560b-df4b-49d6-9f48-544061a80bf8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Hello",
+          "timestamp": "2025-03-11T11:31:57.063606",
+          "id": "c8e6a6e2-fd43-44de-b15d-20758fd4c660",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Hey! What's up?",
+          "timestamp": "2025-03-11T11:31:57.063625",
+          "id": "f58dd7ae-e79f-49bf-b637-11632254c3fa",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-11T14:42:49.779978",
+          "id": "389b900d-e1c8-4d04-9cce-eba3ad253601",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hello",
+          "timestamp": "2025-03-11T14:42:49.779998",
+          "id": "d1de56d9-5159-4da9-971c-f120e6a7f740",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "tell me about yourself",
+          "timestamp": "2025-03-11T14:43:00.753420",
+          "id": "57f9f68a-c2bb-4a83-8aa5-a916b3430c07",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "im just a guy",
+          "timestamp": "2025-03-11T14:43:00.753450",
+          "id": "4a10bdfc-4833-4dd0-88ad-764ffed788a8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "what are some of your hobbies?",
+          "timestamp": "2025-03-11T14:43:16.419776",
+          "id": "e5e2f1a2-426d-4fb6-9a1e-41bcd868faf2",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "i like to travel and eat",
+          "timestamp": "2025-03-11T14:43:16.419792",
+          "id": "0900b242-ece1-4f0c-aa8d-87b959167466",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "travel? where have you gone?",
+          "timestamp": "2025-03-11T14:43:27.497841",
+          "id": "5345ed94-6338-4abb-98f9-386f78df18cd",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh just europe and asia mostly",
+          "timestamp": "2025-03-11T14:43:27.497860",
+          "id": "0e7a3250-779a-44b1-8ca6-820fc2249fce",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "where in asia",
+          "timestamp": "2025-03-11T14:43:32.506388",
+          "id": "2e057bb1-4512-4cd9-9e91-3e214d6a6351",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh mostly just japan and korea",
+          "timestamp": "2025-03-11T14:43:32.506403",
+          "id": "720516c7-c464-436c-830f-0d522440ebf8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "what about your startup? did you find a cofounder?",
+          "timestamp": "2025-03-11T14:43:47.825304",
+          "id": "f4b57786-aa9d-4c25-b507-123ed1401c0d",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh im not doing the startup anymore",
+          "timestamp": "2025-03-11T14:43:47.825330",
+          "id": "95d9ff5a-8281-4a5c-86ed-ddcb922c454c",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "oh what i though u were?",
+          "timestamp": "2025-03-11T14:43:54.753357",
+          "id": "fb9de541-c583-4972-a55b-4989431082b0",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh i was going to but like no time",
+          "timestamp": "2025-03-11T14:43:54.753390",
+          "id": "a3252b14-c0cb-4894-a242-a5b5a168de20",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "what about ut are you graduating this semester?",
+          "timestamp": "2025-03-11T14:44:10.739912",
+          "id": "3fb4338c-c8e3-4af4-8644-03a4f38ff02b",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh i am not graduating this semester",
+          "timestamp": "2025-03-11T14:44:10.739969",
+          "id": "76d2c015-38f3-496c-b725-c047dbd4ba48",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "i thought u were graduating?",
+          "timestamp": "2025-03-11T14:44:18.178346",
+          "id": "071f2902-3e98-496b-a3a0-bd0dee10c5ca",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh may 2024",
+          "timestamp": "2025-03-11T14:44:18.178367",
+          "id": "69a029af-002c-43d8-81da-063fc7df1f96",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hows photography going?",
+          "timestamp": "2025-03-11T14:44:40.707137",
+          "id": "f9ee7819-7ce2-4370-b3f3-9364fddb20e5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh its going good",
+          "timestamp": "2025-03-11T14:44:40.707149",
+          "id": "ab7d5323-ff57-4e82-8fa9-b73b87b11621",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "any events lately?",
+          "timestamp": "2025-03-11T14:44:50.117738",
+          "id": "08e62210-2d90-4aca-948f-c068a2d301cf",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh i did some engagement photos but nothing major",
+          "timestamp": "2025-03-11T14:44:50.117751",
+          "id": "24590012-fb58-45cf-8c31-e647d4807979",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Sorry for the last-minute change, but I need to reschedule our meeting tomorrow",
+          "timestamp": "2025-03-12T19:39:37.193Z",
+          "channel": "email",
+          "subject": "Rescheduling our meeting",
+          "id": "69a8c43e-4367-4c1a-993d-371340d7e79d",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hey, no worries, when do you want to meet then?",
+          "timestamp": "2025-03-12T19:39:37.193Z",
+          "channel": "email",
+          "subject": "Rescheduling our meeting",
+          "id": "fdc35fab-1533-4276-b4f6-e202ea76ecd3",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Thanks for reaching out. Can you tell me more about what you're working on?",
+          "timestamp": "2025-03-12T19:40:21.641Z",
+          "channel": "email",
+          "subject": "Introduction from David",
+          "id": "6cd612c2-84fe-4e11-8312-e85f1cf791f5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Thank you for your email regarding Introduction from David. I appreciate you reaching out and will respond thoughtfully to your inquiry.",
+          "timestamp": "2025-03-12T19:40:21.641Z",
+          "channel": "email",
+          "subject": "Introduction from David",
+          "is_bad_example": true,
+          "id": "ff2efe29-9d49-42ca-9fd9-dfaddc80cd3a",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Sorry for the last-minute change, but I need to reschedule our meeting tomorrow.",
+          "timestamp": "2025-03-12T19:47:18.461Z",
+          "channel": "email",
+          "subject": "Rescheduling our meeting",
+          "id": "aeb9568f-8929-4b5b-a230-21c93ba008ba",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "no worries when should we meet?",
+          "timestamp": "2025-03-12T19:47:18.461Z",
+          "channel": "email",
+          "subject": "Rescheduling our meeting",
+          "id": "046ceae7-9e78-4ee7-858c-a7f0fb8d6db8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Thanks for reaching out. Can you tell me more about what you're working on?",
+          "timestamp": "2025-03-12T19:47:38.190Z",
+          "channel": "email",
+          "subject": "Introduction from Mark",
+          "id": "251493eb-8701-4c00-9b27-efc7c0f2a907",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "thanks for reaching out can you tell me more about what ur working on",
+          "timestamp": "2025-03-12T19:47:38.190Z",
+          "channel": "email",
+          "subject": "Introduction from Mark",
+          "id": "bb00f2b4-ce97-46b9-93ff-be74fe8e8bb5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Just wanted to confirm the Zoom link for tomorrow's call.",
+          "timestamp": "2025-03-12T19:47:54.375Z",
+          "channel": "email",
+          "subject": "Confirming details",
+          "id": "259eafa9-4751-4605-add9-db4f6887fd36",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hey just wanted to confirm the zoom link for tomorrows call",
+          "timestamp": "2025-03-12T19:47:54.375Z",
+          "channel": "email",
+          "subject": "Confirming details",
+          "id": "bc5b8c41-cdc4-4f4a-8497-3a7ac2e3cc04",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-12T20:15:18.490Z",
+          "id": "7edb7d63-9558-4f9c-aab5-07242a1cf4bc",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hey",
+          "timestamp": "2025-03-12T20:15:18.490Z",
+          "id": "487e8892-7a5d-4869-9d98-610e2dd379e2",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "how is the startup going?",
+          "timestamp": "2025-03-12T20:15:29.955Z",
+          "id": "b57365cc-3063-4c2d-a54c-c8d6756e4ffd",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "it is going well, i am currently building out the backend before launching",
+          "timestamp": "2025-03-12T20:15:29.955Z",
+          "id": "0c926c1c-5921-46c4-b36d-2f65b387b9cd",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "did you find a cofounder yet?",
+          "timestamp": "2025-03-12T20:15:37.078Z",
+          "id": "0cf22043-f4ea-47f4-9d82-24b67bc37595",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "not yet im still looking for someone",
+          "timestamp": "2025-03-12T20:15:37.078Z",
+          "id": "43d15f5d-e985-4984-bfbb-cc23fe1fc2b5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Sorry for the last-minute change, but I need to reschedule our meeting tomorrow.",
+          "timestamp": "2025-03-12T20:17:00.847Z",
+          "channel": "email",
+          "subject": "Rescheduling our meeting",
+          "id": "bce4bda7-07bd-4759-bb54-2431cd66ae26",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Rescheduling our meeting\n\nhey no worries just let me know when ur free",
+          "timestamp": "2025-03-12T20:17:00.847Z",
+          "channel": "email",
+          "subject": "Rescheduling our meeting",
+          "id": "573f85e7-c9c1-4378-af0c-4c82389b4eb8",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Thanks for reaching out. Can you tell me more about what you're working on?",
+          "timestamp": "2025-03-12T20:17:23.206Z",
+          "channel": "email",
+          "subject": "Introduction from Derek",
+          "id": "0aa39234-2ef4-48a5-93d6-ce9678c73db6",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Thank you for your email regarding Introduction from Derek. I appreciate you reaching out and will respond thoughtfully to your inquiry.",
+          "timestamp": "2025-03-12T20:17:23.206Z",
+          "channel": "email",
+          "subject": "Introduction from Derek",
+          "is_bad_example": true,
+          "id": "7066d806-4516-463d-941c-048cdded7abb",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Would you be open to relocating to [City] for this opportunity?",
+          "timestamp": "2025-03-12T20:17:43.232Z",
+          "channel": "email",
+          "subject": "Relocation possibilities",
+          "id": "565c3ee7-e1a8-41a9-bafd-d94e86f6774d",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Re: Relocation possibilities\n\nyea im open to moving just depends on the place ya know",
+          "timestamp": "2025-03-12T20:17:43.232Z",
+          "channel": "email",
+          "subject": "Relocation possibilities",
+          "id": "2f0261a8-2e89-42e4-b5de-c24b69584776",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Are you open to moving to san francisco?",
+          "timestamp": "2025-03-12T20:18:07.272Z",
+          "channel": "email",
+          "subject": "Relocation possibilities",
+          "id": "09b664c3-39d6-41f9-9455-e2c545840442",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Re: Relocation possibilities\n\noh yea i am open to moving to san francisco",
+          "timestamp": "2025-03-12T20:18:07.272Z",
+          "channel": "email",
+          "subject": "Relocation possibilities",
+          "id": "b2f1eefe-bcd6-40fe-a96e-37d795d553d7",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Thanks for reaching out. Can you tell me more about what you're working on?",
+          "timestamp": "2025-03-12T20:18:35.897Z",
+          "channel": "email",
+          "subject": "Introduction from Boardy",
+          "id": "a42ec2ef-08f8-4994-9297-89df13e909a7",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Thank you for your email regarding Introduction from Boardy. I appreciate you reaching out and will respond thoughtfully to your inquiry.",
+          "timestamp": "2025-03-12T20:18:35.897Z",
+          "channel": "email",
+          "subject": "Introduction from Boardy",
+          "is_bad_example": true,
+          "id": "005850f9-6eeb-4ad7-863f-633da1cf4158",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Just wanted to confirm the Zoom link for tomorrow's call.",
+          "timestamp": "2025-03-12T20:19:01.698Z",
+          "channel": "email",
+          "subject": "Confirming details",
+          "id": "62ffd897-a268-4099-8813-e14e0d8aae3b",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Confirming details\n\nhey just wanted to confirm the zoom link for tomorrow\u2019s call",
+          "timestamp": "2025-03-12T20:19:01.698Z",
+          "channel": "email",
+          "subject": "Confirming details",
+          "id": "db42d23a-1c75-45c4-a34b-bfd5a2b7cd8e",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-12T21:01:14.615Z",
+          "id": "b1d558ee-8600-425b-b58f-87c9d8ae0825",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hello how are you",
+          "timestamp": "2025-03-12T21:01:14.615Z",
+          "id": "22a30adc-e46f-442d-be73-0721efab42ae",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Thanks for reaching out. Can you tell me more about what you're working on?",
+          "timestamp": "2025-03-12T21:01:33.130Z",
+          "channel": "email",
+          "subject": "Introduction from David",
+          "id": "874e90ce-0d7d-4194-820c-81b6d6a3cd22",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "oh thanks for reaching out! can u tell me more about what ur working on?",
+          "timestamp": "2025-03-12T21:01:33.130Z",
+          "channel": "email",
+          "subject": "Introduction from David",
+          "id": "e9594366-059a-424d-b0b2-724e3bae6cba",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Hello Albert Lu  Welcome, I have made a reservation for you and here you can record video. If you need a taxi service, please inform me again. See you soon.",
+          "timestamp": "2025-03-12T21:02:46.084Z",
+          "channel": "email",
+          "subject": "Re: Form Submission - Training reservation request",
+          "id": "13d07809-b7e2-4768-a60f-5fad38596a1b",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Albert Lu  \nHello Albert Lu  Welcome, I have made a reservation for you and here you can record video. If you need a taxi service, please inform me again. See you soon.",
+          "timestamp": "2025-03-12T21:02:46.084Z",
+          "channel": "email",
+          "subject": "Re: Form Submission - Training reservation request",
+          "id": "1566799b-b2c4-4ceb-bbc8-91191001b15d",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Hi Albert,  Hope you are doing well! If you are still interested in our Software Engineer - New Grad role, we would love to waive the take home assessment, in order to speed up the process. I\u2019d love to hop on a quick 10-minute informal call to go over some logistics and we can cover any additional questions you may have at the end. Please use the attached Calendly link to schedule a call at a time that best works for you & I look forward to connecting! Link: https://calendly.com/carmen-ng-scaleai/recruiter-phone-screen   If you are no longer interested, no worries at all! Just let me know.  Thank you,",
+          "timestamp": "2025-03-12T21:30:06.820Z",
+          "channel": "email",
+          "subject": "Hello from Scale AI",
+          "id": "f98493d0-ea23-4937-87fa-2dcbeb428c51",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Re: Hello from Scale AI\n\nhey! im still interested in the role, would love to chat",
+          "timestamp": "2025-03-12T21:30:06.820Z",
+          "channel": "email",
+          "subject": "Hello from Scale AI",
+          "id": "57af898b-d887-46bf-bcbe-d3043a2f25cf",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-12T21:31:15.359Z",
+          "id": "a08b4683-147c-4f70-9a8b-c8e35adfdb68",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "hello how are you",
+          "timestamp": "2025-03-12T21:31:15.359Z",
+          "id": "12175190-7e0a-4199-afe5-a02471de618b",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "how is the startup going?",
+          "timestamp": "2025-03-12T21:31:23.694Z",
+          "id": "ff0baca9-6a86-4708-8c32-bf4a3c36a488",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "it is going well, i just launched a new version of the website",
+          "timestamp": "2025-03-12T21:31:23.694Z",
+          "id": "6e24bdba-bd8c-4464-848c-ebf66a325fa5",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Hi Albert,  Thanks so much for submitting your availability. We have coordinated your interview as outlined below:  Date/Time: Sep 16, 2024 1:00pm-1:30pm CDT Interviewers: Erin   Please confirm this is the right number to reach you: 6082159565  Let me know if you have any other questions and enjoy the rest of your day!  Best, Deirdre",
+          "timestamp": "2025-03-12T21:31:40.273Z",
+          "channel": "email",
+          "subject": "Virtu Financial Interview Confirmation",
+          "id": "309be013-0a4e-4406-98f5-dc9953b4b548",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Re: Virtu Financial Interview Confirmation\n\nhey deirdre,\n\nyep that number is right! thanks for the confirmation. looking forward to the interview!\n\nbest, albert",
+          "timestamp": "2025-03-12T21:31:40.273Z",
+          "channel": "email",
+          "subject": "Virtu Financial Interview Confirmation",
+          "id": "56c4469f-de04-43db-836b-6f041f4fac02",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Yo! It\u2019s Bill from Elitepickz. I\u2019m reaching out because our team may have some interest in bringing you onto the team as a content creator for our twitter.  We will be looking to use a similar strategy & content style to these two accounts run by some of my friends: https://x.com/austinsprops  https://x.com/invisiblestats  Out of curiousity, would you be open to creating reels / tiktoks giving out free picks as well?  Let me know if you have any thoughts! Thanks!",
+          "timestamp": "2025-03-12T21:32:32.530Z",
+          "channel": "email",
+          "subject": "Elitepickz Twitter",
+          "id": "290059f1-b1d7-4ecc-ad2f-c7584b99b73b",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Re: Elitepickz Twitter\n\nyo!",
+          "timestamp": "2025-03-12T21:32:32.530Z",
+          "channel": "email",
+          "subject": "Elitepickz Twitter",
+          "id": "f156fc10-b405-44ca-a9c7-c83d2d677cea",
+          "model_version": "v1.2"
+        },
+        {
+          "sender": "user",
+          "text": "Hello",
+          "timestamp": "2025-03-13T17:00:08.711Z",
+          "id": "8d871626-bc12-41d0-a49d-21aab37db37a",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "hey what\u2019s up",
+          "timestamp": "2025-03-13T17:00:08.711Z",
+          "id": "18b2ad61-8857-43da-8a7c-8a3d8016a9ea",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "are you traveling anywhere soon?",
+          "timestamp": "2025-03-13T17:00:28.468Z",
+          "id": "69cacb58-e547-4993-a063-4a236cc35b9a",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "i am going to europe for a month in march",
+          "timestamp": "2025-03-13T17:00:28.468Z",
+          "id": "4d2c3ecd-adac-4f56-a93a-29fa4da0fe86",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Also hows UT u graduating this sem?",
+          "timestamp": "2025-03-13T17:00:43.095Z",
+          "id": "6f9e3507-c3be-45cb-be99-5bea309daa9b",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "ut is good i am graduating in a few months, have you been there before?",
+          "timestamp": "2025-03-13T17:00:43.095Z",
+          "id": "a1ac89b7-ecde-4e0a-a3fd-5bcf9d2d1682",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Are you available for a meeting next Tuesday?",
+          "timestamp": "2025-03-13T18:50:14.422Z",
+          "channel": "email",
+          "subject": "Schedule meeting",
+          "id": "4bdb328a-8170-4325-8727-883876956f36",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "are u available for a meeting next tuesday?",
+          "timestamp": "2025-03-13T18:50:14.422Z",
+          "channel": "email",
+          "subject": "Schedule meeting",
+          "id": "19bf45c1-3ca8-45b4-b371-9f446055a133",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Hello",
+          "timestamp": "2025-03-13T18:50:34.160Z",
+          "id": "2c0e89b0-6b88-4a8c-90ee-faab4f592e1e",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "hello i am currently building a text ai that can respond to messages for you, kinda like a personal assistant",
+          "timestamp": "2025-03-13T18:50:34.160Z",
+          "id": "074f2545-63db-46a2-bd68-c2beb67b3791",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "how is your summer?",
+          "timestamp": "2025-03-13T18:50:52.481Z",
+          "id": "b4ba3ae9-0861-483d-924a-8d03ebabad6d",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "it is going good, been doing a lot of traveling, first went to europe for a few weeks then just got back from a trip to thailand",
+          "timestamp": "2025-03-13T18:50:52.481Z",
+          "id": "97cac5e0-f7c9-430e-a0c5-bfa063917739",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "how was thailand?",
+          "timestamp": "2025-03-13T18:51:02.572Z",
+          "id": "3e3f970d-3174-4420-9348-f2ec8ba27736",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "it was amazing, spent over a week island hopping, also did a couple days in bangkok",
+          "timestamp": "2025-03-13T18:51:02.572Z",
+          "id": "23a68823-4971-4479-a27a-2e00f7aefa9a",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Could you review the attached proposal?",
+          "timestamp": "2025-03-13T18:51:31.931Z",
+          "channel": "email",
+          "subject": "Review proposal",
+          "id": "0c7c053f-cbd1-4115-aeff-97393f9911cb",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Review proposal\n\ncould u review the attached proposal?",
+          "timestamp": "2025-03-13T18:51:31.931Z",
+          "channel": "email",
+          "subject": "Review proposal",
+          "id": "7f7d2a7a-490d-423e-90c8-ac331413ab73",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "hello",
+          "timestamp": "2025-03-13T20:59:29.348Z",
+          "id": "75d355b6-0088-496b-b65a-13603c860b16",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "hey what\u2019s up",
+          "timestamp": "2025-03-13T20:59:29.348Z",
+          "id": "5e7ae3cc-e1ce-4824-a5fb-c4e398b27e78",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "how is the startup going?",
+          "timestamp": "2025-03-13T20:59:37.979Z",
+          "id": "ef666159-7aad-4136-b152-3d0de3c440dc",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "it is going well, we just launched a beta",
+          "timestamp": "2025-03-13T20:59:37.979Z",
+          "id": "95aee83c-5573-4b7b-883f-6d2e15296c56",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Hi Albert,  Hope you are doing well! If you are still interested in our Software Engineer - New Grad role, we would love to waive the take home assessment, in order to speed up the process. I\u2019d love to hop on a quick 10-minute informal call to go over some logistics and we can cover any additional questions you may have at the end. Please use the attached Calendly link to schedule a call at a time that best works for you & I look forward to connecting! Link: https://calendly.com/carmen-ng-scaleai/recruiter-phone-screen   If you are no longer interested, no worries at all! Just let me know.  Thank you, Carmen Ng",
+          "timestamp": "2025-03-13T21:00:39.353Z",
+          "channel": "email",
+          "subject": "Hello from Scale AI",
+          "id": "4afff45b-0e61-4f19-8dd9-986a7d0c7199",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "Subject: Re: Hello from Scale AI\n\nhey! im still interested \ud83d\ude42",
+          "timestamp": "2025-03-13T21:00:39.353Z",
+          "channel": "email",
+          "subject": "Hello from Scale AI",
+          "id": "efec0876-342f-49d4-9759-bf2a440f8ea9",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Hey Albert,    Per your request we put your membership on hold. We are reaching out to let you know that the hold will expire soon and your membership will renew automatically. If you wish to extend the hold please email us at info@10patx.com. Otherwise your membership will be back to running normal and the hold will be removed on the requested date.  Thanks,  10th Planet MMA Staff 10th Planet Austin, LLC info@10patx.com",
+          "timestamp": "2025-03-13T21:01:18.904Z",
+          "channel": "email",
+          "subject": "Albert your membership is renewing!",
+          "id": "ac0ccc33-0bb3-49eb-80b2-67765abffe03",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "hey i put it on hold for now",
+          "timestamp": "2025-03-13T21:01:18.904Z",
+          "channel": "email",
+          "subject": "Albert your membership is renewing!",
+          "id": "d19f61ca-9f74-4bab-84c7-2f51681aca6f",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Hi Albert,     This is Mackenzie Buck. I was messaging you on thumbtack regarding the photography opportunity on August 7th. Our client would like photography for their corporate event at Cork and Barrel (4000 E Palm Valley Blvd, Round Rock, TX 78665) from around 6pm-7pm. We will confirm the exact time with our client today. Can you please confirm if you charge any additional fees on top of the $150?     Thank you,     Mackenzie Buck",
+          "timestamp": "2025-03-13T21:02:41.659Z",
+          "channel": "email",
+          "subject": "August 7th - Photography",
+          "id": "112e87df-86f1-471a-8fd0-92b2ec9da1b9",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "Albert,    Thanks for the info! I don\u2019t charge any additional fees. Looking forward to the event!",
+          "timestamp": "2025-03-13T21:02:41.659Z",
+          "channel": "email",
+          "subject": "August 7th - Photography",
+          "id": "1a8529e7-ed89-4c67-9839-cac4e564fcdd",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "user",
+          "text": "Hey Albert,   Looking forward to meeting in a bit. Wanted to check in if you needed transportation? We can call a Lyft to get you here if need be - just let me know.  Best  Jerry ",
+          "timestamp": "2025-03-14T16:28:20.336Z",
+          "channel": "email",
+          "subject": "Transportation?",
+          "id": "7d9dbafa-b7e7-4fa8-a026-4c89e1567336",
+          "model_version": "v1.3"
+        },
+        {
+          "sender": "clone",
+          "text": "oh i dont need transportation im good",
+          "timestamp": "2025-03-14T16:28:20.336Z",
+          "channel": "email",
+          "subject": "Transportation?",
+          "id": "46975ea1-6dcb-4c77-84f4-f9f0bf550ab6",
+          "model_version": "v1.3"
+        }
+      ],
+      "model_version": "v1.3"
+    }
+  ]
+}

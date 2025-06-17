@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Clone Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    .status {
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Clone Test Page</h1>
+    <p>This is a test page to verify that Electron can load HTML files correctly.</p>
+    
+    <div id="status" class="status">Checking status...</div>
+    
+    <script>
+      // Test script to verify JavaScript execution
+      document.addEventListener('DOMContentLoaded', function() {
+        const statusDiv = document.getElementById('status');
+        statusDiv.textContent = 'HTML and JavaScript are working correctly!';
+        statusDiv.className = 'status success';
+      });
+    </script>
+  </div>
+</body>
+</html>

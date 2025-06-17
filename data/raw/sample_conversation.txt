@@ -1,0 +1,14 @@
+Friend: Hey, how's it going?
+You: not much, just working on this ai project
+Friend: That sounds cool! What does it do?
+You: it's a discord bot that learns to talk like me
+Friend: How does it work?
+You: it uses my discord messages to learn my style
+Friend: That's pretty impressive! Can it respond to questions too?
+You: yeah that's the whole point
+Friend: Will you make it public?
+You: probably not, it's just for me
+Friend: Fair enough. What other projects are you working on?
+You: nothing much, just this one for now
+Friend: Cool, let me know how it turns out
+You: will do

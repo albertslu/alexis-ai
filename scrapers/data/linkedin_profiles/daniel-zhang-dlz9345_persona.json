@@ -1,0 +1,43 @@
+{
+  "basic_info": {
+    "name": "Daniel Zhang",
+    "headline": "zzz | prev @ jane street, roblox | CS & STATS @ UIUC",
+    "location": "Dallas-Fort Worth Metroplex"
+  },
+  "about": "Jane Street",
+  "experience": [
+    {
+      "title": "Incoming Software Engineer",
+      "company": "Jane Street \u00b7 Internship\nJane Street \u00b7 Internship",
+      "duration": "Oct 2022 - Present \u00b7 2 yrs 6 mos\nOct 2022 to Present \u00b7 2 yrs 6 mos"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Roblox \u00b7 Internship\nRoblox \u00b7 Internship",
+      "duration": "May 2022 - Aug 2022 \u00b7 4 mos\nMay 2022 to Aug 2022 \u00b7 4 mos"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "cxLoyalty \u00b7 Internship\ncxLoyalty \u00b7 Internship",
+      "duration": "May 2021 - May 2022 \u00b7 1 yr 1 mo\nMay 2021 to May 2022 \u00b7 1 yr 1 mo"
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "degree": "Bachelor of Science - BS, Computer Science and Statistics\nBachelor of Science - BS, Computer Science and Statistics",
+      "dates": "2020 - 2023\n2020 - 2023"
+    },
+    {
+      "school": "Activities and societies: Kennef Fan Club",
+      "degree": "Activities and societies: Kennef Fan Club"
+    },
+    {
+      "school": "CS Coursework:",
+      "degree": "CS 173 - Discrete Structures (A+)",
+      "dates": "CS 126 - Software Design Studio (A)"
+    }
+  ],
+  "skills": [],
+  "interests": []
+}

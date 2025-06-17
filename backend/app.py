@@ -1149,7 +1149,7 @@ def combine_data_and_retrain(user_id=None):
             'imessage_data_source': imessage_data_path,
             'email_data_source': email_data_path if email_data_path else 'none',
             'rag_database_built': True,
-            'letta_memories_created': True
+            'memories_created': False
         })
     except Exception as e:
         print(f"Error combining data and retraining: {e}")

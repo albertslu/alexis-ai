@@ -164,7 +164,7 @@
         "to": ".env.production"
       },
       {
-        "from": "../model_config.py",
+
         "to": "model_config.py"
       },
       {

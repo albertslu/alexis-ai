@@ -359,12 +359,8 @@ class HybridResponseGenerator:
             # Get model ID from MongoDB if not provided
             if not model:
                 # Import get_current_model from model_config
-                try:
-                    from model_config import get_current_model
-                    model = get_current_model()
-                except Exception as e:
-                    # Use default model if MongoDB retrieval fails
-                    model = FINE_TUNED_MODEL
+                # Use default model (simplified version)
+                model = FINE_TUNED_MODEL
             
             # Set default values for message suggestions
             temperature_value = 0.7 if temperature is None else temperature
@@ -421,15 +417,9 @@ class HybridResponseGenerator:
         """
         # Get the model ID once here in the main thread where Flask context is available
         if not model:
-            try:
-                from model_config import get_current_model
-                model = get_current_model()
-                print(f"Using model ID from MongoDB for user {self.user_id}: {model}")
-            except Exception as e:
-                print(f"Error getting model from MongoDB: {e}")
-                # Use default model if MongoDB retrieval fails
-                model = FINE_TUNED_MODEL
-                print(f"Falling back to default model: {model}")
+            # Use default model (simplified version)
+            model = FINE_TUNED_MODEL
+            print(f"Using default model: {model}")
         
         # Calculate temperatures for diversity
         temp_min, temp_max = temperature_range

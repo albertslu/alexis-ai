@@ -8,7 +8,9 @@ from openai import OpenAI
 
 # Add parent directory to path for importing model_config
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from model_config import FINE_TUNED_MODEL, DEFAULT_MODEL
+# Model configuration
+FINE_TUNED_MODEL = "gpt-4o-mini-2024-07-18"
+DEFAULT_MODEL = "gpt-4o-mini-2024-07-18"
 
 # Load environment variables
 load_dotenv()

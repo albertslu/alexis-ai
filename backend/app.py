@@ -1042,27 +1042,9 @@ def combine_data_and_retrain(user_id=None):
                 print("LinkedIn profiles directory not found. Skipping LinkedIn data processing.")
                 linkedin_files = []  # Initialize as empty list to avoid errors later
             
-            # NEW: Create Letta memories from the combined data
-            print("Creating Letta memories from combined data...")
-            try:
-                from scripts.extract_memories_simple import extract_memories_from_all_messages, extract_memories_from_emails
-                
-                # Extract memories from iMessages
-                imessage_memories = extract_memories_from_all_messages(max_messages=1000, dry_run=False)
-                print(f"Created {len(imessage_memories.get('memories', []))} memories from iMessages")
-                
-                # Extract memories from emails
-                email_memories = extract_memories_from_emails(max_emails=100, dry_run=False)
-                print(f"Created {len(email_memories.get('memories', []))} memories from emails")
-                
-                # Total memories created
-                total_memories = len(imessage_memories.get('memories', [])) + len(email_memories.get('memories', []))
-                print(f"Created a total of {total_memories} Letta memories")
-                
-            except Exception as mem_error:
-                print(f"Error creating Letta memories: {mem_error}")
-                import traceback
-                traceback.print_exc()
+            # Note: Letta memory creation removed for simplified version
+            print("Skipping memory creation (Letta integration removed)")
+            total_memories = 0
             
         except Exception as rag_error:
             print(f"Error building RAG database: {rag_error}")
@@ -1134,7 +1116,7 @@ def combine_data_and_retrain(user_id=None):
             "fine_tuning_started_at": dt.now().isoformat(),
             "base_model": "gpt-4o-mini-2024-07-18",
             "rag_database_built": True,
-            "letta_memories_created": True
+            "memories_created": False
         }
         
         # Save the updated combined data
@@ -1151,7 +1133,7 @@ def combine_data_and_retrain(user_id=None):
         training_data['combined_training_data_path'] = combined_data_path
         training_data['last_updated'] = dt.now().isoformat()
         training_data['rag_database_built'] = True
-        training_data['letta_memories_created'] = True
+        training_data['memories_created'] = False
         
         with open(TRAINING_DATA_PATH, 'w') as f:
             json.dump(training_data, f, indent=2)

@@ -1,7 +1,0 @@
-{
-  "fine_tuned_model": "gpt-4o-mini-2024-07-18",
-  "base_model": "gpt-4o-mini-2024-07-18",
-  "rag_weight": 0.7,
-  "temperature": 0.7,
-  "max_tokens": 300
-}

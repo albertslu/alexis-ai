@@ -63,9 +63,15 @@ except ImportError:
 # Load environment variables
 load_dotenv()
 
-# Import model config
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from model_config import DEFAULT_MODEL, FINE_TUNED_MODEL, get_current_model
+# Default model configuration (simplified)
+DEFAULT_MODEL = "gpt-4o-mini-2024-07-18"
+FINE_TUNED_MODEL = "gpt-4o-mini-2024-07-18"
+
+def get_current_model():
+    """Get the current model - simplified version without MongoDB dependency"""
+    # For now, just return the default model
+    # In production, this could check user-specific model IDs
+    return DEFAULT_MODEL
 
 # Initialize OpenAI client
 # Don't set global variable from environment

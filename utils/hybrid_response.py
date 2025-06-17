@@ -33,13 +33,8 @@ from utils.channel_processor import ChannelProcessor
 # Import feedback system for prompt enhancement
 from utils.feedback_system import FeedbackSystem
 
-# Add parent directory to path for importing model_config
-import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-try:
-    from model_config import FINE_TUNED_MODEL
-except ImportError:
-    FINE_TUNED_MODEL = 'gpt-4o-mini'
+# Default model configuration (simplified)
+FINE_TUNED_MODEL = "gpt-4o-mini-2024-07-18"
 
 # Load environment variables
 load_dotenv()
